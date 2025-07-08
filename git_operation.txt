@@ -1,3 +1,6 @@
+0. 虛擬環境
+source venv/bin/activate
+
 a. GIT 連接
 git init
 git remote add origin https://github.com/eleni1029/250627_Dynamic_Form_System.git
