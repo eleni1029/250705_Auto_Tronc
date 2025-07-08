@@ -1,0 +1,44 @@
+a. GIT 連接
+git init
+git remote add origin https://github.com/eleni1029/250627_Dynamic_Form_System.git
+
+b. 把內容都拉下來
+git fetch origin
+git reset --hard origin/main
+
+c. 更新到 git 上
+git add .
+git commit -m "常規更新"
+git push -u origin main
+
+c. 強制更新到 git 上
+git add .
+git commit -m "常規更新"
+git push origin main --force
+
+
+-
+啟動 Docker
+docker-compose up --build
+
+前端依賴與運行
+cd frontend
+npm install
+npm run dev
+
+後端依賴與運行
+cd backend
+npm install
+npm run dev
+
+
+
+--
+# 連接到 PostgreSQL
+psql postgres
+
+# 在 psql 中執行
+CREATE DATABASE dynamic_form_system;
+CREATE USER postgres WITH PASSWORD 'postgres123';
+GRANT ALL PRIVILEGES ON DATABASE dynamic_form_system TO postgres;
+\q
