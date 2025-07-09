@@ -5,7 +5,7 @@ from datetime import datetime
 import re
 
 from sub_todolist_result import process_sheet_data
-from sub_todolist_resource import extract_resources_from_result
+from sub_todolist_resource import extract_resources_from_result, get_resource_statistics
 
 def get_analyzed_files():
     """獲取 to_be_executed 目錄中所有 analyzed 檔案，按時間排序"""
@@ -160,8 +160,22 @@ def create_extracted_excel(source_file, selected_sheets, timestamp):
         except Exception as e:
             print(f"  ❌ 處理 sheet {sheet_name} 時出錯: {e}")
     
-    # 使用 sub_todolist_resource 從 result_data 中提取資源
+    # 使用 sub_todolist_resource 從 result_data 中提取資源（去重版本）
+    print(f"\n📦 正在提取資源檔案清單...")
     all_resource_data = extract_resources_from_result(all_result_data)
+    
+    # 獲取資源統計資訊
+    resource_stats = get_resource_statistics(all_result_data)
+    
+    # 顯示統計資訊
+    print(f"\n📊 資源處理統計:")
+    print(f"  - 有檔案路徑的學習活動: {resource_stats['total_activities_with_files']} 個")
+    print(f"  - 唯一檔案路徑: {resource_stats['unique_file_paths']} 個")
+    print(f"  - 生成資源記錄: {len(all_resource_data)} 筆")
+    
+    if resource_stats['cross_course_files'] > 0:
+        print(f"  - 跨課程共用檔案: {resource_stats['cross_course_files']} 個")
+        print(f"    💡 這些檔案只會上傳一次，但可被多個學習活動引用")
     
     # 創建 Excel 檔案
     with pd.ExcelWriter(output_filename, engine='openpyxl') as writer:
@@ -202,21 +216,31 @@ def create_extracted_excel(source_file, selected_sheets, timestamp):
         if all_resource_data:
             resource_df = pd.DataFrame(all_resource_data)
             resource_df.to_excel(writer, sheet_name='Resource', index=False)
-            print(f"  ✅ 已保存 Resource 資料 ({len(all_resource_data)} 個資源)")
+            print(f"  ✅ 已保存 Resource 資料 ({len(all_resource_data)} 個唯一資源)")
         else:
             # 創建空的 Resource sheet 但包含標題行
-            resource_columns = ['檔案名稱', '檔案路徑', '資源ID', '最後修改時間', '來源Sheet']
+            resource_columns = ['檔案名稱', '檔案路徑', '資源ID', '最後修改時間', '來源Sheet', '引用課程數', '引用課程列表']
             resource_df = pd.DataFrame(columns=pd.Index(resource_columns))
             resource_df.to_excel(writer, sheet_name='Resource', index=False)
             print(f"  ✅ 已創建空的 Resource sheet")
     
     print(f"\n🎉 提取完成！檔案已生成: {output_filename}")
+    
+    # 顯示重複資源節省的資訊
+    if resource_stats['total_activities_with_files'] > resource_stats['unique_file_paths']:
+        saved_count = resource_stats['total_activities_with_files'] - resource_stats['unique_file_paths']
+        print(f"\n💾 資源去重效果:")
+        print(f"  - 原本需要: {resource_stats['total_activities_with_files']} 個資源上傳")
+        print(f"  - 去重後需要: {resource_stats['unique_file_paths']} 個資源上傳")
+        print(f"  - 節省上傳: {saved_count} 個重複資源")
+    
     return output_filename
 
 def main():
     """主函數"""
-    print("🚀 TronClass 課程結構資料提取器")
-    print("=" * 50)
+    print("🚀 TronClass 課程結構資料提取器 - 資源去重版本")
+    print("✨ 新功能：相同檔案路徑的資源只會生成一筆記錄")
+    print("=" * 55)
     
     # 1. 獲取 analyzed 檔案
     files = get_analyzed_files()
@@ -245,14 +269,16 @@ def main():
     print(f"\n📊 生成的檔案包含以下 sheet:")
     print("  1. Ori_document - 原始資料")
     print("  2. Result - 提取的結構化資料")
-    print("  3. Resource - 需要上傳的資源檔案清單")
+    print("  3. Resource - 需要上傳的資源檔案清單（已去重）")
     
-    print(f"\n💡 說明:")
+    print(f"\n💡 改進說明:")
     print("  ✅ 已自動提取課程、章節、單元、學習活動的層級關係")
     print("  ✅ 已自動識別線上連結和檔案路徑")
-    print("  ✅ 已自動生成資源上傳清單")
+    print("  ✅ 已自動生成資源上傳清單（相同檔案路徑去重）")
     print("  ✅ 支援動態欄位位置識別")
     print("  ✅ 支援多種檔案結構")
+    print("  🆕 Resource 表新增欄位：引用課程數、引用課程列表")
+    print("  🆕 相同檔案路徑的資源只生成一筆記錄，避免重複上傳")
 
 if __name__ == "__main__":
     main()
