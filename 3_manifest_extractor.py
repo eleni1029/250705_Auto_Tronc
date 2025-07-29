@@ -71,9 +71,13 @@ class ManifestParser:
         """設定日誌系統"""
         # 確保輸出資料夾存在
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        
+        # 確保 log 資料夾存在
+        log_dir = Path("log")
+        log_dir.mkdir(parents=True, exist_ok=True)
 
-        # log 儲存在 manifest_structures
-        log_filename = self.output_dir / f"manifest_parse_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+        # log 儲存在 log 資料夾
+        log_filename = log_dir / f"manifest_parse_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 
         logging.basicConfig(
             level=logging.INFO,
@@ -96,7 +100,8 @@ class ManifestParser:
         print("-" * 20)
         
         while True:
-            choice = input("是否略過非 HTML 檔案？(y/N) [預設: N]: ").strip().lower()
+            print("是否略過非 HTML 檔案？(y/N) [預設: N]: ", end="", flush=True)
+            choice = input().strip().lower()
             if choice in ['', 'y', 'yes', '是']:
                 self.skip_non_html = True
                 print("✅ 將只處理 .html 和 .htm 檔案")
@@ -223,7 +228,8 @@ class ManifestParser:
                 
                 while True:
                     try:
-                        choice = input(f"請輸入選擇 (1-{len(manifest_files)}) 或 's' 跳過此目錄: ").strip().lower()
+                        print(f"請輸入選擇 (1-{len(manifest_files)}) 或 's' 跳過此目錄: ", end="", flush=True)
+                        choice = input().strip().lower()
                         
                         if choice == 's':
                             self.logger.info(f"用戶選擇跳過目錄: {directory.relative_to(self.source_dir)}")
@@ -627,7 +633,11 @@ class ManifestParser:
         
     def _write_summary_report(self):
         """寫入詳細的解析報告"""
-        report_file = self.output_dir / "parsing_report.log"
+        # 確保 log 資料夾存在
+        log_dir = Path("log")
+        log_dir.mkdir(parents=True, exist_ok=True)
+        
+        report_file = log_dir / f"parsing_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
         
         try:
             with open(report_file, 'w', encoding='utf-8') as f:
@@ -825,8 +835,12 @@ def main():
     
     # 取得用戶輸入
     while True:
-        source_folder = input("請輸入要掃描的資料夾名稱 (預設: merged_projects): ").strip()
+        print("請輸入要掃描的資料夾名稱 (輸入 '0' 使用預設: merged_projects): ", end="", flush=True)
+        source_folder = input().strip()
         if not source_folder:
+            print("⚠️ 請輸入有效值，或輸入 '0' 使用預設值")
+            continue
+        if source_folder == '0':
             source_folder = "merged_projects"
         
         source_path = Path(source_folder)

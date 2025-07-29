@@ -2,6 +2,7 @@ import requests
 import os, json
 from datetime import datetime
 import urllib3
+from config import BASE_URL, get_api_urls
 
 # 抑制 SSL 警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -153,18 +154,35 @@ def create_reference_activity(cookie_string: str, url: str, title: str, module_i
         return {"success": False, "status_code": response.status_code, "error": response.text, "request_payload": payload}
 
 
-def create_video_activity(cookie_string: str, url: str, title: str, video_url: str,
-                          module_id: int | None = None, syllabus_id: int | None = None, sort: int = 1) -> dict:
+def create_video_activity(cookie_string: str, url: str, title: str, upload_id: int,
+                         upload_name: str, module_id: int | None = None, 
+                         syllabus_id: int | None = None, sort: int = 1,
+                         completion_criterion_value: int = 80, submit_times: int = 1) -> dict:
     """
-    建立「影音教材_影片」學習活動
+    建立「影音教材_影片」學習活動（使用上傳檔案）
+    
+    Args:
+        cookie_string: Cookie字串
+        url: API URL
+        title: 活動標題
+        upload_id: 上傳檔案的ID (注意：不再使用video_url參數)
+        upload_name: 上傳檔案的名稱（包含副檔名，如：7-3-2.mp4）
+        module_id: 章節ID
+        syllabus_id: 單元ID
+        sort: 排序
+        completion_criterion_value: 完成條件值（預設80%）
+        submit_times: 提交次數（預設1）
     """
     headers, cookies = _build_headers(cookie_string, url)
 
+    # 處理預設值，避免NaN問題
+    if completion_criterion_value is None or str(completion_criterion_value).lower() == 'nan':
+        completion_criterion_value = 80
+    if submit_times is None or str(submit_times).lower() == 'nan':
+        submit_times = 1
+
     payload = {
-        "type": "video",
-        "announce_score_type": 2,
-        "announce_score_time": None,
-        "score_percentage": 0,
+        "type": "online_video",  # 修正：使用online_video而不是video
         "week": 0,
         "teaching_method": 0,
         "knowledge_node_ids": [],
@@ -173,17 +191,30 @@ def create_video_activity(cookie_string: str, url: str, title: str, video_url: s
         "isPublishScheduled": False,
         "publishScheduledDuration": "發布時間: Invalid date ～ 無截止",
         "title": title,
-        "video_url": video_url,
+        "uploads": [upload_id],  # 修正：使用uploads而不是video_url
+        "upload_references": [{  # 修正：新增upload_references
+            "upload_id": upload_id,
+            "cc_license_name": "private",
+            "reference_id": 0,
+            "origin_allow_download": True,
+            "name": upload_name
+        }],
+        "allow_download": False,  # 新增：是否允許下載
+        "allow_forward_seeking": True,  # 新增：是否允許快進
+        "pause_when_leaving_window": True,  # 新增：離開視窗時暫停
         "published": True,
         "completion_criterion": {
-            "activity_completion_criterion_type_id": 2,
-            "value": 0
+            "activity_completion_criterion_type_id": 12,  # 修正：使用12而不是2
+            "value": completion_criterion_value
         },
         "using_phase": "unspecified",
         "teaching_model": "online",
         "prerequisites": [],
+        "submit_times": submit_times,
+        "announce_answer_and_explanation": False,
         "sort": sort
     }
+    
     # 傳值邏輯 - 同時傳送 module_id 和 syllabus_id（如果有的話）
     if module_id is not None:
         payload["module_id"] = module_id
@@ -211,38 +242,66 @@ def create_video_activity(cookie_string: str, url: str, title: str, video_url: s
         return {"success": False, "status_code": response.status_code, "error": response.text, "request_payload": payload}
 
 
-def create_audio_activity(cookie_string: str, url: str, title: str, audio_url: str,
-                          module_id: int | None = None, syllabus_id: int | None = None, sort: int = 1) -> dict:
+def create_audio_activity(cookie_string: str, url: str, title: str, upload_id: int,
+                         upload_name: str, module_id: int | None = None, 
+                         syllabus_id: int | None = None, sort: int = 1,
+                         completion_criterion_value: int = 80, submit_times: int = 1) -> dict:
     """
-    建立「影音教材_音訊」學習活動
+    建立「影音教材_音訊」學習活動（使用上傳檔案）
+    
+    Args:
+        cookie_string: Cookie字串
+        url: API URL  
+        title: 活動標題
+        upload_id: 上傳檔案的ID (注意：不再使用audio_url參數)
+        upload_name: 上傳檔案的名稱（包含副檔名，如：audio.mp3）
+        module_id: 章節ID
+        syllabus_id: 單元ID
+        sort: 排序
+        completion_criterion_value: 完成條件值（預設80%）
+        submit_times: 提交次數（預設1）
     """
     headers, cookies = _build_headers(cookie_string, url)
 
+    # 處理預設值，避免NaN問題
+    if completion_criterion_value is None or str(completion_criterion_value).lower() == 'nan':
+        completion_criterion_value = 80
+    if submit_times is None or str(submit_times).lower() == 'nan':
+        submit_times = 1
+
     payload = {
-        "type": "audio",
-        "announce_score_type": 2,
-        "announce_score_time": None,
-        "score_percentage": 0,
+        "type": "online_audio",  # 音訊類型
         "week": 0,
         "teaching_method": 0,
         "knowledge_node_ids": [],
-        "publishStatusClass": "publish-type-button unpublished",
+        "publishStatusClass": "publish-type-button unpublished", 
         "publishTypeText": "未發布",
         "isPublishScheduled": False,
         "publishScheduledDuration": "發布時間: Invalid date ～ 無截止",
         "title": title,
-        "audio_url": audio_url,
+        "uploads": [upload_id],
+        "upload_references": [{
+            "upload_id": upload_id,
+            "cc_license_name": "private",
+            "reference_id": 0,
+            "origin_allow_download": True,
+            "name": upload_name
+        }],
+        "allow_download": False,
         "published": True,
         "completion_criterion": {
-            "activity_completion_criterion_type_id": 2,
-            "value": 0
+            "activity_completion_criterion_type_id": 12,
+            "value": completion_criterion_value
         },
         "using_phase": "unspecified",
         "teaching_model": "online",
         "prerequisites": [],
+        "submit_times": submit_times,
+        "announce_answer_and_explanation": False,
         "sort": sort
     }
-    # 傳值邏輯 - 同時傳送 module_id 和 syllabus_id（如果有的話）
+    
+    # 傳值邏輯
     if module_id is not None:
         payload["module_id"] = module_id
     if syllabus_id is not None:
@@ -406,7 +465,7 @@ if __name__ == "__main__":
         exit(1)
     test_params = {
         "cookie_string": COOKIE,
-        "url": f"https://wg.tronclass.com/api/courses/{COURSE_ID}/activities",
+        "url": f"{BASE_URL}/api/courses/{COURSE_ID}/activities",
         "title": "測試學習活動",
         "module_id": MODULE_ID
     }
@@ -427,7 +486,7 @@ if __name__ == "__main__":
             "module_id": 28750,
             "syllabus_id": 12784,
             "title": "1-1-1 從有趣的實例談起",
-            "link_url": "https://wg.tronclass.com/api/uploads/scorm/22?sco=content/w01/1-1-1_p.html"
+            "link_url": f"{BASE_URL}/api/uploads/scorm/22?sco=content/w01/1-1-1_p.html"
         },
         {
             "name": "測試案例3 - 只使用章節ID，不用單元ID",
@@ -443,7 +502,7 @@ if __name__ == "__main__":
             "module_id": 28760,
             "syllabus_id": 12809,
             "title": "2-0 從疑惑中開始學習",
-            "link_url": "https://wg.tronclass.com/api/uploads/scorm/22?sco=content/w02/2-0_p.html"
+            "link_url": f"{BASE_URL}/api/uploads/scorm/22?sco=content/w02/2-0_p.html"
         },
         {
             "name": "測試案例5 - 只使用章節ID，不用錯誤的單元ID",
@@ -451,7 +510,7 @@ if __name__ == "__main__":
             "module_id": 28760,
             "syllabus_id": None,
             "title": "2-0 從疑惑中開始學習 (只用章節)",
-            "link_url": "https://wg.tronclass.com/api/uploads/scorm/22?sco=content/w02/2-0_p.html"
+            "link_url": f"{BASE_URL}/api/uploads/scorm/22?sco=content/w02/2-0_p.html"
         }
     ]
     
@@ -469,7 +528,7 @@ if __name__ == "__main__":
         print(f"  - 單元ID: {test_case['syllabus_id']}")
         
         # 構建測試 URL
-        test_url = f"https://wg.tronclass.com/api/courses/{test_case['course_id']}/activities"
+        test_url = f"{BASE_URL}/api/courses/{test_case['course_id']}/activities"
         
         # 測試線上連結活動
         print(f"🔗 測試線上連結活動...")

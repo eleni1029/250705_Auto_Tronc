@@ -1,6 +1,7 @@
 import os
 import requests
 import urllib3
+from config import get_api_urls
 
 # 抑制 SSL 警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -13,6 +14,10 @@ def upload_material(cookie_string, filename, parent_id=0, file_type="resource"):
     """
     file_path = os.path.abspath(filename)
     file_size = os.path.getsize(file_path)
+    
+    # 從 config 獲取 API URLs
+    api_urls = get_api_urls()
+    upload_url = api_urls['MATERIAL_UPLOAD_URL']
     
     # 將 Cookie 字串轉為字典
     cookies = dict(item.split("=", 1) for item in cookie_string.split("; "))
@@ -30,7 +35,7 @@ def upload_material(cookie_string, filename, parent_id=0, file_type="resource"):
         "is_marked_attachment": False
     }
     upload_info = requests.post(
-        "https://wg.tronclass.com/api/uploads",
+        upload_url,
         json=payload,
         cookies=cookies,
         verify=False

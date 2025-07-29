@@ -1,3 +1,17 @@
+1_folder_merger將googledrive下載解壓文件從projects合併到merged_projects
+2_scorm_packager_從merged_projects中找到xml封裝為scorm_packages
+3_manifest_extractor_從merged_projects中找到xml抽取待處理結構文件manifest_structures
+4_資源庫路徑_補充
+4_cloud_mapping_根據mapping文件生成待補充資源庫路徑的excel
+5_0_to_be_executed_excel_generator_生成待執行文件
+6_system_todolist_maker_生成系統批次執行文件
+7_start_tronc_開始自動創課
+
+
+
+
+
+
 0. 虛擬環境
 source venv/bin/activate
 

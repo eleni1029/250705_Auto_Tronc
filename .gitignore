@@ -42,7 +42,7 @@ Temporary Items
 .apdisk
 
 # 專案特定忽略
-config.py
+config_template.py
 projects/
 merged_projects/
 to_be_executed/

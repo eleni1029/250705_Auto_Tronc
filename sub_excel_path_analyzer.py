@@ -218,8 +218,12 @@ class ExcelPathAnalyzer:
         # 用戶選擇
         while True:
             try:
-                choice = input(f"請選擇要分析的 Excel 檔案 (1-{len(excel_files)}) [預設: 1]: ").strip()
+                print(f"請選擇要分析的 Excel 檔案 (1-{len(excel_files)}) [輸入 '0' 使用預設: 1]: ", end="", flush=True)
+                choice = input().strip()
                 if not choice:
+                    print("⚠️ 請輸入有效值，或輸入 '0' 使用預設值")
+                    continue
+                if choice == '0':
                     choice = "1"
                 
                 index = int(choice) - 1

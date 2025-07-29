@@ -39,7 +39,11 @@ class ProjectMerger:
     
     def _setup_logging(self):
         """設定日誌系統"""
-        log_filename = f"merge_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+        # 確保 log 資料夾存在
+        log_dir = Path("log")
+        log_dir.mkdir(exist_ok=True)
+        
+        log_filename = log_dir / f"merge_log_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
         
         # 建立日誌格式
         logging.basicConfig(

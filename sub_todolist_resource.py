@@ -26,61 +26,60 @@ def extract_resources_from_result(result_data):
     """
     resource_data = []
     seen_file_paths = set()  # 用於追蹤已處理的檔案路徑
-    course_file_mapping = {}  # 記錄每個課程中出現的檔案路徑
+    file_path_info = {}  # 記錄每個檔案路徑的資訊
     
-    # 第一步：統計每個檔案路徑在哪些課程中出現
+    # 第一步：統計每個檔案路徑的引用情況
     for item in result_data:
         if item['類型'] == '學習活動' and item['檔案路徑']:
             file_path = item['檔案路徑'].strip()
             if file_path and file_path != 'nan':
-                course_name = item['所屬課程']
-                
-                if file_path not in course_file_mapping:
-                    course_file_mapping[file_path] = {
-                        'courses': set(),
-                        'first_occurrence': item  # 記錄第一次出現的項目
+                if file_path not in file_path_info:
+                    file_path_info[file_path] = {
+                        'first_occurrence': item,  # 記錄第一次出現的項目
+                        'reference_count': 0,      # 引用次數
+                        'referencing_activities': []  # 引用的學習活動列表
                     }
-                course_file_mapping[file_path]['courses'].add(course_name)
+                
+                file_path_info[file_path]['reference_count'] += 1
+                file_path_info[file_path]['referencing_activities'].append(item['名稱'])
     
     # 第二步：為每個唯一的檔案路徑生成一筆資源記錄
-    for file_path, info in course_file_mapping.items():
+    for file_path, info in file_path_info.items():
         first_item = info['first_occurrence']
-        courses = info['courses']
+        reference_count = info['reference_count']
+        referencing_activities = info['referencing_activities']
         
         resource_title = extract_filename_from_path(file_path)
-        
-        # 生成來源Sheet資訊（如果跨多個課程，標註多個來源）
-        if len(courses) == 1:
-            source_sheet = first_item['來源Sheet']
-        else:
-            # 多個課程使用同一檔案
-            source_sheet = f"{first_item['來源Sheet']} (跨{len(courses)}個課程)"
         
         resource_data.append({
             '檔案名稱': resource_title,
             '檔案路徑': file_path,
             '資源ID': '',
             '最後修改時間': '',
-            '來源Sheet': source_sheet,
-            '引用課程數': len(courses),  # 新增：記錄有多少個課程引用此資源
-            '引用課程列表': ', '.join(sorted(courses))  # 新增：記錄引用的課程列表
+            '來源Sheet': first_item['來源Sheet'],
+            '引用學習活動數': reference_count,  # 記錄引用次數
+            '引用活動列表': ', '.join(referencing_activities)  # 記錄引用的活動列表
         })
         
         print(f"  📁 資源: {resource_title} (路徑: {file_path})")
-        if len(courses) > 1:
-            print(f"      ⚠️  此資源被 {len(courses)} 個課程引用: {', '.join(sorted(courses))}")
+        if reference_count > 1:
+            print(f"      🔄 此資源被 {reference_count} 個學習活動引用")
     
     print(f"\n📊 資源去重統計:")
     print(f"  - 唯一檔案路徑數: {len(resource_data)}")
     
-    # 統計跨課程共用的檔案
-    cross_course_files = [r for r in resource_data if r['引用課程數'] > 1]
-    if cross_course_files:
-        print(f"  - 跨課程共用檔案: {len(cross_course_files)} 個")
-        for resource in cross_course_files:
-            print(f"    • {resource['檔案名稱']}: {resource['引用課程列表']}")
+    # 統計重複引用的檔案（同一檔案路徑被多個學習活動引用）
+    multiple_reference_files = [r for r in resource_data if r['引用學習活動數'] > 1]
+    if multiple_reference_files:
+        print(f"  - 重複引用的檔案: {len(multiple_reference_files)} 個")
+        print(f"    💡 這些檔案只會上傳一次，但被多個學習活動引用")
+        # 顯示前幾個重複引用的檔案作為示例
+        for i, resource in enumerate(multiple_reference_files[:3]):
+            print(f"    • {resource['檔案名稱']}: 被{resource['引用學習活動數']}個活動引用")
+        if len(multiple_reference_files) > 3:
+            print(f"    • ... 等共{len(multiple_reference_files)}個重複引用檔案")
     else:
-        print(f"  - 跨課程共用檔案: 0 個")
+        print(f"  - 重複引用的檔案: 0 個")
     
     return resource_data
 
@@ -91,7 +90,7 @@ def get_resource_statistics(result_data):
     stats = {
         'total_activities_with_files': 0,
         'unique_file_paths': 0,
-        'cross_course_files': 0,
+        'multiple_reference_files': 0,
         'file_path_usage': {}  # 檔案路徑 -> 使用次數
     }
     
@@ -108,7 +107,7 @@ def get_resource_statistics(result_data):
                 file_path_count[file_path] += 1
     
     stats['unique_file_paths'] = len(file_path_count)
-    stats['cross_course_files'] = len([count for count in file_path_count.values() if count > 1])
+    stats['multiple_reference_files'] = len([count for count in file_path_count.values() if count > 1])
     stats['file_path_usage'] = file_path_count
     
     return stats

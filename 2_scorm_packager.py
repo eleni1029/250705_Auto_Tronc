@@ -51,9 +51,13 @@ class ScormPackager:
     
     def _setup_logging(self):
         """設定日誌系統"""
-        log_filename = self.output_dir / f"scorm_package_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+        # 確保 log 資料夾存在
+        log_dir = Path("log")
+        log_dir.mkdir(parents=True, exist_ok=True)
+        
+        log_filename = log_dir / f"scorm_package_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 
-        # 確保 log 資料夾存在（這裡 output_dir 是 scorm_packages）
+        # 確保 output_dir 資料夾存在（這裡 output_dir 是 scorm_packages）
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
         logging.basicConfig(
@@ -175,7 +179,8 @@ class ScormPackager:
                 
                 while True:
                     try:
-                        choice = input(f"請輸入選擇 (1-{len(manifest_files)}) 或 's' 跳過此目錄: ").strip().lower()
+                        print(f"請輸入選擇 (1-{len(manifest_files)}) 或 's' 跳過此目錄: ", end="", flush=True)
+                        choice = input().strip().lower()
                         
                         if choice == 's':
                             self.logger.info(f"用戶選擇跳過目錄: {directory.relative_to(self.source_dir)}")
@@ -373,7 +378,11 @@ class ScormPackager:
     
     def _write_summary_report(self):
         """寫入詳細的打包報告"""
-        report_file = self.output_dir / "packaging_report.log"
+        # 確保 log 資料夾存在
+        log_dir = Path("log")
+        log_dir.mkdir(parents=True, exist_ok=True)
+        
+        report_file = log_dir / f"packaging_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
         
         try:
             with open(report_file, 'w', encoding='utf-8') as f:
@@ -513,8 +522,12 @@ def main():
     
     # 取得用戶輸入
     while True:
-        source_folder = input("請輸入要掃描的資料夾名稱 (預設: merged_projects): ").strip()
+        print("請輸入要掃描的資料夾名稱 (輸入 '0' 使用預設: merged_projects): ", end="", flush=True)
+        source_folder = input().strip()
         if not source_folder:
+            print("⚠️ 請輸入有效值，或輸入 '0' 使用預設值")
+            continue
+        if source_folder == '0':
             source_folder = "merged_projects"
         
         source_path = Path(source_folder)

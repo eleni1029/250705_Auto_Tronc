@@ -11,7 +11,7 @@ import time
 import os
 import datetime
 import json
-from config import USERNAME, PASSWORD, LOGIN_URL, COURSE_ID
+from config import USERNAME, PASSWORD, LOGIN_URL, COURSE_ID, BASE_URL
 
 def setup_driver():
     """設置並返回 Chrome WebDriver"""
@@ -170,7 +170,7 @@ def login_and_get_cookie():
             print('⚠️  可能登入失敗，但繼續嘗試訪問課程頁面...')
         
         # 嘗試訪問課程頁面
-        course_url = f'https://wg.tronclass.com/course/{COURSE_ID}/content'
+        course_url = f'{BASE_URL}/course/{COURSE_ID}/content'
         print(f'正在訪問課程頁面: {course_url}')
         driver.get(course_url)
         
