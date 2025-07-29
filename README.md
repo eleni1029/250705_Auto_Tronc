@@ -71,28 +71,63 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
    pip install -r requirements.txt
    ```
 
-3. **配置系統**
-   編輯 `config.py` 文件，設定：
-   - TronClass 平台 URL
-   - 登入憑證
-   - 預設課程和章節 ID
+3. **配置環境變數**
+   ```bash
+   # 複製環境變數範本
+   cp .env.example .env
+   
+   # 編輯 .env 文件，填入您的實際資訊
+   nano .env
+   ```
 
-4. **啟動 GUI**
+4. **配置 .env 文件**
+   在 `.env` 文件中設定以下參數：
+   ```bash
+   # 登入資訊
+   USERNAME=your-email@domain.com
+   PASSWORD=your-password
+   
+   # 平台設定
+   BASE_URL=https://your-tronclass-domain.com
+   ```
+
+5. **啟動 GUI**
    ```bash
    python run_gui.py
    ```
 
-### 快速配置指南
+### 🔐 環境變數配置
 
-在 `config.py` 中設定以下參數：
+本系統使用 `.env` 文件來安全地存放敏感資訊，避免將帳號密碼上傳到 GitHub。
 
-```python
-BASE_URL = 'https://your-tronclass-domain.com'
-USERNAME = 'your-email@domain.com'
-PASSWORD = 'your-password'
-COURSE_ID = 16401  # 目標課程 ID
-MODULE_ID = 28739  # 預設章節 ID
-```
+#### 設定步驟：
+
+1. **複製範本文件**
+   ```bash
+   cp .env.example .env
+   ```
+
+2. **編輯 .env 文件**
+   ```bash
+   # TronClass 系統配置
+   USERNAME=your-email@domain.com     # 您的登入帳號
+   PASSWORD=your-password             # 您的登入密碼
+   BASE_URL=https://your-domain.com   # TronClass 平台網址
+   ```
+
+3. **重要安全提醒**
+   - ✅ `.env` 文件已被 `.gitignore` 忽略，不會上傳到版本控制
+   - ✅ 請勿將 `.env` 文件分享給他人
+   - ✅ 每個使用者都需要建立自己的 `.env` 文件
+
+#### GUI 配置編輯器
+
+系統提供內建的配置編輯器，可透過 GUI 界面修改所有設定：
+
+1. 啟動 GUI：`python run_gui.py`
+2. 點擊「⚙️ 編輯配置」按鈕
+3. 在視覺化界面中修改設定
+4. 點擊「💾 保存配置」自動更新 `.env` 和 `config.py`
 
 ## 📁 專案結構
 
@@ -197,10 +232,11 @@ MODULE_ID = 28739  # 預設章節 ID
 
 ## 🔐 安全性考量
 
-- 所有敏感資訊存放在 `config.py` 中
-- 支援 Cookie 自動管理和更新
-- API 請求間隔控制防止被阻擋
-- 錯誤日誌記錄和追蹤
+- **環境變數保護**：敏感資訊（用戶名、密碼、URL）存放在 `.env` 文件中
+- **版本控制安全**：`.env` 文件已被 `.gitignore` 忽略，不會上傳到 GitHub
+- **Cookie 管理**：支援 Session Cookie 自動管理和更新
+- **請求控制**：API 請求間隔控制防止被阻擋
+- **錯誤追蹤**：完整的錯誤日誌記錄和追蹤系統
 
 ## 🐛 疑難排解
 
@@ -209,16 +245,28 @@ MODULE_ID = 28739  # 預設章節 ID
 1. **GUI 無法啟動**
    - 檢查 Python 版本 (需要 3.8+)
    - 確認所有依賴已安裝: `pip install -r requirements.txt`
+   - 確認已安裝 `python-dotenv`: `pip install python-dotenv`
 
-2. **腳本執行失敗**
-   - 檢查 `config.py` 配置是否正確
+2. **環境變數配置問題**
+   - 確認 `.env` 文件存在並包含正確資訊
+   - 檢查 `.env` 文件格式 (無空格、無引號)
+   - 使用 GUI 配置編輯器檢查設定
+
+3. **腳本執行失敗**
+   - 檢查 `.env` 文件中的登入資訊是否正確
    - 確認網路連接和 TronClass 平台可訪問性
+   - 檢查 `BASE_URL` 是否正確
 
-3. **Excel 文件讀取錯誤**
+4. **登入認證失敗**
+   - 確認用戶名和密碼正確
+   - 檢查平台網址是否可訪問
+   - 嘗試手動登入平台驗證帳號狀態
+
+5. **Excel 文件讀取錯誤**
    - 確認文件格式符合規範
    - 檢查文件路徑和權限
 
-4. **SCORM 打包失敗**
+6. **SCORM 打包失敗**
    - 確認 `merged_projects` 目錄存在
    - 檢查 `imsmanifest.xml` 文件完整性
 

@@ -964,13 +964,38 @@ class ConfigEditor:
             
     def write_config_file(self):
         """寫入配置文件"""
+        # 更新 .env 文件
+        env_content = f'''# TronClass 系統配置
+# 請根據您的實際情況填寫以下資訊
+
+# 登入資訊
+USERNAME={self.config_data.get("USERNAME", "")}
+PASSWORD={self.config_data.get("PASSWORD", "")}
+
+# 平台設定
+BASE_URL={self.config_data.get("BASE_URL", "https://staging.tronclass.com")}'''
+        
+        with open(".env", 'w', encoding='utf-8') as f:
+            f.write(env_content)
+        
+        # 更新 config.py 文件
         config_content = f'''# config.py
 # 全局設定檔案，請在此填寫共用參數
+
+import os
+from dotenv import load_dotenv
+
+# 載入環境變數
+load_dotenv()
+
+# 從環境變數獲取敏感資訊
+USERNAME = os.getenv('USERNAME', '')  # 從 .env 文件讀取
+PASSWORD = os.getenv('PASSWORD', '')  # 從 .env 文件讀取  
+BASE_URL = os.getenv('BASE_URL', 'https://staging.tronclass.com')  # 從 .env 文件讀取
+
+# 其他系統設定
 COOKIE = '{self.config_data.get("COOKIE", "")}'  # 自動登入獲取
 SLEEP_SECONDS = {self.config_data.get("SLEEP_SECONDS", "0.1")}  # 每次請求間隔，避免被擋
-USERNAME = '{self.config_data.get("USERNAME", "")}'  # 你的帳號
-PASSWORD = '{self.config_data.get("PASSWORD", "")}'  # 你的密碼
-BASE_URL = '{self.config_data.get("BASE_URL", "https://wg.tronclass.com")}'  # 基礎網址
 LOGIN_URL = f'{{BASE_URL}}/login'  # 登入網址
 COURSE_ID = {self.config_data.get("COURSE_ID", "16401")}  # 預設的課程 ID
 MODULE_ID = {self.config_data.get("MODULE_ID", "28739")}  # 預設的章節 ID

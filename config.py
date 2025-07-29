@@ -1,10 +1,20 @@
 # config.py
 # 全局設定檔案，請在此填寫共用參數
+
+import os
+from dotenv import load_dotenv
+
+# 載入環境變數
+load_dotenv()
+
+# 從環境變數獲取敏感資訊
+USERNAME = os.getenv('USERNAME', '')  # 從 .env 文件讀取
+PASSWORD = os.getenv('PASSWORD', '')  # 從 .env 文件讀取  
+BASE_URL = os.getenv('BASE_URL', 'https://staging.tronclass.com')  # 從 .env 文件讀取
+
+# 其他系統設定
 COOKIE = '_ga_SG0N0692X5=GS2.1.s1753785258$o1$g1$t1753785264$j54$l0$h0; warning:verification_email=show; session=V2-1-51c9d711-ee11-476c-b53a-fc51e2956a66.Mjc4NjI.1753792464360.CeyF-65_HBPirIsjZxuyq5zprx4; _ga=GA1.1.35448435.1753785258; lang=zh-TW'  # 自動登入獲取
 SLEEP_SECONDS = 0.1  # 每次請求間隔，避免被擋
-USERNAME = 'eleni1029@gmail.com'  # 你的帳號
-PASSWORD = 'eleni1029'  # 你的密碼
-BASE_URL = 'https://staging.tronclass.com'  # 基礎網址
 LOGIN_URL = f'{BASE_URL}/login'  # 登入網址
 COURSE_ID = 16401  # 預設的課程 ID
 MODULE_ID = 28739  # 預設的章節 ID
