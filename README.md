@@ -1,3 +1,8 @@
+Note  2025.08.01
+注意：基於目前 1.77 的 TC 權限架構，用戶在創建課程完成後
+需要在課程中上傳該課程的 Scorm 包，非創建人的其他用戶才有辦法訪問屬於 Scorm 包的連結
+
+--
 # Auto Tronc - 自動創課系統
 
 ![Auto Tronc GUI](https://img.shields.io/badge/GUI-Tkinter-blue) ![Python](https://img.shields.io/badge/Python-3.8+-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
