@@ -45,10 +45,11 @@ Temporary Items
 config_template.py
 1_projects/
 2_merged_projects/
-5_to_be_executed/
 3_scorm_packages/
-log/
 4_manifest_structures/
+5_to_be_executed/
+log/
+
 
 # IDE
 .vscode/
