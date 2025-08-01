@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Excel 課程結構生成器 - 主要生成器
-掃描 manifest_structures 資料夾，將 JSON 課程結構轉換為 Excel 檔案
+掃描 4_manifest_structures 資料夾，將 JSON 課程結構轉換為 Excel 檔案
 """
 
 import os
@@ -19,7 +19,7 @@ from openpyxl.utils import get_column_letter
 class ExcelGenerator:
     """Excel 生成器類別"""
     
-    def __init__(self, json_dir: str = "manifest_structures", output_dir: str = "to_be_executed"):
+    def __init__(self, json_dir: str = "4_manifest_structures", output_dir: str = "5_to_be_executed"):
         """
         初始化生成器
         
@@ -623,13 +623,13 @@ def main():
     
     # 取得用戶輸入
     while True:
-        print("請輸入 JSON 檔案資料夾名稱 (輸入 '0' 使用預設: manifest_structures): ", end="", flush=True)
+        print("請輸入 JSON 檔案資料夾名稱 (輸入 '0' 使用預設: 4_manifest_structures): ", end="", flush=True)
         json_folder = input().strip()
         if not json_folder:
             print("⚠️ 請輸入有效值，或輸入 '0' 使用預設值")
             continue
         if json_folder == '0':
-            json_folder = "manifest_structures"
+            json_folder = "4_manifest_structures"
         
         json_path = Path(json_folder)
         if json_path.exists():

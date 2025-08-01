@@ -175,15 +175,15 @@ class TronClassCreator:
             return False
     
     def get_extracted_files(self):
-        """獲取 to_be_executed 目錄中所有 extracted 檔案，按時間戳排序"""
-        pattern = os.path.join('to_be_executed', '*extracted*.xlsx')
+        """獲取 6_todolist 目錄中所有 extracted 檔案，按時間戳排序"""
+        pattern = os.path.join('6_todolist', '*extracted*.xlsx')
         files = glob.glob(pattern)
         
         # 過濾掉暫存檔案（以 ~$ 開頭的檔案）
         files = [f for f in files if not os.path.basename(f).startswith('~$')]
         
         if not files:
-            print("❌ 在 to_be_executed 目錄中找不到 extracted 檔案")
+            print("❌ 在 6_todolist 目錄中找不到 extracted 檔案")
             return []
         
         # 根據檔案名中的時間戳排序（最新的在前）

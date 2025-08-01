@@ -20,13 +20,13 @@ import shutil
 class ScormPackager:
     """SCORM 打包器類別"""
     
-    def __init__(self, source_dir: str, output_dir: str = "scorm_packages"):
+    def __init__(self, source_dir: str, output_dir: str = "3_scorm_packages"):
         """
         初始化打包器
         
         Args:
             source_dir: 來源目錄路徑
-            output_dir: 輸出目錄路徑（預設: "scorm_packages"）
+            output_dir: 輸出目錄路徑（預設: "3_scorm_packages"）
         """
         self.source_dir = Path(source_dir)
         self.output_dir = Path(output_dir)
@@ -57,7 +57,7 @@ class ScormPackager:
         
         log_filename = log_dir / f"scorm_package_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 
-        # 確保 output_dir 資料夾存在（這裡 output_dir 是 scorm_packages）
+        # 確保 output_dir 資料夾存在（這裡 output_dir 是 3_scorm_packages）
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
         logging.basicConfig(
@@ -522,13 +522,13 @@ def main():
     
     # 取得用戶輸入
     while True:
-        print("請輸入要掃描的資料夾名稱 (輸入 '0' 使用預設: merged_projects): ", end="", flush=True)
+        print("請輸入要掃描的資料夾名稱 (輸入 '0' 使用預設: 2_merged_projects): ", end="", flush=True)
         source_folder = input().strip()
         if not source_folder:
             print("⚠️ 請輸入有效值，或輸入 '0' 使用預設值")
             continue
         if source_folder == '0':
-            source_folder = "merged_projects"
+            source_folder = "2_merged_projects"
         
         source_path = Path(source_folder)
         if source_path.exists():

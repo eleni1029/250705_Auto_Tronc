@@ -93,7 +93,7 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 
 5. **啟動 GUI**
    ```bash
-   python run_gui.py
+   python auto_tronc_gui.py
    ```
 
 ### 🔐 環境變數配置
@@ -124,7 +124,7 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 
 系統提供內建的配置編輯器，可透過 GUI 界面修改所有設定：
 
-1. 啟動 GUI：`python run_gui.py`
+1. 啟動 GUI：`python auto_tronc_gui.py`
 2. 點擊「⚙️ 編輯配置」按鈕
 3. 在視覺化界面中修改設定
 4. 點擊「💾 保存配置」自動更新 `.env` 和 `config.py`
@@ -134,7 +134,6 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 ```
 250708_Auto_Tronc/
 ├── auto_tronc_gui.py          # 主要 GUI 應用程序
-├── run_gui.py                 # GUI 啟動器
 ├── config.py                  # 系統配置文件
 ├── requirements.txt           # Python 依賴清單
 ├── final_terminal.py          # 終端模擬器
@@ -162,11 +161,12 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 │   └── sub_*.py              # 子模組工具
 └── 
 └── 資料目錄/
-    ├── projects/             # 原始項目資料
-    ├── merged_projects/      # 合併後的項目
-    ├── scorm_packages/       # SCORM 包輸出
-    ├── manifest_structures/  # 提取的結構文件
-    ├── to_be_executed/      # 待執行文件
+    ├── 1_projects/           # 原始項目資料
+    ├── 2_merged_projects/    # 合併後的項目
+    ├── 3_scorm_packages/     # SCORM 包輸出
+    ├── 4_manifest_structures/ # 提取的結構文件
+    ├── 5_to_be_executed/    # 待執行文件
+    ├── 6_todolist/          # 待辦清單文件
     └── log/                 # 系統日誌
 ```
 
@@ -267,7 +267,7 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
    - 檢查文件路徑和權限
 
 6. **SCORM 打包失敗**
-   - 確認 `merged_projects` 目錄存在
+   - 確認 `2_merged_projects` 目錄存在
    - 檢查 `imsmanifest.xml` 文件完整性
 
 ### 日誌檢查

@@ -19,7 +19,7 @@ from openpyxl.utils import get_column_letter
 class ExcelStatistics:
     """Excel 統計報告生成器類別"""
     
-    def __init__(self, output_dir: str = "to_be_executed"):
+    def __init__(self, output_dir: str = "5_to_be_executed"):
         """
         初始化統計報告生成器
         
@@ -115,7 +115,7 @@ class ExcelStatistics:
         excel_files = self._find_excel_files()
         
         if not excel_files:
-            print("❌ 在 to_be_executed 目錄中未找到 course_structures_analyzed 開頭的 Excel 檔案")
+            print("❌ 在 5_to_be_executed 目錄中未找到 course_structures_analyzed 開頭的 Excel 檔案")
             return False
         
         print(f"\n找到 {len(excel_files)} 個可分析的 Excel 檔案：")

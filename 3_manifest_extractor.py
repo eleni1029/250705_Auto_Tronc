@@ -23,13 +23,13 @@ from bs4 import BeautifulSoup
 class ManifestParser:
     """Manifest 解析器類別"""
     
-    def __init__(self, source_dir: str, output_dir: str = "manifest_structures"):
+    def __init__(self, source_dir: str, output_dir: str = "4_manifest_structures"):
         """
         初始化解析器
         
         Args:
             source_dir: 來源目錄路徑
-            output_dir: 輸出目錄路徑（預設: "manifest_structures"）
+            output_dir: 輸出目錄路徑（預設: "4_manifest_structures"）
         """
         self.source_dir = Path(source_dir)
         self.output_dir = Path(output_dir)
@@ -96,24 +96,12 @@ class ManifestParser:
     
     def _get_user_preferences(self):
         """獲取用戶偏好設定"""
-        print("⚙️  偏好設定")
+        # 直接設定為不略過非 HTML 檔案
+        self.skip_non_html = False
+        print("⚙️  設定: 將處理所有檔案類型")
         print("-" * 20)
         
-        while True:
-            print("是否略過非 HTML 檔案？(y/N) [預設: N]: ", end="", flush=True)
-            choice = input().strip().lower()
-            if choice in ['', 'y', 'yes', '是']:
-                self.skip_non_html = True
-                print("✅ 將只處理 .html 和 .htm 檔案")
-                break
-            elif choice in ['n', 'no', '否']:
-                self.skip_non_html = False
-                print("✅ 將處理所有檔案類型")
-                break
-            else:
-                print("請輸入 Y 或 N")
-        
-        self.logger.info(f"用戶設定 - 略過非HTML檔案: {self.skip_non_html}")
+        self.logger.info(f"預設設定 - 略過非HTML檔案: {self.skip_non_html}")
     
     def _is_html_file(self, href: str) -> bool:
         """檢查檔案是否為 HTML 檔案"""
@@ -835,13 +823,13 @@ def main():
     
     # 取得用戶輸入
     while True:
-        print("請輸入要掃描的資料夾名稱 (輸入 '0' 使用預設: merged_projects): ", end="", flush=True)
+        print("請輸入要掃描的資料夾名稱 (輸入 '0' 使用預設: 2_merged_projects): ", end="", flush=True)
         source_folder = input().strip()
         if not source_folder:
             print("⚠️ 請輸入有效值，或輸入 '0' 使用預設值")
             continue
         if source_folder == '0':
-            source_folder = "merged_projects"
+            source_folder = "2_merged_projects"
         
         source_path = Path(source_folder)
         if source_path.exists():

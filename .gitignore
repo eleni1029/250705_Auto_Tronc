@@ -43,13 +43,12 @@ Temporary Items
 
 # 專案特定忽略
 config_template.py
-projects/
-merged_projects/
-to_be_executed/
-scorm_packages/
+1_projects/
+2_merged_projects/
+5_to_be_executed/
+3_scorm_packages/
 log/
-manifest_structures/
-imsmanifest/
+4_manifest_structures/
 
 # IDE
 .vscode/

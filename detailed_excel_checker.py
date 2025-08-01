@@ -166,7 +166,7 @@ def check_specific_course_structure(df):
 
 def main():
     """主函數"""
-    excel_path = "/Users/dominic/250708_Auto_Tronc/to_be_executed/todolist_extracted_20250722_103809.xlsx"
+    excel_path = "/Users/dominic/250708_Auto_Tronc/6_todolist/todolist_extracted_20250722_103809.xlsx"
     
     print("🔍 詳細 Excel 檔案檢查工具")
     print("專門檢查課綱和模組關聯關係")

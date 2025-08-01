@@ -9,12 +9,12 @@ from sub_todolist_resource import extract_resources_from_result, get_resource_st
 import json
 
 def get_analyzed_files():
-    """獲取 to_be_executed 目錄中所有 analyzed 檔案，按時間排序"""
-    pattern = os.path.join('to_be_executed', 'course_structures_analyzed_*.xlsx')
+    """獲取 5_to_be_executed 目錄中所有 analyzed 檔案，按時間排序"""
+    pattern = os.path.join('5_to_be_executed', 'course_structures_analyzed_*.xlsx')
     files = glob.glob(pattern)
     
     if not files:
-        print("❌ 在 to_be_executed 目錄中找不到 analyzed 檔案")
+        print("❌ 在 5_to_be_executed 目錄中找不到 analyzed 檔案")
         return []
     
     # 按修改時間排序（最新的在前）
@@ -608,7 +608,9 @@ def find_header_positions(df):
 
 def create_extracted_excel(source_file, selected_sheets, timestamp):
     """創建提取後的 Excel 檔案"""
-    output_filename = os.path.join('to_be_executed', f"todolist_extracted_{timestamp}.xlsx")
+    # 確保 6_todolist 資料夾存在
+    os.makedirs('6_todolist', exist_ok=True)
+    output_filename = os.path.join('6_todolist', f"todolist_extracted_{timestamp}.xlsx")
     
     all_result_data = []
     
@@ -723,7 +725,7 @@ def main():
     print("🚀 TronClass 課程結構資料提取器 - 資源去重版本")
     print("✨ 新功能：相同檔案路徑的資源只會生成一筆記錄")
     print("=" * 55)
-    print("🔍 正在檢查 to_be_executed 目錄...")
+    print("🔍 正在檢查 5_to_be_executed 目錄...")
     
     # 1. 獲取 analyzed 檔案
     files = get_analyzed_files()

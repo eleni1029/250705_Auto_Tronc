@@ -211,7 +211,7 @@ def analyze_ori_document_sheet(df):
 
 def main():
     """主函數"""
-    excel_path = "/Users/dominic/250708_Auto_Tronc/to_be_executed/todolist_extracted_20250722_103809.xlsx"
+    excel_path = "/Users/dominic/250708_Auto_Tronc/6_todolist/todolist_extracted_20250722_103809.xlsx"
     
     print("🔍 Excel 檔案分析器")
     print("檢查 todolist_extracted 檔案中的潛在問題")
