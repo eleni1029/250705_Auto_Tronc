@@ -175,15 +175,15 @@ class TronClassCreator:
             return False
     
     def get_extracted_files(self):
-        """獲取 6_todolist 目錄中所有 extracted 檔案，按時間戳排序"""
-        pattern = os.path.join('6_todolist', '*extracted*.xlsx')
+        """獲取 06_todolist 目錄中所有 extracted 檔案，按時間戳排序"""
+        pattern = os.path.join('06_todolist', '*extracted*.xlsx')
         files = glob.glob(pattern)
         
         # 過濾掉暫存檔案（以 ~$ 開頭的檔案）
         files = [f for f in files if not os.path.basename(f).startswith('~$')]
         
         if not files:
-            print("❌ 在 6_todolist 目錄中找不到 extracted 檔案")
+            print("❌ 在 06_todolist 目錄中找不到 extracted 檔案")
             return []
         
         # 根據檔案名中的時間戳排序（最新的在前）
@@ -1163,7 +1163,7 @@ class TronClassCreator:
                             module_id=int(module_id) if pd.notna(module_id) and module_id != '' else None,
                             syllabus_id=valid_syllabus_id
                         )
-                    else:  # audio
+                    else:  # audio - 注意：音訊功能尚未驗證支持
                         result = create_audio_activity(
                             cookie_string=self.cookie_string,
                             url=activity_url,

@@ -53,7 +53,7 @@ logger = setup_logger()
 # 配置項
 CONFIG = {
     # 路徑層數配置（從第幾層開始查找，向上無限制）
-    'PATH_LEVELS': [2],  # 從第2層開始查找，例如：2_merged_projects/1-1 生活化的資料科學-OK/
+    'PATH_LEVELS': [2],  # 從第2層開始查找，例如：02_merged_projects/1-1 生活化的資料科學-OK/
     
     # m3u8匹配模式配置（改進版，避免提取到不完整的URL）
     'M3U8_PATTERNS': [
@@ -161,7 +161,7 @@ def get_search_base_path(system_path, level):
     try:
         path_parts = Path(system_path).parts
         if len(path_parts) >= level:
-            # 從第level層開始的路徑，例如：level=2 → 2_merged_projects/1-1 生活化的資料科學-OK/
+            # 從第level層開始的路徑，例如：level=2 → 02_merged_projects/1-1 生活化的資料科學-OK/
             base_path = os.path.join(*path_parts[:level])
             logger.debug(f"層級 {level} 搜索路徑: {base_path}")
             return base_path

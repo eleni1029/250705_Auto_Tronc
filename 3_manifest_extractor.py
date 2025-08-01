@@ -23,13 +23,13 @@ from bs4 import BeautifulSoup
 class ManifestParser:
     """Manifest 解析器類別"""
     
-    def __init__(self, source_dir: str, output_dir: str = "4_manifest_structures"):
+    def __init__(self, source_dir: str, output_dir: str = "04_manifest_structures"):
         """
         初始化解析器
         
         Args:
             source_dir: 來源目錄路徑
-            output_dir: 輸出目錄路徑（預設: "4_manifest_structures"）
+            output_dir: 輸出目錄路徑（預設: "04_manifest_structures"）
         """
         self.source_dir = Path(source_dir)
         self.output_dir = Path(output_dir)
@@ -823,13 +823,13 @@ def main():
     
     # 取得用戶輸入
     while True:
-        print("請輸入要掃描的資料夾名稱 (輸入 '0' 使用預設: 2_merged_projects): ", end="", flush=True)
+        print("請輸入要掃描的資料夾名稱 (輸入 '0' 使用預設: 02_merged_projects): ", end="", flush=True)
         source_folder = input().strip()
         if not source_folder:
             print("⚠️ 請輸入有效值，或輸入 '0' 使用預設值")
             continue
         if source_folder == '0':
-            source_folder = "2_merged_projects"
+            source_folder = "02_merged_projects"
         
         source_path = Path(source_folder)
         if source_path.exists():

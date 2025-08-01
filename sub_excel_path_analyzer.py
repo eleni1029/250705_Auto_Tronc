@@ -137,7 +137,7 @@ class MediaFileParser(HTMLParser):
 class ExcelPathAnalyzer:
     """Excel 路徑分析器類別"""
     
-    def __init__(self, output_dir: str = "5_to_be_executed"):
+    def __init__(self, output_dir: str = "05_to_be_executed"):
         """
         初始化路徑分析器
         

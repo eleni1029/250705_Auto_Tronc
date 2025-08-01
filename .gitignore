@@ -43,11 +43,12 @@ Temporary Items
 
 # 專案特定忽略
 config_template.py
-1_projects/
-2_merged_projects/
-3_scorm_packages/
-4_manifest_structures/
-5_to_be_executed/
+01_projects/
+02_merged_projects/
+03_scorm_packages/
+04_manifest_structures/
+05_to_be_executed/
+06_todolist/
 log/
 
 

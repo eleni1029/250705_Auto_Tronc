@@ -17,13 +17,13 @@ from typing import List, Optional
 class ProjectMerger:
     """項目合併器類別"""
     
-    def __init__(self, source_dir: str = "1_projects", target_dir: str = "2_merged_projects"):
+    def __init__(self, source_dir: str = "01_projects", target_dir: str = "02_merged_projects"):
         """
         初始化合併器
         
         Args:
-            source_dir: 來源目錄路徑（預設: "1_projects"）
-            target_dir: 目標目錄路徑（預設: "2_merged_projects"）
+            source_dir: 來源目錄路徑（預設: "01_projects"）
+            target_dir: 目標目錄路徑（預設: "02_merged_projects"）
         """
         self.source_dir = Path(source_dir)
         self.target_dir = Path(target_dir)
@@ -193,8 +193,8 @@ class ProjectMerger:
 def main():
     """主函數"""
     # 設定來源和目標目錄
-    SOURCE_DIR = "1_projects"  # 可以修改為您的實際路徑
-    TARGET_DIR = "2_merged_projects"  # 可以修改為您希望的目標路徑
+    SOURCE_DIR = "01_projects"  # 可以修改為您的實際路徑
+    TARGET_DIR = "02_merged_projects"  # 可以修改為您希望的目標路徑
     
     # 建立合併器實例
     merger = ProjectMerger(SOURCE_DIR, TARGET_DIR)

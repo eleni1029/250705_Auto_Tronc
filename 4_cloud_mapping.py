@@ -35,8 +35,8 @@ def generate_excel_from_path_mappings(json_file_path, output_excel_path):
             row_data = {
                 '名稱': name,
                 '資源庫路徑': '',  # 留空
-                '資料夾路徑': f"2_merged_projects/{source_dir}",
-                '原始 imsmanifest.xml 路徑': f"2_merged_projects/{xml_path}"
+                '資料夾路徑': f"02_merged_projects/{source_dir}",
+                '原始 imsmanifest.xml 路徑': f"02_merged_projects/{xml_path}"
             }
             
             excel_data.append(row_data)
@@ -90,7 +90,7 @@ def main():
     """主函數"""
     
     # 設定文件路徑
-    json_file_path = "4_manifest_structures/path_mappings.json"
+    json_file_path = "04_manifest_structures/path_mappings.json"
     output_excel_path = "4_資源庫路徑_補充.xlsx"
     
     # 如果指定路徑不存在，嘗試當前目錄下的路徑

@@ -249,6 +249,8 @@ def create_audio_activity(cookie_string: str, url: str, title: str, upload_id: i
     """
     建立「影音教材_音訊」學習活動（使用上傳檔案）
     
+    注意：此功能尚未驗證支持，可能需要進一步測試
+    
     Args:
         cookie_string: Cookie字串
         url: API URL  

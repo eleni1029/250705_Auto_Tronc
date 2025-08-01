@@ -45,7 +45,7 @@ class AutoTroncGUI:
             {
                 "id": "1",
                 "name": "資料夾合併",
-                "description": "將GoogleDrive下載解壓文件從1_projects合併到2_merged_projects",
+                "description": "將GoogleDrive下載解壓文件從01_projects合併到02_merged_projects",
                 "script": "1_folder_merger.py",
                 "button_text": "1. 合併專案資料夾",
                 "color": "#5cb85c"  # 柔和綠色
@@ -53,7 +53,7 @@ class AutoTroncGUI:
             {
                 "id": "2", 
                 "name": "SCORM打包",
-                "description": "從2_merged_projects中找到XML封裝為SCORM packages",
+                "description": "從02_merged_projects中找到XML封裝為SCORM packages",
                 "script": "2_scorm_packager.py",
                 "button_text": "2. 建立SCORM包",
                 "color": "#5bc0de"  # 柔和藍色
@@ -61,7 +61,7 @@ class AutoTroncGUI:
             {
                 "id": "3",
                 "name": "結構提取",
-                "description": "從2_merged_projects中找到XML抽取待處理結構文件",
+                "description": "從02_merged_projects中找到XML抽取待處理結構文件",
                 "script": "3_manifest_extractor.py", 
                 "button_text": "3. 提取課程結構",
                 "color": "#f0ad4e"  # 柔和橙色
@@ -403,14 +403,14 @@ class AutoTroncGUI:
         self.progress_var.set(20)
         
         # 使用自定義對話框代替 simpledialog
-        source_folder = self._get_folder_input("SCORM打包設定", "請輸入要掃描的資料夾名稱:", "2_merged_projects")
+        source_folder = self._get_folder_input("SCORM打包設定", "請輸入要掃描的資料夾名稱:", "02_merged_projects")
         
         if source_folder is None:
             self.current_step.set("取消: 用戶取消操作")
             return
             
         if not source_folder.strip():
-            source_folder = "2_merged_projects"
+            source_folder = "02_merged_projects"
             
         if not os.path.exists(source_folder):
             messagebox.showerror("錯誤", f"資料夾 '{source_folder}' 不存在", parent=self.root)
@@ -429,14 +429,14 @@ class AutoTroncGUI:
         self.progress_var.set(20)
         
         # 使用自定義對話框獲取來源資料夾
-        source_folder = self._get_folder_input("結構提取設定", "請輸入要掃描的資料夾名稱:", "2_merged_projects")
+        source_folder = self._get_folder_input("結構提取設定", "請輸入要掃描的資料夾名稱:", "02_merged_projects")
         
         if source_folder is None:
             self.current_step.set("取消: 用戶取消操作")
             return
             
         if not source_folder.strip():
-            source_folder = "2_merged_projects"
+            source_folder = "02_merged_projects"
             
         if not os.path.exists(source_folder):
             messagebox.showerror("錯誤", f"資料夾 '{source_folder}' 不存在", parent=self.root)
@@ -466,12 +466,12 @@ class AutoTroncGUI:
         self.root.update()
         
         # 檢查analyzed文件
-        pattern = os.path.join('5_to_be_executed', '*analyzed*.xlsx')
+        pattern = os.path.join('05_to_be_executed', '*analyzed*.xlsx')
         import glob
         files = glob.glob(pattern)
         
         if not files:
-            messagebox.showerror("錯誤", "在5_to_be_executed目錄中找不到analyzed檔案", parent=self.root)
+            messagebox.showerror("錯誤", "在05_to_be_executed目錄中找不到analyzed檔案", parent=self.root)
             self.current_step.set("錯誤: 找不到analyzed檔案")
             return
             
@@ -505,12 +505,12 @@ class AutoTroncGUI:
         self.root.update()
         
         # 檢查extracted文件
-        pattern = os.path.join('6_todolist', '*extracted*.xlsx')
+        pattern = os.path.join('06_todolist', '*extracted*.xlsx')
         import glob
         files = glob.glob(pattern)
         
         if not files:
-            messagebox.showerror("錯誤", "在6_todolist目錄中找不到extracted檔案", parent=self.root)
+            messagebox.showerror("錯誤", "在06_todolist目錄中找不到extracted檔案", parent=self.root)
             self.current_step.set("錯誤: 找不到extracted檔案")
             return
             

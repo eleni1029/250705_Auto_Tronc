@@ -10,11 +10,11 @@ import json
 
 def get_analyzed_files():
     """獲取 5_to_be_executed 目錄中所有 analyzed 檔案，按時間排序"""
-    pattern = os.path.join('5_to_be_executed', 'course_structures_analyzed_*.xlsx')
+    pattern = os.path.join('05_to_be_executed', 'course_structures_analyzed_*.xlsx')
     files = glob.glob(pattern)
     
     if not files:
-        print("❌ 在 5_to_be_executed 目錄中找不到 analyzed 檔案")
+        print("❌ 在 05_to_be_executed 目錄中找不到 analyzed 檔案")
         return []
     
     # 按修改時間排序（最新的在前）
@@ -609,8 +609,8 @@ def find_header_positions(df):
 def create_extracted_excel(source_file, selected_sheets, timestamp):
     """創建提取後的 Excel 檔案"""
     # 確保 6_todolist 資料夾存在
-    os.makedirs('6_todolist', exist_ok=True)
-    output_filename = os.path.join('6_todolist', f"todolist_extracted_{timestamp}.xlsx")
+    os.makedirs('06_todolist', exist_ok=True)
+    output_filename = os.path.join('06_todolist', f"todolist_extracted_{timestamp}.xlsx")
     
     all_result_data = []
     
