@@ -44,10 +44,10 @@ class AutoTroncGUI:
         self.workflow_steps = [
             {
                 "id": "1",
-                "name": "資料夾合併",
-                "description": "將GoogleDrive下載解壓文件從01_projects合併到02_merged_projects",
+                "name": "ZIP檔案解壓縮",
+                "description": "將GoogleDrive下載的ZIP文件從01_ori_zipfiles解壓縮到02_merged_projects",
                 "script": "1_folder_merger.py",
-                "button_text": "1. 合併專案資料夾",
+                "button_text": "1. 解壓縮ZIP檔案",
                 "color": "#5cb85c"  # 柔和綠色
             },
             {

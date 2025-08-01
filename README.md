@@ -21,10 +21,10 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 
 ### 📋 完整工作流程
 
-#### 1. 資料夾合併 (`1_folder_merger.py`)
-- 將 Google Drive 下載的分散項目文件合併到統一目錄
-- 支援深度遞迴合併和智能重複文件處理
-- 自動統計處理結果
+#### 1. ZIP 檔案解壓縮 (`1_folder_merger.py`)
+- 按檔案名稱排序，逐一解壓縮 ZIP 檔案到統一目錄
+- 支援覆蓋模式解壓縮和完整統計
+- 適用於 Google Drive 壓縮包處理
 
 #### 2. SCORM 打包 (`2_scorm_packager.py`)
 - 自動識別包含 `imsmanifest.xml` 的項目
@@ -165,7 +165,7 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 │   └── sub_*.py              # 子模組工具
 └── 
 └── 資料目錄/
-    ├── 1_projects/           # 原始項目資料
+    ├── 01_ori_zipfiles/      # 原始 ZIP 檔案
     ├── 2_merged_projects/    # 合併後的項目
     ├── 3_scorm_packages/     # SCORM 包輸出
     ├── 4_manifest_structures/ # 提取的結構文件
@@ -289,8 +289,8 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 ### 批量處理
 使用命令列直接執行各個腳本進行批量處理：
 ```bash
-python 1_folder_merger.py
-python 2_scorm_packager.py
+python 1_folder_merger.py  # ZIP 檔案解壓縮
+python 2_scorm_packager.py  # SCORM 打包
 # ... 依序執行
 ```
 

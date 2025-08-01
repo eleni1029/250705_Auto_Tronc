@@ -43,7 +43,7 @@ Temporary Items
 
 # 專案特定忽略
 config_template.py
-01_projects/
+01_ori_zipfiles/
 02_merged_projects/
 03_scorm_packages/
 04_manifest_structures/
