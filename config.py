@@ -11,9 +11,10 @@ load_dotenv()
 USERNAME = os.getenv('USERNAME', '')  # 從 .env 文件讀取
 PASSWORD = os.getenv('PASSWORD', '')  # 從 .env 文件讀取  
 BASE_URL = os.getenv('BASE_URL', 'https://staging.tronclass.com')  # 從 .env 文件讀取
+SEARCH_TERM = os.getenv('SEARCH_TERM', '')  # 機構搜索關鍵字
 
 # 其他系統設定
-COOKIE = os.getenv('COOKIE', '')  # 從 .env 文件讀取，自動登入時會更新
+COOKIE = 'session=V2-168-ef1b4560-78be-4548-8dce-9aaa20a5853f.ODE0ODc.1754381275143.Sf6hxIJYq_1aqIE6JztPbcNpGOA; _ga_ZCC2R3ZYVG=GS2.1.s1754294867$o1$g1$t1754294874$j53$l0$h0; samesite=strict; _ga=GA1.1.2049752649.1754294867; samesite=strict; warning:verification_email=show; lang=zh-TW'  # 自動登入獲取
 SLEEP_SECONDS = 0.1  # 每次請求間隔，避免被擋
 LOGIN_URL = f'{BASE_URL}/login'  # 登入網址
 COURSE_ID = 10000  # 預設的課程 ID

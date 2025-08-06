@@ -11,7 +11,7 @@ import time
 import os
 import datetime
 import json
-from config import USERNAME, PASSWORD, LOGIN_URL, COURSE_ID, BASE_URL
+from config import USERNAME, PASSWORD, LOGIN_URL, COURSE_ID, BASE_URL, SEARCH_TERM
 
 def setup_driver():
     """設置並返回 Chrome WebDriver"""
@@ -77,6 +77,81 @@ def login_and_get_cookie():
         
         print(f'登入頁面標題: {driver.title}')
         # 登入頁面載入成功，不需要保存 log
+        
+        # 首先搜索並選擇機構
+        if SEARCH_TERM:
+            print(f'正在搜索機構: {SEARCH_TERM}')
+            
+            # 查找搜索輸入框
+            search_selectors = [
+                'input[type="text"]',
+                'input[placeholder*="搜索"]',
+                'input[placeholder*="search"]',
+                '.search-input',
+                '#search',
+                '[name="search"]'
+            ]
+            
+            search_field = None
+            for selector in search_selectors:
+                try:
+                    search_field = WebDriverWait(driver, 2).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, selector))
+                    )
+                    print(f'找到搜索欄位: {selector}')
+                    break
+                except TimeoutException:
+                    continue
+            
+            if search_field:
+                # 輸入搜索關鍵字
+                search_field.clear()
+                search_field.send_keys(SEARCH_TERM)
+                time.sleep(1)
+                
+                # 等待搜索結果出現
+                try:
+                    # 查找搜索結果列表
+                    result_selectors = [
+                        '.search-result',
+                        '.dropdown-item',
+                        '.result-item',
+                        'ul li',
+                        '[role="option"]'
+                    ]
+                    
+                    result_found = False
+                    for selector in result_selectors:
+                        try:
+                            results = WebDriverWait(driver, 3).until(
+                                EC.presence_of_all_elements_located((By.CSS_SELECTOR, selector))
+                            )
+                            
+                            # 查找包含搜索關鍵字的結果
+                            for result in results:
+                                if SEARCH_TERM in result.text:
+                                    print(f'找到匹配結果: {result.text}')
+                                    driver.execute_script("arguments[0].click();", result)
+                                    result_found = True
+                                    break
+                            
+                            if result_found:
+                                break
+                                
+                        except TimeoutException:
+                            continue
+                    
+                    if result_found:
+                        print('✅ 成功選擇機構')
+                        time.sleep(2)  # 等待頁面加載
+                    else:
+                        print('⚠️  未找到匹配的搜索結果，繼續嘗試登入')
+                        
+                except Exception as e:
+                    print(f'搜索結果處理出錯: {e}')
+                    
+            else:
+                print('⚠️  未找到搜索輸入框，直接進行登入')
         
         # 查找並填入用戶名
         username_selectors = ['#username', '[name="username"]', '[name="email"]', 'input[type="text"]']
