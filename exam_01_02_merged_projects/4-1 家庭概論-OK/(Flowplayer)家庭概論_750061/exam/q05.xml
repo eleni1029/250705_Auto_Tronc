@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:22:"第五章_自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10019125_1593680809_937572" title="你是屬於台灣的哪一族群? 與其他族群的 ...">
+    <presentation label="你是屬於台灣的哪一族群? 與其他族群的 ...">
+      <flow>
+        <material>
+          <mattext>你是屬於台灣的哪一族群? 與其他族群的異同?</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>6</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10019125_1593680820_668901" title="族群文化如何影響家庭與個人?">
+    <presentation label="族群文化如何影響家庭與個人?">
+      <flow>
+        <material>
+          <mattext>族群文化如何影響家庭與個人?</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>6</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10019125_1593680832_466296" title="華人與西方文化對家庭的影響有 什麼特 ...">
+    <presentation label="華人與西方文化對家庭的影響有 什麼特 ...">
+      <flow>
+        <material>
+          <mattext>華人與西方文化對家庭的影響有 什麼特別之處?</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>6</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10019125_1593680845_737120" title="家庭階層對個人的影響為何?">
+    <presentation label="家庭階層對個人的影響為何?">
+      <flow>
+        <material>
+          <mattext>家庭階層對個人的影響為何?</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>6</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

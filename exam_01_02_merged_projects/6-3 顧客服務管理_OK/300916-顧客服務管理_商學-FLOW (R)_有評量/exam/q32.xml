@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:30:"第三十二講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1689057214_886051" title="整合上游與下游的系統會出現的問題為何：">
+    <presentation label="整合上游與下游的系統會出現的問題為何：">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;font color="#000000" size="2"&gt;整合上游與下游的系統會出現的問題為何：&lt;/font&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>記帳方式</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>庫存管理方式</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>以上皆是</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>以上皆非</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">3</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>32</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1689057327_056750" title="哪些不是電子商務和顧客服務管理策略密 ...">
+    <presentation label="哪些不是電子商務和顧客服務管理策略密 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;font color="#000000" size="2"&gt;哪些不是電子商務和顧客服務管理策略密合原則？&lt;/font&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>關注改善服務</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>以服務品質為重心</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>不要排除守舊型顧客</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>支援所有通路</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">2</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>32</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1689057394_880022" title="從何得知供應鏈管理正在逐漸改善？">
+    <presentation label="從何得知供應鏈管理正在逐漸改善？">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;font color="#000000" size="2"&gt;從何得知供應鏈管理正在逐漸改善？&lt;/font&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>新興起的交易站模式和電子市集把全球的買方和賣方拉在一起</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>供應商之間都採用外包形式</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>供應商正整合顧客需要</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>以上皆是</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">1</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>32</wm:chapter>
+      <wm:paragraph>3</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1689057449_731357" title="試簡單回答電子商務和顧客服務管理策略 ...">
+    <presentation label="試簡單回答電子商務和顧客服務管理策略 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;font color="#000000" size="2"&gt;試簡單回答電子商務和顧客服務管理策略密合原則？&lt;/font&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;答:&lt;/p&gt;
+
+&lt;p&gt;1.關注改善服務：供應鏈管理科技用在降低成本，而非改善銷售、行銷和客服中心等服務問題，企業組織應檢視每一環節，轉化為有用的資訊加強顧客服務。&lt;br /&gt;
+2.支援所有通路：傳統公司要盡力讓顧客走進店裡就能買到想採購的商品，同時在公司網站上找到店裡現貨庫存沒有的商品，這樣就涵蓋實務和虛擬兩方面。&lt;br /&gt;
+3.不要排除守舊型顧客：企業不應該只看到顧客偏好的採購方式，而應該了解顧客整體的資料，包括採購紀錄、營收、獲利能力和支援成本等，由此決定顧客的價值和因應方式，才不致錯失高價值的顧客。&lt;br /&gt;
+4. 即刻開始編列合作夥伴的橋案：即使是高科技公司，都會出現只做到零星收集合作夥伴和經銷商書而資料的問題，不要使用建立顧客資料倉儲和市集中的痛苦過程做藉口，一定要接著建立起夥伴和經銷商的資料庫。&lt;br /&gt;
+5.企業流程為重心：實際上應該先有流程才能開始逐步有效率的提昇技術，故以流程為重心是相當重要的！&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>32</wm:chapter>
+      <wm:paragraph>4</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

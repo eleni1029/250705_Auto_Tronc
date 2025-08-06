@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:24:"第五章　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631437_496066" title="親職教育是指增進父母和監護人職能的教 ...">
+    <presentation label="親職教育是指增進父母和監護人職能的教 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;親職教育是指增進父母和監護人職能的教育活動。&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;"&gt;&lt;span style="color:black;"&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀&lt;u&gt;&amp;nbsp; 第1&lt;/u&gt;&lt;/span&gt;&lt;u&gt;節 親職教育的意涵與重要性 &amp;nbsp;&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;由家庭教育法及其施行細則第二條內容可知，親職教育&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;(parenting education&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;或稱為&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;parent education)&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;是指增進父母或監護人了解應盡職責與教養子女或被監護人知能之教育活動及服務。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>5</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631457_099833" title="在行為理論的親職教育訓練中，「負增強 ...">
+    <presentation label="在行為理論的親職教育訓練中，「負增強 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;在行為理論的親職教育訓練中，「負增強」是指當孩子負向行為出現時，給予孩子嫌惡的刺激，以減少行為的出現。&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀&lt;/span&gt;&amp;nbsp; &lt;span style="font-family:新細明體,serif;"&gt;第&lt;/span&gt;2&lt;span style="font-family:新細明體,serif;"&gt;節&lt;/span&gt; &lt;span style="font-family:新細明體,serif;"&gt;親職教育的理論、方案模式和專業人員知能&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;增強：是指當某一個行為出現後，隨之而產生具有強化行為的後果。細分有可分為：正增強─良好行為出現時給予正向的強化和負增強&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;&amp;mdash;&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;負向行為消失時出現增強的後果。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>5</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631541_384649" title="根據學者Bronfenbrenner的生態系統理論 ...">
+    <presentation label="根據學者Bronfenbrenner的生態系統理論 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;根據學者Bronfenbrenner的生態系統理論，孩子的發展會受不同系統所影響，請問孩子的家庭和學校之間互動屬於何種系統？&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>小系統（microsystem）</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>中系統（mesosystem）</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>外系統（exosystem）</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>大系統（macrosystem）</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">2</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;建議再閱讀 &amp;nbsp;第2節 親職教育的理論、方案模式和專業人員知能 &amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;小系統（microsystem）：孩子的家庭、學校等。&lt;br /&gt;
+中系統（mesosystem）：由小系統之間的聯繫構成，例如，孩子的「家和學校」&lt;br /&gt;
+外系統（exosystem）：整體社會環境、媒體、政策等&lt;br /&gt;
+大系統（macrosystem）：大環境中的價值觀、文化等&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>5</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631580_773702" title="「認為每個人的人格是從幼兒時期開始逐 ...">
+    <presentation label="「認為每個人的人格是從幼兒時期開始逐 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;「認為每個人的人格是從幼兒時期開始逐漸形成的，孩子會形成一種屬於自己與眾不同的生活模式和主觀目標。」是哪位學者提出的親職教育理論？&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>艾瑞克森（Erikson）</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>史金納（Skinner）</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>阿德勒（Adler）</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>羅傑斯（Rogers）</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">3</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;建議再閱讀 &amp;nbsp;第2節 親職教育的理論、方案模式和專業人員知能 &amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;艾瑞克森（Erikson）：心理社會發展理論&lt;br /&gt;
+華生（Watson）和史金納（Skinner）：行為理論&lt;br /&gt;
+阿德勒（Adler）：阿德勒理論&lt;br /&gt;
+羅傑斯（Rogers）：當事人中心理論&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>5</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631633_239704" title="請問下列敘述是指家庭教育專業人員須具 ...">
+    <presentation label="請問下列敘述是指家庭教育專業人員須具 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;請問下列敘述是指家庭教育專業人員須具備的親職教育知能中的何者？&lt;br /&gt;
+「專業人員要了解自己對他人的影響，因此需要學習專業的職前課程，增進專業知能，從事教育工作後，要持續參加親職教育在職訓練培訓。」&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>尊重包容</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>教育實施</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>專業連結</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>專業成長</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">4</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;建議再閱讀 &amp;nbsp;第2節 親職教育的理論、方案模式和專業人員知能 &amp;nbsp;&lt;br /&gt;
+家庭教育專業人員應定期參加親職教育在職訓練培訓，維持專業成長，帶給父母或家長正確和專業的親職教育知能。&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>5</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

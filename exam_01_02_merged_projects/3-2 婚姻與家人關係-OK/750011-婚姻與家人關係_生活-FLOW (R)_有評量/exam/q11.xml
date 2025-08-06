@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:27:"第十一講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item title="矛盾型跟決定型的單身者，對生活得滿意 ..." ident="WM_ITEM1_1000100000_10037066_1695102108_452181">
+    <presentation label="矛盾型跟決定型的單身者，對生活得滿意 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;矛盾型跟決定型的單身者，對生活得滿意度較低。(第4章,第2節)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item title="從各國的研究顯示，婚姻滿意度在結婚後 ..." ident="WM_ITEM1_1000100000_10037066_1695102108_455380">
+    <presentation label="從各國的研究顯示，婚姻滿意度在結婚後 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;從各國的研究顯示，婚姻滿意度在結婚後會下降。(第4章,第2節)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item title="以試婚為由的同居，可以保證婚姻的幸福 ..." ident="WM_ITEM1_1000100000_10037066_1695102108_458607">
+    <presentation label="以試婚為由的同居，可以保證婚姻的幸福 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;以試婚為由的同居，可以保證婚姻的幸福。(第4章,第2節)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>3</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item title="夫妻的情感狀態會影響到親子間的互動。 ..." ident="WM_ITEM1_1000100000_10037066_1695102108_461628">
+    <presentation label="夫妻的情感狀態會影響到親子間的互動。 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;夫妻的情感狀態會影響到親子間的互動。(第4章,第3節)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>4</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item title="在目前台灣社會中，對單身者依然有標籤 ..." ident="WM_ITEM1_1000100000_10037066_1695102108_464951">
+    <presentation label="在目前台灣社會中，對單身者依然有標籤 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;在目前台灣社會中，對單身者依然有標籤化的現象。(第4章,第2節)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>5</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item title="從本土來看夫妻間情感與西方國家相同， ..." ident="WM_ITEM1_1000100000_10037066_1695102108_468424">
+    <presentation label="從本土來看夫妻間情感與西方國家相同， ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;從本土來看夫妻間情感與西方國家相同，多半是肢體的接觸。(第4章,第3節)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>6</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item title="下列何者是自願選擇單身狀態的單身類型 ..." ident="WM_ITEM1_1000100000_10037066_1695102108_472390">
+    <presentation label="下列何者是自願選擇單身狀態的單身類型 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;下列何者是自願選擇單身狀態的單身類型？(第4章,第2節)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>期待型</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>矛盾型</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>後悔型</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>以上皆是</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">2</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>7</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item title="夫妻的情感內涵包括下列何者？(第4章, ..." ident="WM_ITEM1_1000100000_10037066_1695102108_475578">
+    <presentation label="夫妻的情感內涵包括下列何者？(第4章, ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;夫妻的情感內涵包括下列何者？(第4章,第3節)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>感激</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>欣賞</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>親近</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>契合</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="5">
+              <flow_mat>
+                <material>
+                  <mattext>以上皆是</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">5</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>8</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item title="在夫妻的情感內涵中，何者最有文化特色 ..." ident="WM_ITEM1_1000100000_10037066_1695102108_479219">
+    <presentation label="在夫妻的情感內涵中，何者最有文化特色 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;在夫妻的情感內涵中，何者最有文化特色？(第4章,第3節)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>感激</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>欣賞</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>親近</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>以上皆非</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">1</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>9</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item title="「夫妻雙方深刻的瞭解與信任，並支持彼 ..." ident="WM_ITEM1_1000100000_10037066_1695102108_483107">
+    <presentation label="「夫妻雙方深刻的瞭解與信任，並支持彼 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;「夫妻雙方深刻的瞭解與信任，並支持彼此信念與目標」是下列何種情感內涵？(第4章,第3節)&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>感激</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>欣賞</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>親近</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>契合</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">4</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>10</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

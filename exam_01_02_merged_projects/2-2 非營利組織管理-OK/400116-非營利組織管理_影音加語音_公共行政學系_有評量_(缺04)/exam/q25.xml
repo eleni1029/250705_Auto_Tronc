@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:30:"第二十五講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067462_101772" title="社會資源連結對台灣非營利組織的經營有 ...">
+    <presentation label="社會資源連結對台灣非營利組織的經營有 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;社會資源連結對台灣非營利組織的經營有何重要性？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;社會資源連結對台灣非營利組織的經營格外重要，根據國內鄭怡世（民90）的研究可以歸納為幾項：&lt;br /&gt;
+1.可藉以倡導機構的服務理念，發揮教育社會大眾，誘導企業社會責任的功能。&lt;br /&gt;
+2.可藉以提昇機構的聲望與能見度，贏得社會大眾的認同，確立機構的正當性地位。&lt;br /&gt;
+3.透過跨組織間的合作，可以有效降低社會服務傳遞的成本，擴展機構的服務領域；並以這種動態的互動關係為平台，從中學習新的知識、技術，發機構新的競爭能力。&lt;br /&gt;
+4.經營社會資源的連結，可以發生資源匯聚的效果，對經費普遍困窘的台灣中小型非營利組織來說，是克服資金短缺又能積極作為的重要策略。&lt;br /&gt;
+然而，社會資源的連結並非一廂情願的事情，任何只靠單方機構的努力仍然不能為功，其間仍存在許多待克服的困難。學者邱瑜瑾（民88）針對台中市非營利組織所做的資源連結研究中發現：由於機構本身的資源體質過差，另一方面又過於依賴對政府補助資源的浥注，再加上缺乏和企業資源相連結的經驗，因此交往管道有限，發生侷促一隅而無法有效開拓資源結盟的對象。劉麗雯（民90）則進一步指出，非營利機構所處環境的特性、資源網絡成員的特質、機構身處資源網絡結構中的位置，與資源網絡中成員關係建立的基礎等四項因素，對於非營利組織構築社會資源網絡的成敗具有關鍵性的影響。總之，社會資源連結的經營並非一朝一夕的工作，必須以有計劃的方式先評估機構本身的使命特性與需求落點，透過正式與非正式的管道，動員組織上下成員、志工廣結善緣，以誠實互利的態度建立長期的信任關係，並能善體人意的就結盟對象的立場考量其能力範圍，如此才可能創造一個雙方皆贏，都能滿意的友善情誼。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>25</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067472_803252" title="非營利組織若要進行公關，其主要的工作 ...">
+    <presentation label="非營利組織若要進行公關，其主要的工作 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;非營利組織若要進行公關，其主要的工作內容為何？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;1.出版刊物鼓吹理念：非營利組織為了讓更多人瞭解組織、認同理念，多會定期出版刊物，說明組織目標、介紹工作內容、推廣組織理念並宣揚工作成果。這樣的刊物多以免費贈閱的方式發行，或是寄給捐款人。由於不採行商業發行的方式流通，因此閱讀的普及率不高。&lt;br /&gt;
+2.宣傳募款活動：非營利組織的運作必須靠會員或支持者的捐款，所以募款活動往往是非營利組織年度公關的重頭戲。以美國早期非營利組織為例，1905年華盛頓青年畫為籌募建築基金，舉行大規模的募集資金運動，其中運用公共關係的技術使得結果相當成功；其運用的公關技術廣為教會、學校、衛生保健及社會福利機構仿效學習。&lt;br /&gt;
+3.招募志願工作者：非營利組織可用的現金資源有限，只能有少數的支薪人員，組織的運作大部分仰賴志願工作者，非營利組織如何吸引志工的加入，公關活動就是其中重要的方法之一。&lt;br /&gt;
+4.建立媒體關係：媒體知名度雖然不是非營利組織的經營目標，但卻是重要的手段工具。媒體一則正面的報導不僅無形的拓展組織知名度，同時更能帶來實質的資源，如捐款、志工、大額捐款人士等。對於非營利組織公關而言，媒體報導是免費的宣傳，效果大過公益廣告，如何以最節省的方式達到最好的宣傳效果，誠為非營利組織公關的重要目標。&lt;br /&gt;
+5.政治遊說推動立法：許多非營利組織成立是為特定弱勢公眾喉舌，透過與一般民眾及政治人物的溝通，引導其正視被忽略的小眾權益；例如殘障聯盟、勞工陣線聯盟、婦女團體等。因此非營利組織有必要積極投入立法與行政的遊說過程，有愈來愈多的非營利機構對公關媒體的操作日趨嫻熟，以新聞稿、聲明、讀者投書、行動劇等方式來造勢。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>25</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

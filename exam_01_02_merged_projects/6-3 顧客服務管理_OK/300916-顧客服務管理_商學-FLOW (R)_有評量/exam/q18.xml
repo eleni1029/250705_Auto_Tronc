@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:27:"第十八講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1688988936_981298" title="在商業方面，資料探勘主要的應用方式為 ...">
+    <presentation label="在商業方面，資料探勘主要的應用方式為 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;font color="#000000" size="2"&gt;在商業方面，資料探勘主要的應用方式為顧客群分類、購物籃分析以及顧客保留等。&lt;/font&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>18</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1688988967_326038" title="吸引一個新顧客的成本要比留住一個舊顧 ...">
+    <presentation label="吸引一個新顧客的成本要比留住一個舊顧 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;font color="#000000" size="2"&gt;吸引一個新顧客的成本要比留住一個舊顧客的成本為低。&lt;/font&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>18</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1688988990_947207" title="近年來，資料探勘的技術也被廣泛的應用 ...">
+    <presentation label="近年來，資料探勘的技術也被廣泛的應用 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;font color="#000000" size="2"&gt;近年來，資料探勘的技術也被廣泛的應用在網路顧客行為的探勘上。&lt;/font&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>18</wm:chapter>
+      <wm:paragraph>3</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1688989027_743653" title="亞馬遜網路書店的競爭策略是「將心放在 ...">
+    <presentation label="亞馬遜網路書店的競爭策略是「將心放在 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;font color="#000000" size="2"&gt;亞馬遜網路書店的競爭策略是「將心放在顧客上，而非競爭對手上」。&lt;/font&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>18</wm:chapter>
+      <wm:paragraph>4</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1688989097_834790" title="內建式的資料探勘技術(Embedded Data M ...">
+    <presentation label="內建式的資料探勘技術(Embedded Data M ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;font color="#000000" size="2"&gt;內建式的資料探勘技術(Embedded Data Mining)是未來資料探勘的發展趨勢。&lt;/font&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>18</wm:chapter>
+      <wm:paragraph>5</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

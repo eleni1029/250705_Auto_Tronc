@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:24:"第六章　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631829_971779" title="家庭倫理教育是指增進子女或被監護人對 ...">
+    <presentation label="家庭倫理教育是指增進子女或被監護人對 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;家庭倫理教育是指增進子女或被監護人對父母或監護人應盡義務與應享權益之教育活動及服務。&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀&lt;/span&gt;&amp;nbsp; &lt;span style="font-family:新細明體,serif;"&gt;第&lt;/span&gt;1&lt;span style="font-family:新細明體,serif;"&gt;節&lt;/span&gt; &lt;span style="font-family:新細明體,serif;"&gt;家庭倫理教育的意涵與重要性&lt;/span&gt; &amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;根據家庭教育法施行細則第二條，倫理教育係指增進家族成員相互尊重與關懷之教育活動及服務；子職教育係指增進子女或被監護人對父母或監護人應盡義務與應享權益之教育活動及服務。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>6</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631843_346085" title="在夫妻倫理中，有嚴格的男女禮法，把男 ...">
+    <presentation label="在夫妻倫理中，有嚴格的男女禮法，把男 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;在夫妻倫理中，有嚴格的男女禮法，把男女成員隔離開來，不允許夫妻的婚姻情感外露，是目前受到大眾認同的夫妻倫理關係。&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀&lt;/span&gt;&amp;nbsp; &lt;span style="font-family:新細明體,serif;"&gt;第&lt;/span&gt;1&lt;span style="font-family:新細明體,serif;"&gt;節&lt;/span&gt; &lt;span style="font-family:新細明體,serif;"&gt;家庭倫理教育的意涵與重要性&lt;/span&gt; &amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;現代的婚姻關係：重視彼此的投契之情、親近之情與欣賞之情等，男女平等、身心契合、相互砥礪與雙向溝通是現代婚姻與夫妻關係的要素。和諧且相互尊重的夫妻倫理關係，包含擁有性別平等的觀點、對婚姻關係的重視與承諾、注重夫妻親密關係與情感，及夫妻家事分工達到合作共親職，是現代大眾認同並且應建立的現代化夫妻倫理關係。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>6</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631859_009583" title="臺灣邁入高齡化社會，為倡導敬老尊賢美 ...">
+    <presentation label="臺灣邁入高齡化社會，為倡導敬老尊賢美 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;臺灣邁入高齡化社會，為倡導敬老尊賢美德，訂定每年8月第4個週日為「祖父母節」，希望透過這個節日，喚起大家重視家庭世代關係。&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀&lt;/span&gt;&amp;nbsp; &lt;span style="font-family:新細明體,serif;"&gt;第&lt;/span&gt;2&lt;span style="font-family:新細明體,serif;"&gt;節&lt;/span&gt; &amp;nbsp; &lt;span style="font-family:新細明體,serif;"&gt;家庭倫理教育活動&lt;/span&gt; &amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;教育部&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;2010&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;年&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;8&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;月&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;18&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;日宣布&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;8&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;月&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;29&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;日為第一屆「祖父母節」，訂定每年&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;8&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;月第&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;4&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;個週日為「祖父母節」，對象包括祖父母和外公外婆。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>6</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631897_827761" title="「祖父母會較重視孫子女的發展和教育， ...">
+    <presentation label="「祖父母會較重視孫子女的發展和教育， ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;「祖父母會較重視孫子女的發展和教育，希望與孫子女有良好的互動關係。」，較傾向下列何種祖父母的角色信念？&lt;/span&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>陪伴支持</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>良師益友</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>經驗傳承</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>寵愛寬鬆</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">2</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀&lt;/span&gt;&amp;nbsp; &lt;span style="font-family:新細明體,serif;"&gt;第&lt;/span&gt;1&lt;span style="font-family:新細明體,serif;"&gt;節&lt;/span&gt; &lt;span style="font-family:新細明體,serif;"&gt;家庭倫理教育的意涵與重要性&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;陪伴支持：長輩們想藉由自己的協助使子女降低後顧之憂，另外也希望透過協助和陪伴，能和孫子女一起成長並度過快樂的時光。&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;良師益友：祖父母會較重視孫子女的發展和教育，希望與孫子女有良好的互動關係。&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;經驗傳承：長輩們會希望將過去的生活經驗或技能、母語等傳承給孫子女，並讓孫子女們更了解家族的歷史。&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;寵愛寬鬆：長輩們會用送禮物或管教較寬鬆的方式來親近孫子女，並較容易忽略孫子女的不良行為等。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>6</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631947_008418" title="下列敘述較傾向何種子職內涵？  「子 ...">
+    <presentation label="下列敘述較傾向何種子職內涵？  「子 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;下列敘述較傾向何種子職內涵？&lt;/p&gt;
+
+&lt;p&gt;「子女表達對父母的祝賀及感謝，與父母親分享新觀念，讓他們與子女一同成長；子女有良好表現時，會讓父母分享自己的成就與榮耀等。」&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>獨立自制</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>陪伴體恤</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>反哺回饋</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>聯繫安心</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">3</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;建議再閱讀 &amp;nbsp;第3節&amp;nbsp;&amp;nbsp; &amp;nbsp;子職教育的意涵、重要性和家庭教育活動 &amp;nbsp;&lt;br /&gt;
+獨立自制：做好自己分內的事情，而不讓父母擔心等。&lt;br /&gt;
+陪伴體恤：花時間與父母相處、陪父母做他們想要做的事；站在父母親的立場替他們著想、體會父母親的辛勞等。&lt;br /&gt;
+反哺回饋：子女表達對父母的祝賀及感謝，與父母親分享新觀念，讓他們與子女一同成長；子女有良好表現時，會讓父母分享自己的成就與榮耀等&lt;br /&gt;
+聯繫安心：外出時，會告知父母親自己的行蹤；使父母瞭解自己的交友狀況；晚歸時會打電話給父母報平安等。&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>6</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

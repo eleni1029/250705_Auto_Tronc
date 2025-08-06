@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:27:"第十三章　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10045002_1735281703_599667" title="人員選任、分派、安置、派駐國外人員之 ...">
+    <presentation label="人員選任、分派、安置、派駐國外人員之 ...">
+      <flow>
+        <material>
+          <mattext>人員選任、分派、安置、派駐國外人員之管理、與地主國關係維持，這些都是在國際化後人力資源管理部門所增加的工作。</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>建議再閱讀13.1國際人力資源管理新挑戰
+當企業從母國跨出國際化的步伐後，在人力資源管理上，會有什麼變化呢？根據學者的看法(Dowling and Schuler, 1990)：
+
+1.更多的人事功能和活動                                                                   
+諸如人員選任、分派、安置、派駐國外人員之管理、與地主國關係維持，這些都是在國際化後人力資源管理部門所增加的工作。</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>13</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+    <wm:origin_id/>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10045002_1735281716_823035" title="文化隨著國際化而多變，企業員工會有短 ...">
+    <presentation label="文化隨著國際化而多變，企業員工會有短 ...">
+      <flow>
+        <material>
+          <mattext>文化隨著國際化而多變，企業員工會有短期出差、長期駐點、派駐當地等不同工作任期，這是企業邁入國際化，員工因其任務而出現之新型態。</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>建議再閱讀13.1國際人力資源管理新挑戰
+
+國際化後對企業的影響，在人力資源管理的基本變化方面，其實可用以下七個C來表示：
+
+1.世界人（Cosmopolitans）
+人員角色隨著國際化而多變，企業員工會有短期出差、長期駐點、派駐當地等不同工作任期，這是企業邁入國際化，員工因其任務而出現之新型態。</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>13</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+    <wm:origin_id/>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10045002_1735281730_957537" title="以麥當勞為例，當其進行國際化初期，係 ...">
+    <presentation label="以麥當勞為例，當其進行國際化初期，係 ...">
+      <flow>
+        <material>
+          <mattext>以麥當勞為例，當其進行國際化初期，係以美國的標準化漢堡為主，在世界各地銷售。完全以美國的觀念來思考和供應食品，這就是多元中心導向。</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>建議再閱讀13.2經營國際團隊
+母國中心導向
+母國中心導向(ethnocentric orientation)係企業決策者認為母國比其他國家優越，因而，採取母國為中心之管理哲學。
+
+採取母國中心管理哲學之企業，一般均具有國家或種族優越，企業只注意海外市場之相似性，並且認為母國可銷售之產品/服務，在另一個地區當然也可如法泡製銷售。因而，從另外一個角度分析，母國中心導向基本上會忽視或忽略海外市場的許多差異性，而係以標準化或延伸導向 (standardized or extension approach)，進行國際運作。
+
+以麥當勞為例，當其進行國際化初期，係以美國的標準化漢堡為主，在世界各地銷售。完全以美國的觀念來思考和供應食品，這就是母國中心導向。</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>13</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+    <wm:origin_id/>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10045002_1735281743_561418" title="全球中心導向(geocentric orientation) ...">
+    <presentation label="全球中心導向(geocentric orientation) ...">
+      <flow>
+        <material>
+          <mattext>全球中心導向(geocentric orientation)係將全球視為單一市場，試圖以單一之行銷策略，涵括全球市場之管理導向。</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>建議再閱讀13.2經營國際團隊
+全球中心導向
+全球中心導向(geocentric orientation)係將全球視為單一市場，試圖以單一之行銷策略，涵括全球市場之管理導向。採取全球中心導向之企業，稱之為全球企業(global company)，其管理思維不侷限於一地或少數國家之考量，完全以全球為主要思考標的，而不論是標準化/延伸或當地化/調整，都係管理者合併在行銷規劃之考量。</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>13</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+    <wm:origin_id/>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10045002_1735281754_255125" title="Columbia Journal of World Business， ...">
+    <presentation label="Columbia Journal of World Business， ...">
+      <flow>
+        <material>
+          <mattext>Columbia Journal of World Business，將海外人員工作分為四類：CEO(Chief Executive)、部門主管(Functional Head)、問題解決者(Trouble Shooter)和操作員(Operative)。</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>建議再閱讀12.3外派人員遴選問題
+外派成功因素
+R. L. Tung曾在Columbia Journal of World Business，將海外人員工作分為四類：CEO(Chief Executive)、部門主管(Functional Head)、問題解決者(Trouble Shooter)和操作員(Operative)。在以美國八十家的調查資料中，歸納出影響外派成功的四大主要因素為：工作技術能力(technical competence)、個人特質或相關能力、環境變數和家庭狀況( Tung, 1981)。</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>13</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+    <wm:origin_id/>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10045002_1735281768_517385" title="外派經理人遴選條件中的文化同情性是指 ...">
+    <presentation label="外派經理人遴選條件中的文化同情性是指 ...">
+      <flow>
+        <material>
+          <mattext>外派經理人遴選條件中的文化同情性是指企業應注意經理人是否能對於不同人、文化、企業營運領域，具有整合能力。經理人對變化的調適，例如：地主國特殊環境，體認出與母國經營環境之差異，並做因應。</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>建議再閱讀12.3外派人員遴選問題
+1.	文化同情性
+學者 Thomas Aitken認為，文化的敏感性(sensitivity)是一位國際經理人的基本特質。而文化同情性 (cultural empathy)則是因為人類文化之差異，注意及願意去理解其他人文化為何如此？國外的研究，大都將文化處理，歸為國際經理人之重要特質，其理由即在於文化會影響一國人之行為、思考模式、待人處世。不了解當地文化，不尊重對方文化，根本無法溝通、對話、協調，尋求出與對手或顧客的共通點，解決雙方歧見。
+
+2.	調適力
+既然有敏感性也有同情心之後，如何調適(adaptability)就成為國際經理人的第二項重要條件。企業應注意經理人是否能對於不同人、文化、企業營運領域，具有整合能力。經理人對變化的調適，例如：地主國特殊環境，體認出與母國經營環境之差異，並做因應。</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>13</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+    <wm:origin_id/>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10045002_1735281783_303715" title="回任(repatriation)係外派人員被調回母 ...">
+    <presentation label="回任(repatriation)係外派人員被調回母 ...">
+      <flow>
+        <material>
+          <mattext>回任(repatriation)係外派人員被調回母國工作。人員回任後之調適和處置，也是企業若有完整國際人力資源管理觀念之必要訓練項目。</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>建議再閱讀12.4外派人員訓練問題
+回任
+回任(repatriation)係外派人員被調回母國工作。人員回任後之調適和處置，也是企業若有完整國際人力資源管理觀念之必要訓練項目。
+
+企業人員回任，第一個是遭遇職位和薪水問題，有可能無法有相當之職位？也有可能薪資和其他待遇會削減？第二個問題往往更為嚴重的是眷屬的調適問題，例如：子女在美國或日本已經就讀多年，那父母親回任後，子女的教育問題，是留在原地或是跟隨回母國？</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>13</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+    <wm:origin_id/>
+  </item>
+</questestinterop>

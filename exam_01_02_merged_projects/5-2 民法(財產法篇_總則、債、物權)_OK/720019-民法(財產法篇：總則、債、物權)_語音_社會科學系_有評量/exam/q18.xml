@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:27:"第十八講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692581333_295140" title="甲向B銀行貸款一千萬元，並以乙之房子 ...">
+    <presentation label="甲向B銀行貸款一千萬元，並以乙之房子 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;甲向B銀行貸款一千萬元，並以乙之房子設定抵押權擔保之。若是甲因財務困難而無力清償該債務，乙得否代為清償？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;答：民法311 II，第三人之清償，債務人有異議時，債權人得拒絕其清償。但第三人就債之履行有利害關係者，債權人不得拒絕。由於乙以其房子作為甲向B銀行借款之擔保，故乙為利害關係人，故乙之清償，B銀行不得拒絕之。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>18</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692581341_977971" title="甲積欠乙十萬元之貨款，逾期不還。某日 ...">
+    <presentation label="甲積欠乙十萬元之貨款，逾期不還。某日 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;甲積欠乙十萬元之貨款，逾期不還。某日，甲與乙相遇，兩人一言不合，乙拿起棍棒將甲打成重傷。乙得否以其對甲構成之侵權行為損害賠償之債務與甲積欠之貨款抵銷之？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;答：民法339，因故意侵權行為而負擔之債，其債務人不得主張抵銷。本題乙打傷甲乃為故意之侵權行為，故其因故意侵權行為而生之債務不得與其對甲貨款債權主張抵銷之。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>18</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692581352_596770" title="甲對乙負有十萬元貨款債務，約定於10月 ...">
+    <presentation label="甲對乙負有十萬元貨款債務，約定於10月 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;甲對乙負有十萬元貨款債務，約定於10月1日清償。甲得否提前一個月，而於9月1日清償該貨款債務？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;答：民法316，定有清償期者，債權人不得於期前請求清償，如無反對之意思表示時，債務人得於期前為清償。因而，甲與乙間如無特別約定不得期前清償，甲得提前清償期對乙之債務。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>18</wm:chapter>
+      <wm:paragraph>3</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

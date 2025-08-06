@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:30:"第二十九講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692582418_861571" title="在土地所有人建築房屋因重大過失逾越地 ...">
+    <presentation label="在土地所有人建築房屋因重大過失逾越地 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;在土地所有人建築房屋因重大過失逾越地界的情形，下列關於鄰地所有人得否請求移去其房屋的敍述，何者正確？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>不論鄰地所有人是否知其越界而不即提出異議，都可以請求移去或變更其房屋。</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>以鄰地所有人知其越界而即提出異議，才可以請求移去或變更其房屋。</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>以鄰地所有人知其越界且在合理期間内提出異議，才可以請求移去或變更其房屋。</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext/>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">1</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;説明：民法第七百九十六條規定「土地所有人建築房屋非因故意或重大過失逾越地界者，鄰地所有人如知其越界而不即提出異議，不得請求移去或變更其房屋。但土地所有人對於鄰地因此所受之損害，應支付償金。」&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>29</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692582442_139730" title="下列關於規約與契約對於區分所有建築物 ...">
+    <presentation label="下列關於規約與契約對於區分所有建築物 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;下列關於規約與契約對於區分所有建築物繼受人是否發生拘束力的敍述，何者正確？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>規約及契約對於繼受人一律有拘束力</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>規約及契約對於繼受人以明知或可得而知為限，有拘束力</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>規約對於繼受人一律有拘束力，契約以繼受人明知或可得而知為限，有拘束力。</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext/>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">3</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;説明：區分所有人間依規約所生之權利義務，繼受人應受拘束。其依其他約定所生之權利義務，特定繼受人對於約定之內容明知或可得而知者，亦同（民法第七九九條之一第四項)&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>29</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

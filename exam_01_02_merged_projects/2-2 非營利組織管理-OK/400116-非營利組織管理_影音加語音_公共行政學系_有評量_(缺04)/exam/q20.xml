@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:27:"第二十講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067266_639879" title="若與政府相比較，非營利組織具有那幾項 ...">
+    <presentation label="若與政府相比較，非營利組織具有那幾項 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;若與政府相比較，非營利組織具有那幾項優點？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;第一點，非營利組織較易滿足社會多方的需求：因為在經濟與社會的快速變遷之下，人民的需求將會日益多樣化。若將這些需求交由政府來提供相關的服務，人民可能會擔心政府權力過份擴張。另外一方面，由於政府的施政必須以多數的民意為依歸，換言之，少數人的權益很可能就會被政府犧牲掉。而非營利組織所呈現的多樣性，正好可以滿足這些新興的、非主流的需求，並可讓人民免除政府權力無限擴大的疑慮。&lt;br /&gt;
+第二，非營利組織的另一項優點，其是不受民意機關的監督及層層法令的限制。因此，在服務方式的創新上，會較政府容易且更迅速。故當社會上出現新的需求時，非營利組織往往能當先反應，而不是政府部門。就以照顧身心障礙者而言，若不是有伊甸基金會的堅持，那會有身心障礙者保護法的通過，亦不會有無障礙空間的強制規定。&lt;br /&gt;
+最後，非營利組織的第三項優點為服務效率較高，因為非營利組織在組織結構上，其受到的監督程度不似政府般的嚴格，因此沒有所謂層級節制的問題，故自然在效率上會優於政府部門。就以中低收入者的救助而言，政府部門常要藉由收入所得與相關財產的調查來決定救助金的發放。若有一戶低收人家庭，其名下雖有房子，但早己破爛不堪居住，惟礙於規定卻不能領取救助金，您說公平嗎？&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>20</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067276_623073" title="那些因素會造成非營利組織出現「志願服 ...">
+    <presentation label="那些因素會造成非營利組織出現「志願服 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;那些因素會造成非營利組織出現「志願服務的失靈」的窘境？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;非營利組織很可能會因下列因素的影響而出現「志願服務的失靈」的窘境，因而需要政府的涉入或贊助：&lt;br /&gt;
+1.公益的不足：非營利組織的財力與人力有限，故無法提供足夠的集體性財貨與服務，以滿足社會所有的需求，以致出現公益不足的現象。&lt;br /&gt;
+2.公益的特殊性：每個非營利組織皆有其特定的受惠或服務的對象，以致造成公益服務無法普及，進而產生各地區、各團體在福利服務上受到差別的待遇，且很容易產生服務的重複與浪費。諸如許多基金會皆一窩蜂地提供兒童福利，但對於罕見疾病卻不提供相關照顧，就是一個實例。&lt;br /&gt;
+3.公益的干涉：捐贈者因捐助大量的資源而對非營利組織的管理與服務對象的決定產生左右的現象，即有錢者可決定服務的內容而出現干涉的情形。諸如廠商贊助某基金會的活動，但卻要求該基金會要配合其廣告宣傳與相關產品的販售，便是很好的實例。&lt;br /&gt;
+4.公益的業餘性：非營利組織因資源上的限制，通常會以無給職方式或較低廉的薪資做為人事任用的依據，以致較難吸收到專業的人才，而出現專業不足的問題。就以一般基金會為例，其專職人員的薪水就比外面私人企業為低，且無獎金可拿，故較不易招募到專業的人才。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>20</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

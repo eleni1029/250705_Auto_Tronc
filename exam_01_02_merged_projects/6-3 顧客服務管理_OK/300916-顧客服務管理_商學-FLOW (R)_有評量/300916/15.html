@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>第 15 講 - 顧客服務資料倉儲的架構</title>
+<link rel="stylesheet" href="https://uu.nou.edu.tw/fplayer/skin/skin.css">
+<link href="course.css" rel="stylesheet" type="text/css" />	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+<!--
+body {
+	background-image: url(img/bg.jpg);
+}
+.style1 {
+	color: #000000;
+	font-weight: bold;
+}
+.flowplayer {max-width: 640px; max-height: 360px; }
+-->
+</style></head>
+   <!-- for video tag based installs flowplayer depends on jQuery 1.7.2+ -->
+   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+   <!-- include flowplayer -->
+   <script src="https://uu.nou.edu.tw/fplayer/flowplayer.min.js"></script>
+   <script src="https://releases.flowplayer.org/hlsjs/flowplayer.hlsjs.min.js"></script>
+   <!-- the speed menu plugin -->
+   <script src="//releases.flowplayer.org/speed-menu/flowplayer.speed-menu.min.js"></script>
+   <script>
+		flowplayer.conf = {
+			fullscreen: true,
+			// iOS allows only native fullscreen from within iframes
+			native_fullscreen: true
+		};
+	</script> 
+<body><div align="center">
+<div id="audio" class="flowplayer no-toggle"  data-share="false" data-swf-hls="https://uu.nou.edu.tw/fplayer/flowplayerhls.swf" data-key="$519606731317810">
+<video data-title="NOU" poster="https://uu.nou.edu.tw/fplayer/preview.jpg">
+<source type="application/x-mpegurl" src="https://codm.nou.edu.tw/vod/_definst_/300916/300916_15.mp4/playlist.m3u8">
+</video>
+</div></div>
+<div id="wrapper">
+  
+<h2 align="center">&nbsp;</h2>
+<h2 align="center"><span class="body_th">第 15 講 - 顧客服務資料倉儲的架構</span></h2>
+<h2><span class="body_th">講次摘要</span>　　</h2>
+<p><span style="margin-left: 10px; margin-top: 10px;"> 壹、講次大綱：</span></p>
+<p><span style="margin-left: 10px; margin-top: 10px;">一、顧客資料倉儲的架構<br>
+  </span><span style="margin-left: 10px; margin-top: 10px;">
+    二、顧客資料倉儲的核心 <br />
+    <br />
+    貳、講次內容：</span></p>
+<p><span style="margin-left: 10px; margin-top: 10px;">  一、顧客資料倉儲的架構<br />
+  資料倉儲的整體環境可分為五個主要的部分：</span></p>
+<blockquote>
+  <p><span style="margin-left: 10px; margin-top: 10px;">  (一)資料轉換<br />
+    資料倉儲中的資料是經過整合的，所以必須先對這些從不同資料庫所擷取來的資料進行清理、轉換及合併等前置處理的作業，才能存放到倉儲資料庫中。</span></p>
+  <p><span style="margin-left: 10px; margin-top: 10px;">    (二)中繼資料(Metadata)<br />
+    使用者經由前端應用存取工具要存取倉儲資料庫中的資料時，必須透過此中繼資料才能完成，它扮演了倉儲資料庫與使用者之間的重要橋樑。</span></p>
+  <p><span style="margin-left: 10px; margin-top: 10px;">    (三)倉儲資料庫<br />
+    來自於各個資料庫有著不同格式的資料，經過資料轉換工具的清理、轉換與合併後，就存放在此倉儲資料庫中，亦即它是資料的真正儲存處所。</span></p>
+  <p><span style="margin-left: 10px; margin-top: 10px;">    (四)前端應用存取工具<br />
+    使用者要查詢倉儲資料庫中的資料，必須透過前端的應用存取工具才能存取，這些工具包括有資料查詢及報表列印工具、線上分析處理工具、資料探勘工具等。</span></p>
+  <p><span style="margin-left: 10px; margin-top: 10px;">    (五)維運管理工具<br />
+    每一種系統的運作都需要有工具來管理，而整個資料倉儲的運作就是透過此維運管理工具來管理。</span></p>
+</blockquote>
+<p><span style="margin-left: 10px; margin-top: 10px;"><br />
+  二、顧客資料倉儲的核心<br />
+  一個資料倉儲主要是由事實資料表(Fact Table)與維度資料表(Dimension Table)所組成，兩者間透過索引鍵建立關聯。由事實資料表與維度資料表所組成的就是一個資料倉儲的資料架構，又稱為資料庫綱要(Schema)。資料庫綱要可依事實資料表與維度資料表的關聯性與綱要形狀，區分成三種架構：</span></p>
+<blockquote>
+  <p><span style="margin-left: 10px; margin-top: 10px;">  (一)星狀綱要(Star Scheme)<br />
+    星狀綱要是最常見的綱要格式，在星狀綱要中，事實資料表是整個結構的中心，事實資料的欄位通常是由一群主鍵值所組成，而這一群主鍵值又與其相連的維度表形成關聯，因此事實資料表有如星星一樣，而維度資料表則有如星星的光芒一般。</span></p>
+  <p><span style="margin-left: 10px; margin-top: 10px;">    (二)雪花綱要(Snowflake Scheme)<br />
+    雪花綱要是星狀綱要的變形，主要是用來描述某些維度資料表間的關聯性，其優點是減少資料的重複性與空間浪費的問題。</span></p>
+  <p><span style="margin-left: 10px; margin-top: 10px;">    (三)星雲綱要(Galaxy Scheme)<br />
+    星雲綱要是星狀綱要的一種集合，它具有多重的事實資料表，並且分別共用特定的維度資料表，星雲綱要通常由兩個以上的星狀綱要所組成。 <br />
+      <br />
+    熊東亮老師提供 </span></p>
+</blockquote>
+<p>&nbsp;</p>
+</div>
+</body>
+</html>

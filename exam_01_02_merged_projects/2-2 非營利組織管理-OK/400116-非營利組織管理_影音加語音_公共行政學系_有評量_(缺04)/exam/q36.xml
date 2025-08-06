@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:30:"第三十六講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692068717_325149" title="公辦民營對台灣的民間社福機構會產生那 ...">
+    <presentation label="公辦民營對台灣的民間社福機構會產生那 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;公辦民營對台灣的民間社福機構會產生那些衝擊？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;1.造成總體社福領域在財源收入方面的排擠效應。公辦民營政策的本意，原在選擇性扶持少受社會關注卻有迫切需求的社福領域，但機構成立運作後亦少見主管機關定期評估其效果，久而久之，就會產生社福政府資源分配失衡的效應。新生的社會問題與人口不但乏人問津，非營利的先驅團體益顯財務困窘，社服資源的排擠效應就會發生。&lt;br /&gt;
+2.因過度倚賴政府財務補助而喪失自主性。當非營利組織的收入超過50%仰賴固定捐（補）助對象時，其自主性就會逐漸瓦解。其對成立使命、標的人口、計畫目標、活動方式、作業程序等決策事宜，將受到主要捐（補）助人的左右。公辦民營下的非營利組織，多少已成為政府的下級機關；相關研究顯示，將出現創新能力下跌、服務工作斷續、服務品質低落等問題。&lt;br /&gt;
+3.市場競爭的機制破壞非營利組織社會自主的本質。近世非營利組織之所以成為政府、市場之外的第三部門，乃在於展現社會自主的動能性格。第一是，補充經濟市場無利可圖不願為，卻又直接關係社會公平的各項扶助福利措施。第二是，補充政府計畫干預下社會安全網的嘑隙。第三是，藉由民間自發力量，跳脫政策立法的延宕程序、行政機關的僵化作業，而能展現彈性、創新、實效的作為。最後來說，透過社會的良知選擇，以隨機自然的方式，進行社會資源的重新分配，並能啟發人群的利他文化。但當我們又將此一寶貴的動能，交由市場競爭的機制來處理，豈非回歸故舊、問道於盲？&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>36</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692068730_517959" title="全球化對非營利組織會產生那些深刻的影 ...">
+    <presentation label="全球化對非營利組織會產生那些深刻的影 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;全球化對非營利組織會產生那些深刻的影響？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;（一）非營利組織願景眼界與組織型態的調整：非營利組織的服務範圍從超越地方、國家的界線，擴展到國際間的公共事務。跨國的國際性非營利組織愈來愈有需要，跨國奧援的社會運動組織將發揮前所未見的政策影響力。&lt;br /&gt;
+（二）非營利組織活動內容的衝擊：具體來說，非營利組織的活動將走向：&lt;br /&gt;
+1.國際的救災援助與人道服務，隨著全球化的發展，非營利組織國際救援的種類與頻率將大幅增加，終而為國際性的組織。2.跨國的政策倡議，國內小眾對社會前緣問題的關心不再孤立無援，舉凡環境生態保育、人權人道關懷、政治貪污改革等議題，將有效結合全球有道之士，不分國家界域，形成共同的改革同盟。3.國際學習效應的發生，隨著跨國非營利組織的交流與合作，彼此間的經驗分享與仿傚學習將更加頻繁。活動內容不但更加活潑，效果與影響亦隨之擴大，跨文化的接觸更加深人們對多元價值的思考與接納。&lt;br /&gt;
+（三）非營利組織責任內涵的改變：由於非營利組織在全球化的影響下，其應盡之社會責任有何改變？課究責任的機制又會如何？學者建議可從以下幾點來查檢未來非營利組織善盡社會功能的不同程度：&lt;br /&gt;
+1.是否有效運用多種資源，針對相近領域的非營利組織活動，總體評估其能否有效動員資源人力，相關問題獲得舒解的程度如何，進行比較與組合比較。&lt;br /&gt;
+2.社會回應力是否增強，非營利組織對國內外公共議題的關注程度是否平衡，回應標的人口需求的能力是否衰退，服務對象的數量與種類有何改變。&lt;br /&gt;
+3.對組織核心價值的推展能力，非營利組織有關機構使命隨時代環境改變，其價值觀的論述能力有否增長，服務對象的滿足程度是否提高，利他的規範性行為是否養成，組織利害關係人（如捐助者）的熱情是否改變。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>36</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

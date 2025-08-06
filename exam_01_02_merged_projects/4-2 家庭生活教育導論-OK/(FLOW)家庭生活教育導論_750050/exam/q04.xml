@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:24:"第四章　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631220_629847" title="公民為了維持國家、社會的永續發展，公 ...">
+    <presentation label="公民為了維持國家、社會的永續發展，公 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;公民為了維持國家、社會的永續發展，公民的生育行為決策也應被視為公民責任的一環。&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀&lt;/span&gt; &amp;nbsp;&lt;span style="font-family:新細明體,serif;"&gt;第&lt;/span&gt;1&lt;span style="font-family:新細明體,serif;"&gt;節&lt;/span&gt; &lt;span style="font-family:新細明體,serif;"&gt;少子化現象的相關論述和說明&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;公民權是一種權利（&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;citizenship-as-rights&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;），公民有權享受經濟、社會生活安全與平等對待，這也是西方社會主義福利國家的重要施政理念；然而在享有國家的服務與支持的同時，公民也有相對應的責任，也就是公民必須積極參與國家公共與私人層面的事務，公民責任（&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;citizenship-as-responsibilities&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;）亦是公民身分另一面的展現；因此積極而非被動的參與社會事務，乃公民責任的一環；公民為了維持國家、社會的永續發展，公民的生育行為決策也應被視為公民責任的一環。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>4</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631233_214019" title="婚姻同時具有「選擇」與「保障」的效果 ...">
+    <presentation label="婚姻同時具有「選擇」與「保障」的效果 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;婚姻同時具有「選擇」與「保障」的效果：前者指出婚姻有助於整合並共享配偶的經濟資源與社會支持系統，使夫妻雙方無論在身心各方面皆呈現較佳的健康狀態，後者指出其身心健康、經濟能力與教育程度較佳者，得在結婚市場取得優勢。&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀第&lt;/span&gt;2&lt;span style="font-family:新細明體,serif;"&gt;節&lt;/span&gt;&amp;nbsp; &lt;span style="font-family:新細明體,serif;"&gt;婚姻與婚姻教育的發展中「婚姻意義的轉變」&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;根據傳統的婚姻理論，婚姻同時具有「選擇」與「保障」的效果：前者指涉身心健康、經濟能力與教育程度較佳者，得在結婚市場取得優勢（&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;Gove et al.,1990&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;），後者指出婚姻有助於整合並共享配偶的經濟資源與社會支持系統，使夫妻雙方無論在身心各方面皆呈現較佳的健康狀態（&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;Waite and Gallagher, 2000&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;；楊文山，&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;2015)&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>4</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631252_652960" title="在婚姻關係建立理論中，強調婚前關係中 ...">
+    <presentation label="在婚姻關係建立理論中，強調婚前關係中 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;在婚姻關係建立理論中，強調婚前關係中兩個人的個性、價值、社會人口變項一致的重要性，兩個人的社經地位愈相近、人生價值愈相似等有助於兩個人發展成伴侶關係，這稱為「社會交換模式」。&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀第&lt;/span&gt;2 &lt;span style="font-family:新細明體,serif;"&gt;節&lt;/span&gt; &lt;span style="font-family:新細明體,serif;"&gt;婚姻與婚姻教育的發展中「婚姻關係的形成、維繫及結束的理論基礎」&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;擇偶根據&lt;/span&gt; Cate &amp;amp; Lloyd (1988) &lt;span style="font-family:新細明體,serif;"&gt;的研究，婚姻關係建立理論歸為三類：相容模式、社會交換模式、人際互動模式。相容模式包含了互補、相似及結果過濾三種理論，此模式強調婚前關係中兩個人的個性、價值、社會人口變項一致的重要性，兩個人的社經地位愈相近、人生價值愈相似等有助於兩個人發展成伴侶關係。社會交換模式強調兩人關係之所以得以發展是由於雙方對彼此交換的報償感到滿意。人際互動理論主張兩個人互動觀感才是關係形成的最主要因素，它融合了前兩個理論觀點，認為「一致」與「交換報償」等靜態指標都是擇偶的重要因素，但更強調兩人關係發展過程中的互動性。&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>4</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631267_036600" title="PREPARE / ENRICH婚姻教育方案是採認知 ...">
+    <presentation label="PREPARE / ENRICH婚姻教育方案是採認知 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;PREPARE / ENRICH婚姻教育方案是採認知─行為策略，看重技巧訓練，透過降低關係中的危險因子，及提升保護因子來幫助夫妻建立快樂且健康的婚姻。&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">F</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀第&lt;/span&gt;3 &lt;span style="font-family:新細明體,serif;"&gt;節婚姻教育的檢測量表與教育方案中「婚姻教育方案」&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;PREP &lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;全名為&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt; Prevention and Relationship Enhancement Program(&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;以下簡稱&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;PREP)&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;，是由&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;1990&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;年代初期由美國丹佛大學&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt; Howard Markman &lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;博士所帶領研究團隊，依實證研結果所發展的婚姻教育方案，採認知&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;─&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;行為策略，看重技巧訓練（&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;Silliman &amp;amp; Schumm, 2000&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;）。透過降低關係中的危險因子（如：溝通不良、衝突處理），及提升保護因子&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;(&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;如：承諾、友誼、親密等）來幫助夫妻建立快樂且健康的婚姻。（&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:Times New Roman,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;Stanley, Blumberg, &amp;amp; Markman, 1999&lt;/span&gt;&lt;/span&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;）。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>4</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10018710_1599631278_529523" title="個人主義只重視眼前利益，即使夫妻雙方 ...">
+    <presentation label="個人主義只重視眼前利益，即使夫妻雙方 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;個人主義只重視眼前利益，即使夫妻雙方擁有經營關係的技巧及知識，仍不足以維持一段穩定滿意的婚姻。「承諾」在婚姻教育中被視為是一個重要的動機，也被認為是維持健康穩定關係至為重要的因子&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice>
+            <response_label ident="T">
+              <flow_mat>
+                <material>
+                  <mattext>Agree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="F">
+              <flow_mat>
+                <material>
+                  <mattext>Disagree</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition>
+        <conditionvar>
+          <varequal respident="ANS01">T</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;建議再閱讀第&lt;/span&gt;4&lt;span style="font-family:新細明體,serif;"&gt;節&lt;/span&gt; &lt;span style="font-family:新細明體,serif;"&gt;婚姻教育推動的實務中「動機及美德」&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-family:新細明體,serif;"&gt;&lt;span style="font-size:12.0pt;"&gt;高度個人主義只重視眼前利益，即使夫妻雙方擁有經營關係的技巧及知識，仍不足以維持一段穩定滿意的婚姻。「承諾」在婚姻教育中被視為是一個重要的動機，也被認為是維持健康穩定關係至為重要的因子。&amp;hellip;要能真正信守承諾，便需要在各種生活的需求中，捍衛你所做的一切決定。個人的人格特質及動機，其實都關乎婚姻成敗。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>4</wm:chapter>
+      <wm:paragraph>0</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

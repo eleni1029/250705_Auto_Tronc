@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:30:"第二十四講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067423_010211" title="非營利組織僱用專職人員的優缺點為何？">
+    <presentation label="非營利組織僱用專職人員的優缺點為何？">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;非營利組織僱用專職人員的優缺點為何？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;依陳金貴（1994:106）教授的看法，雇用職員有優點也有一些缺點。雇用職員的優點有：1.有效率：一些較繁瑣的行政事務如財務報告的保存，以及會議記錄的整理等等，由專業的職員來做會較有條理。2.負責任：職員們在分工後，可以專門處理特定的事務，如回覆協助請求的回信等。3.貢獻：職員們對組織的要求，常能以專業的手法來完成。&lt;br /&gt;
+而雇用職員的缺點有：1.費用的支出：對於一些缺乏基金的組織而言，將費用花費在人事上，是一項頗大的負擔。2.缺乏彈性：雇用與組織活動相關專長的職員，又可能會限制了組織另外新的活動開發。3.帶有危險性：較有能力的職員可能會以自己的想法來處理組織的目標，甚至接收董事會的工作。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>24</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067433_187407" title="若要進行工作分析，其主要的步驟為何？">
+    <presentation label="若要進行工作分析，其主要的步驟為何？">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;若要進行工作分析，其主要的步驟為何？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;一般而言，工作分析的主要程序大致可分為六大步驟：&lt;br /&gt;
+1.決定工作分析的目的：分析目的不同，其所要蒐集的資料及方法亦會有所不同。作為招募甄選用的工作說明書宜著重在實際工作內容與所需的技能；而用以評定薪資水準的工作說明書則將重心置於工作的負擔與職責；用在績效評估者則更重視績效指標的擬定。&lt;br /&gt;
+2.事前的準備工作：宜先檢視與該職位相關的背景資料，如組織結構圖、作業手冊，以及現有的工作說明書等。&lt;br /&gt;
+3.選擇具代表性的職位：將職務相當的職位歸類，並從中挑選較具代表性的職位進行分析，以達節少人力物力的目的。&lt;br /&gt;
+4.開始蒐集資料：可透過面對面的訪談、實際的觀察、問卷調查，以及調閱工作日誌等方式，取得所需資訊。因為各類方法均有其優缺點，故可混合運用，以達精確客觀之要求。&lt;br /&gt;
+5.分析資料：將所蒐集到的資料與員工本身、其直屬長官或相關的業界專家一同檢討分析，使資料能更確實反應該職位的實際工作內容。&lt;br /&gt;
+6.撰寫工作說明書與工作規範：通常由人事部門的專業募僚，依統一的格式撰寫。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>24</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067443_959505" title="何謂「甄選」？甄選的工具宜注意那兩項 ...">
+    <presentation label="何謂「甄選」？甄選的工具宜注意那兩項 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;何謂「甄選」？甄選的工具宜注意那兩項重要問題？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;甄選(selection)代表著二種意涵，一方面是求職者基於受僱人的立場，「選擇」他所擬加入的組織，以便獲致個人的目標（謀生及實現抱負）；另一是則居於雇主的地位，「遴選」它所擬聘用的人才，以便達成組織的目標。但在甄選的過程中，求職者被組織「選」的情況遠多於其「擇」組織的機會。甄選時首重測驗工具的信度與效度的問題，所謂「信度」(reliablility)係指測驗的一致性，即評估結果必須相當可靠。而「效度」(validity)則是指所量度出來的是否是我們原來想量度的東西的一個指標。一般而言，如果甄試測試的信度與效度均高時，表示此項測試能夠充分反映出員工未來在組織中的可能表現。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>24</wm:chapter>
+      <wm:paragraph>3</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

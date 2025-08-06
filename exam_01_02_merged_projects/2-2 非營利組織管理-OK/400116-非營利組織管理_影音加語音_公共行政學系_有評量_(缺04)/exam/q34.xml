@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:30:"第三十四講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692068626_485506" title="我們從師徒制的傳承學習中，促進組織知 ...">
+    <presentation label="我們從師徒制的傳承學習中，促進組織知 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;我們從師徒制的傳承學習中，促進組織知識的分享與流通，試說明評論之。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;不論是制度化的師徒學習，還是非正式的資深人員引導資淺同仁快速進入工作狀況，都是機關組織常用的一種訓練方法。對非營利組織來說，志工原有的工作性質與專業背景未必與投入志願組織後分派的職務相同，因此迫切須要透過一對一或一對多的「師傅－學徒」關係，貼身觀察師傅的實際作法、考量重點與決定的原則，從旁學習並練習操作。就像本章前文所述，組織知識有可言傳者，依靠文書手冊閱讀即有所獲；更有默會的實務理論，非賴親身體驗、試行操作、點撥提醒不可得。&lt;br /&gt;
+此外，動態的師徒學習關係，往往能激發學習動機，產生教學相長的效果。師徒學習制的成功亦繫於幾個條件：一是學徒本身謙虛受教的心理準備與強烈的學習意願，二是老師本身的教學熱誠、開放的胸襟與耐心，三者應針對學習的過程進行紀錄並做適當考察，以發現教學問題即時調整改正。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>34</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692068638_338198" title="試說明知識管理的獎懲制度設計，有何種 ...">
+    <presentation label="試說明知識管理的獎懲制度設計，有何種 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;試說明知識管理的獎懲制度設計，有何種原則可資遵循？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;1.獎懲制度的標準須與知識管理的目標相結合並力求明確，根據知識管理推動的策略與重點，重新檢討獎懲相關規定是否足以支援知識管理的工作，能否有效導引人員的相關行為。設計的要點有二，一是獎懲標準須要具體明確，足供績效評估之用；獎懲亦須有制度化的施行，不能因人而異，才可能形成可預期行為結果的規範。二是針對妨礙知識創新與分享的行為，透過獎懲加以裁抑，如「自以為是」、「本位主義」、「推卸責任」、「逃避問題」、「保守心態」等。&lt;br /&gt;
+2.內滋與外附報償的平衡，為刺激人員行為習慣的移轉，薪資、獎金等外在報償是一種有效的誘因。而榮譽、肯定、升遷等內在報償，也常能發揮意想不到的效果；如何引導人員朝較高層次需求滿足的方向發展，如尊榮感、自我成就感，是獎懲制度設計的重要竅門。此外，中國文化講「規過於私室、揚善於公堂」，對於態度積極表現傑出的個人或單位，組織應以重要儀典的慎重方式來表揚，以塑造知識管理的文化。&lt;br /&gt;
+3.個人獎酬與團隊獎酬的平衡，知識管理的推行不但強調人員個別的表現，如表彰英雄的文化，同時也強調團隊的合作努力，如縮短權力距離的文化。強調個人的功績在於打破「吃大鍋飯」、「黨同伐異」、「壓抑創新」等保守文化的影響力，肯定個別的突出表現。強調團隊績效在於破除「獨善其身」、「敝帚自針」、「自私自利」等妨礙知識分享流通的行為習慣。兩者看似矛盾，實有互補之功；實務上，可先從培養英雄主義做起，一但單位成員的觀念能力提升到齊整的水準後，就要強化團隊精神；也就是先以個人獎酬為始，復以團隊獎酬來取得的動態平衡的效益。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>34</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692068652_636358" title="何謂「企業家精神」的文化（Entreprene ...">
+    <presentation label="何謂「企業家精神」的文化（Entreprene ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;何謂「企業家精神」的文化（Entrepreneurial culture）與授能的文化（Empower culture）？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;簡單來說，企業家精神就是肯冒失敗的風險而勇於創新的精神。要讓員工覺得自己不是龐大組織下的一顆微不足道的小螺絲釘，反而是組織的主人；透過這種肯定自己存在的價值、對公司具有不可替代的貢獻之感覺，員工才可能以更正向的態度面對自己的任務，並主動從工作的執行過程中，即時解決問題、創發專業知識。最重要的是，組織獎懲制度設計應能有效抑制「文過飾非」的自我保護習慣，鼓勵員工嘗試新觀念新作法，而不致受到責罰。&lt;br /&gt;
+所謂「授能」就是讓員工覺得「自己能夠&amp;hellip;」，能夠去做過去自己覺得不能夠的事情；這種「自我效能感」的養成，將給予員工充足的自信心，面對困難挑戰；如此自我管理、自我要求的負責態度就會形成，因此個個都能獨當一面。授能不僅僅是「授權」，授權之外還要給予部屬犯錯的機會，容忍必要的損失成本，以較長期的眼光提升其能力水平。總之，授能的文化奠基在組織對人力資源具有無限潛能的管理哲學之上。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>34</wm:chapter>
+      <wm:paragraph>3</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

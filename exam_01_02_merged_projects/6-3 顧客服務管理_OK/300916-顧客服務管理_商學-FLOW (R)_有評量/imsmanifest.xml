@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.5 SCORM 2004 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" identifier="MANIFEST-9F4F5956A77D88D98B9002652B2EDAC5" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+  </metadata>
+  <organizations default="ORG-AACA3E09615592373531A61C046BAF15">
+    <organization identifier="ORG-AACA3E09615592373531A61C046BAF15" structure="hierarchical">
+      <title>顧客服務管理</title>
+      <item identifier="ITEM-27E1F4F230201A9D0494EE81DF52B63D" isvisible="true" identifierref="RES-8373C4CB20D4A37EC98803BB4B5CB4F1" canpreview="true">
+        <title>課程介紹</title>
+      </item>
+      <item identifier="ITEM-42FE6706D9CB6F0237835A8F1582318F" isvisible="true" identifierref="RES-B231C746F7E3E4BFE61F44D317166C0C" canpreview="true">
+        <title>第 01 講 - 顧客服務很重要</title>
+        <item identifier="ITEM-D2546D5A8E8A83444751B6C1D0373D2C" isvisible="true" identifierref="RES-964B4819A712F061419F72707D06DB78" canpreview="true">
+          <title>補充教材</title>
+        </item>
+      </item>
+      <item identifier="ITEM-D883A95FC9A6CAC1C25C726FC3C2DC78" isvisible="true" identifierref="RES-7E91CD4CF145FF36C0E10007E63E1860">
+        <title>第 02 講 - 服務與顧客價值體驗</title>
+      </item>
+      <item identifier="ITEM-E1420275ECB4D05FA4E0BBA34AB2E67D" isvisible="true" identifierref="RES-3E746893DD4EEFFE59E571C8BF7399FB">
+        <title>第 03 講 - 顧客服務本質與行銷策略</title>
+      </item>
+      <item identifier="ITEM-7171AC31908AC6CDBBC70095AD18029C" isvisible="true" identifierref="RES-5F0A4EBBD18C7693B2AD95C313BB9879">
+        <title>第 04 講 - 顧客服務品牌管理與內部行銷</title>
+      </item>
+      <item identifier="ITEM-313B916BE8417CB3DC87F5EB5C2B3670" isvisible="true" identifierref="RES-8667F7C4DE586ED2750D0FBC19153F03">
+        <title>第 05 講 - 顧客服務接觸與關係管理</title>
+      </item>
+      <item identifier="ITEM-7E2F4CBA769FCD0DFBBA25B060851090" isvisible="true" identifierref="RES-BE5290BD98E8162BD042F6ACF9D3EE58">
+        <title>第 06 講 - 顧客關係品質、價值與忠誠度</title>
+      </item>
+      <item identifier="ITEM-1002E16C4DEFF3B5F0E4222CE8A7B1D1" isvisible="true" identifierref="RES-6995CA3AFB77D6DF148D0C8E1DE15A0D">
+        <title>第 07 講 - 顧客服務品質與管理</title>
+      </item>
+      <item identifier="ITEM-F9482FAE1E2E4F693B2672AFADB0B880" isvisible="true" identifierref="RES-86430970D9CD9DCD075C1865F43898BF">
+        <title>第 08 講 - 顧客服務品質設計</title>
+      </item>
+      <item identifier="ITEM-09C1EAF63B5E54DB263F4A8C8BDE3BE4" isvisible="true" identifierref="RES-6DF06484AAB2EFBE5AB499217D818013">
+        <title>第 09 講 - 顧客服務品質評估</title>
+      </item>
+      <item identifier="ITEM-099B589DB0759E77DCF2B9EEF905DCB0" isvisible="true" identifierref="RES-96EBD241027AF1BC429D85B05DB19367">
+        <title>第 10 講 - 顧客服務人力資源策略與訓練</title>
+      </item>
+      <item identifier="ITEM-1ECD28344F80040582F9989E6FF05936" isvisible="true" identifierref="RES-1265029FC229AAD236A6C7DA062FF112">
+        <title>第 11 講 - 顧客服務人力資源績效評估與成功領導</title>
+      </item>
+      <item identifier="ITEM-C3C5841525C0704629641699FEAE3475" isvisible="true" identifierref="RES-77BA8F584106AF3737DF9340D93E417F">
+        <title>第 12 講 - 商業智慧－顧客服務知識管理的概念</title>
+      </item>
+      <item identifier="ITEM-1574E85FCBAF4744D11502964ED1C07E" isvisible="true" identifierref="RES-7E0D6E5AFD1F4850FE4594959D1F358F">
+        <title>第 13 講 - 顧客服務知識管理的應用</title>
+      </item>
+      <item identifier="ITEM-32FB2D4AD9774D721520181790ABDCD2" isvisible="true" identifierref="RES-9A563EC4309B0358B5C9FD19842D2DCA">
+        <title>第 14 講 - 資訊整合－顧客服務資料倉儲的概念</title>
+      </item>
+      <item identifier="ITEM-C7A5D22BB76F3D78B6066AE7B82C2B5E" isvisible="true" identifierref="RES-BDCDD9F5278E20745BB031CB28F6432C">
+        <title>第 15 講 - 顧客服務資料倉儲的架構</title>
+      </item>
+      <item identifier="ITEM-3B133710986F2A2B9A037D6AD838D2FA" isvisible="true" identifierref="RES-5BBD685CE00A2A3BA90D4DB5C6A7C835">
+        <title>第 16 講 - 顧客服務資料倉儲的應用</title>
+      </item>
+      <item identifier="ITEM-1B1800B7E8DB5AF948EE4F54DC7FE3EB" isvisible="true" identifierref="RES-E3D862DDD4B3C269EBC3B5C69BA622A2">
+        <title>第 17 講 - 挖掘寶藏－顧客服務資料探勘的概念</title>
+      </item>
+      <item identifier="ITEM-B76CA6B4969BBDA990769D9F4547868E" isvisible="true" identifierref="RES-C5ABA150098D9C5B27232AAB7C8FF768">
+        <title>第 18 講 - 顧客服務資料探勘的應用</title>
+      </item>
+      <item identifier="ITEM-22934400907656C06C73C634D893F043" isvisible="true" identifierref="RES-18E0BFC15B2B28DE5CB57CB0DF1EFD0B">
+        <title>第 19 講 - 命中目標－顧客服務資料庫行銷的概念</title>
+      </item>
+      <item identifier="ITEM-206E7234AF7CEE149BF93FA4DF89C3A8" isvisible="true" identifierref="RES-11A50E191A01F9CC45ED231C002ED805">
+        <title>第 20 講 - 顧客服務資料庫行銷的應用</title>
+      </item>
+      <item identifier="ITEM-3DFE8ACF6C89BD925AF585EF6C3E8037" isvisible="true" identifierref="RES-32834797041FD88192B5CFC38174C8D8">
+        <title>第 21 講 - 顧客服務滿意與抱怨行為</title>
+      </item>
+      <item identifier="ITEM-9057DFC323793A650C0865E89C1ACC81" isvisible="true" identifierref="RES-B47604CC0B177D530D960FD168064083">
+        <title>第 22 講 - 顧客服務補救與爭議處理</title>
+      </item>
+      <item identifier="ITEM-0D66D9C9CA0589726BD51EB31107762A" isvisible="true" identifierref="RES-275ED3D3246E73B70AC4F2636299A275">
+        <title>第 23 講 - 顧客服務中心建置指引與導入</title>
+      </item>
+      <item identifier="ITEM-D8EA1A48F98792E348DDFD4F0CCEB30F" isvisible="true" identifierref="RES-CAD898D6D73EAA5343DEDFC8B88552CC">
+        <title>第 24 講 - 顧客服務中心作業與人力規劃</title>
+      </item>
+      <item identifier="ITEM-7BC339C1DEF7BBB148F0DF0D650D4841" isvisible="true" identifierref="RES-E42BE68EEB6C0444EF83858C41BCADBA">
+        <title>第 25 講 - 以顧客服務建立行銷策略</title>
+      </item>
+      <item identifier="ITEM-B985D9169E45012EB850EF43B561EBC1" isvisible="true" identifierref="RES-114F227F5340D14E82661B37903A7CF6">
+        <title>第 26 講 - 顧客資料與顧客服務</title>
+      </item>
+      <item identifier="ITEM-0566571B9556D66AD3A0FC0B6DFCF21E" isvisible="true" identifierref="RES-7E102DE00CFA1044D0027840EAC14EB9">
+        <title>第 27 講 - 顧客服務的經驗架構</title>
+      </item>
+      <item identifier="ITEM-6E8887AD6BACD0839719AD5F383EBF9F" isvisible="true" identifierref="RES-B6D34B56878E45CD70B3ECF820A8D8AC">
+        <title>第 28 講 - 後勤資源與顧客服務</title>
+      </item>
+      <item identifier="ITEM-759FDD3D71B2EF41B6DC5E823C4F95D9" isvisible="true" identifierref="RES-600A9759A24907FD7BAFFC4863AFAEAB">
+        <title>第 29 講 - 發展顧客定義的服務標準</title>
+      </item>
+      <item identifier="ITEM-2D38095A7E35EEAD193E19F330600810" isvisible="true" identifierref="RES-46BB85741E94DC82173C470B8E119CED">
+        <title>第 30 講 - 銷售自動化與顧客服務</title>
+      </item>
+      <item identifier="ITEM-BB1CC154EA2596979D659794799BD128" isvisible="true" identifierref="RES-9672DAE8129CC594504689C95689FA97">
+        <title>第 31 講 - 電子商務與企業顧客服務</title>
+      </item>
+      <item identifier="ITEM-70492B544A3426E233DB87E47139DE32" isvisible="true" identifierref="RES-DD498B9E897E6A5E26B493B2DFCE0FE6">
+        <title>第 32 講 - 供應鏈與夥伴關係</title>
+      </item>
+      <item identifier="ITEM-04FC376F866DF365A6E3AD6CC257155E" isvisible="true" identifierref="RES-3C6DF417E1B1C544445ECBE7807B017C">
+        <title>第 33 講 - 發展服務承諾的策略</title>
+      </item>
+      <item identifier="ITEM-79808DEE7CDCDD59A3ECB15A9AC6F377" isvisible="true" identifierref="RES-094C68A48C6E8B26D590CF697FFACA2D">
+        <title>第 34 講 - 超越顧客期望</title>
+      </item>
+      <item identifier="ITEM-0F780B05D511EF88E70FEE075B8FDC0D" isvisible="true" identifierref="RES-2E76B01291D84E7ED52C65BA4B905615">
+        <title>第 35 講 - 顧客服務管理的障礙</title>
+      </item>
+      <item identifier="ITEM-E9FB7BAA4D5B5DEEBD9F798D5E5F9FDE" isvisible="true" identifierref="RES-0F504D285884D99FD7C8650816FA326B">
+        <title>第 36 講 - 顧客服務管理的落實</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-8373C4CB20D4A37EC98803BB4B5CB4F1" adlcp:scormType="asset" type="webcontent" href="300916/intro.html">
+      <file href="300916/intro.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-B231C746F7E3E4BFE61F44D317166C0C" adlcp:scormType="asset" type="webcontent" href="300916/01.html">
+      <file href="300916/01.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-F047746507AD0145CEB4379A80F67F13" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_01.html">
+      <file href="300916/exam/300916_01.html" />
+    </resource>
+    <resource identifier="RES-416F3334C08FC67BA0F56CCB98AE5121" adlcp:scormType="asset" type="webcontent" href="300916/supply/300916_01/300916-3-1.pdf">
+      <file href="300916/supply/300916_01/300916-3-1.pdf" />
+    </resource>
+    <resource identifier="RES-7E91CD4CF145FF36C0E10007E63E1860" adlcp:scormType="asset" type="webcontent" href="300916/02.html">
+      <file href="300916/02.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-4E870F42522F2B6338C7C3895532FC78" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_02.html">
+      <file href="300916/exam/300916_02.html" />
+    </resource>
+    <resource identifier="RES-3E746893DD4EEFFE59E571C8BF7399FB" adlcp:scormType="asset" type="webcontent" href="300916/03.html">
+      <file href="300916/03.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-0292FB511E4224F4C9D95A1C24FCB837" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_03.html">
+      <file href="300916/exam/300916_03.html" />
+    </resource>
+    <resource identifier="RES-5F0A4EBBD18C7693B2AD95C313BB9879" adlcp:scormType="asset" type="webcontent" href="300916/04.html">
+      <file href="300916/04.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-06A1A22C5F60EFB8C20E18EE94F86AB8" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_04.html">
+      <file href="300916/exam/300916_04.html" />
+    </resource>
+    <resource identifier="RES-8667F7C4DE586ED2750D0FBC19153F03" adlcp:scormType="asset" type="webcontent" href="300916/05.html">
+      <file href="300916/05.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-8954ECE99F92A5B8FD130CA43FB1006D" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_05.html">
+      <file href="300916/exam/300916_05.html" />
+    </resource>
+    <resource identifier="RES-BE5290BD98E8162BD042F6ACF9D3EE58" adlcp:scormType="asset" type="webcontent" href="300916/06.html">
+      <file href="300916/06.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-2C6A6148630A62B8F47C064E90005868" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_06.html">
+      <file href="300916/exam/300916_06.html" />
+    </resource>
+    <resource identifier="RES-6995CA3AFB77D6DF148D0C8E1DE15A0D" adlcp:scormType="asset" type="webcontent" href="300916/07.html">
+      <file href="300916/07.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-BB81F705C1AAA1D475219AA76F9D11D9" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_07.html">
+      <file href="300916/exam/300916_07.html" />
+    </resource>
+    <resource identifier="RES-86430970D9CD9DCD075C1865F43898BF" adlcp:scormType="asset" type="webcontent" href="300916/08.html">
+      <file href="300916/08.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-BB160557058DD5EABB8DBDD4233870FF" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_08.html">
+      <file href="300916/exam/300916_08.html" />
+    </resource>
+    <resource identifier="RES-6DF06484AAB2EFBE5AB499217D818013" adlcp:scormType="asset" type="webcontent" href="300916/09.html">
+      <file href="300916/09.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-3734427184267B6049D34C5D677B0E2B" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_09.html">
+      <file href="300916/exam/300916_09.html" />
+    </resource>
+    <resource identifier="RES-96EBD241027AF1BC429D85B05DB19367" adlcp:scormType="asset" type="webcontent" href="300916/10.html">
+      <file href="300916/10.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-92039735CC328E5A91FD25C8F5100C7A" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_10.html">
+      <file href="300916/exam/300916_10.html" />
+    </resource>
+    <resource identifier="RES-1265029FC229AAD236A6C7DA062FF112" adlcp:scormType="asset" type="webcontent" href="300916/11.html">
+      <file href="300916/11.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-28179864A00C8752DA1D07E05F1EBD13" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_11.html">
+      <file href="300916/exam/300916_11.html" />
+    </resource>
+    <resource identifier="RES-77BA8F584106AF3737DF9340D93E417F" adlcp:scormType="asset" type="webcontent" href="300916/12.html">
+      <file href="300916/12.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-01281AFF3F57C95BCF1F689A597A3B17" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_12.html">
+      <file href="300916/exam/300916_12.html" />
+    </resource>
+    <resource identifier="RES-7E0D6E5AFD1F4850FE4594959D1F358F" adlcp:scormType="asset" type="webcontent" href="300916/13.html">
+      <file href="300916/13.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-4EC5B3EFAEE2F133C2F76E502F889E38" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_13.html">
+      <file href="300916/exam/300916_13.html" />
+    </resource>
+    <resource identifier="RES-9A563EC4309B0358B5C9FD19842D2DCA" adlcp:scormType="asset" type="webcontent" href="300916/14.html">
+      <file href="300916/14.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-46A0137AAC8CB6DE3FF91237E194B84D" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_14.html">
+      <file href="300916/exam/300916_14.html" />
+    </resource>
+    <resource identifier="RES-BDCDD9F5278E20745BB031CB28F6432C" adlcp:scormType="asset" type="webcontent" href="300916/15.html">
+      <file href="300916/15.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-52AC1024FA8FD93BF79001B6A92951FF" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_15.html">
+      <file href="300916/exam/300916_15.html" />
+    </resource>
+    <resource identifier="RES-5BBD685CE00A2A3BA90D4DB5C6A7C835" adlcp:scormType="asset" type="webcontent" href="300916/16.html">
+      <file href="300916/16.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-C622F9215148EDB8D076A4697EDBB991" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_16.html">
+      <file href="300916/exam/300916_16.html" />
+    </resource>
+    <resource identifier="RES-E3D862DDD4B3C269EBC3B5C69BA622A2" adlcp:scormType="asset" type="webcontent" href="300916/17.html">
+      <file href="300916/17.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-B4352CDF628F5091C19F267AEDFEBF96" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_17.html">
+      <file href="300916/exam/300916_17.html" />
+    </resource>
+    <resource identifier="RES-C5ABA150098D9C5B27232AAB7C8FF768" adlcp:scormType="asset" type="webcontent" href="300916/18.html">
+      <file href="300916/18.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-35FEB4D09C87552B1C1FE45E39193AE5" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_18.html">
+      <file href="300916/exam/300916_18.html" />
+    </resource>
+    <resource identifier="RES-18E0BFC15B2B28DE5CB57CB0DF1EFD0B" adlcp:scormType="asset" type="webcontent" href="300916/19.html">
+      <file href="300916/19.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-7F37FF3A2E4E32290AEEA652896375A3" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_19.html">
+      <file href="300916/exam/300916_19.html" />
+    </resource>
+    <resource identifier="RES-11A50E191A01F9CC45ED231C002ED805" adlcp:scormType="asset" type="webcontent" href="300916/20.html">
+      <file href="300916/20.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-763C07E45DF9C1F35C7AB2C894E2CA7C" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_20.html">
+      <file href="300916/exam/300916_20.html" />
+    </resource>
+    <resource identifier="RES-32834797041FD88192B5CFC38174C8D8" adlcp:scormType="asset" type="webcontent" href="300916/21.html">
+      <file href="300916/21.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-FEA17D4BBCEB4BD5E3E94CED47A7A26F" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_21.html">
+      <file href="300916/exam/300916_21.html" />
+    </resource>
+    <resource identifier="RES-B47604CC0B177D530D960FD168064083" adlcp:scormType="asset" type="webcontent" href="300916/22.html">
+      <file href="300916/22.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-656EF7C95E329939047F60807F1D7DD6" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_22.html">
+      <file href="300916/exam/300916_22.html" />
+    </resource>
+    <resource identifier="RES-275ED3D3246E73B70AC4F2636299A275" adlcp:scormType="asset" type="webcontent" href="300916/23.html">
+      <file href="300916/23.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-CDE00A6D56FCBDB0540265AF030AF2A3" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_23.html">
+      <file href="300916/exam/300916_23.html" />
+    </resource>
+    <resource identifier="RES-CAD898D6D73EAA5343DEDFC8B88552CC" adlcp:scormType="asset" type="webcontent" href="300916/24.html">
+      <file href="300916/24.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-2AB31771818D6A4469F054838CDA3CE0" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_24.html">
+      <file href="300916/exam/300916_24.html" />
+    </resource>
+    <resource identifier="RES-E42BE68EEB6C0444EF83858C41BCADBA" adlcp:scormType="asset" type="webcontent" href="300916/25.html">
+      <file href="300916/25.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-36A4D73880FC233DBEDB1B445CBF89C0" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_25.html">
+      <file href="300916/exam/300916_25.html" />
+    </resource>
+    <resource identifier="RES-114F227F5340D14E82661B37903A7CF6" adlcp:scormType="asset" type="webcontent" href="300916/26.html">
+      <file href="300916/26.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-1327FB04854BDFA3BB649A7B64D92FCD" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_26.html">
+      <file href="300916/exam/300916_26.html" />
+    </resource>
+    <resource identifier="RES-7E102DE00CFA1044D0027840EAC14EB9" adlcp:scormType="asset" type="webcontent" href="300916/27.html">
+      <file href="300916/27.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-B52EEC5065C492BC7567D00CAF5F6116" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_27.html">
+      <file href="300916/exam/300916_27.html" />
+    </resource>
+    <resource identifier="RES-B6D34B56878E45CD70B3ECF820A8D8AC" adlcp:scormType="asset" type="webcontent" href="300916/28.html">
+      <file href="300916/28.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-675D0F42E6683B348F2A90F23F97AAA6" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_28.html">
+      <file href="300916/exam/300916_28.html" />
+    </resource>
+    <resource identifier="RES-600A9759A24907FD7BAFFC4863AFAEAB" adlcp:scormType="asset" type="webcontent" href="300916/29.html">
+      <file href="300916/29.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-C3752D38576F287529B546CCF4111F75" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_29.html">
+      <file href="300916/exam/300916_29.html" />
+    </resource>
+    <resource identifier="RES-46BB85741E94DC82173C470B8E119CED" adlcp:scormType="asset" type="webcontent" href="300916/30.html">
+      <file href="300916/30.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-A33D55987FBF10F70F2B7F7F7CAFFD48" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_30.html">
+      <file href="300916/exam/300916_30.html" />
+    </resource>
+    <resource identifier="RES-9672DAE8129CC594504689C95689FA97" adlcp:scormType="asset" type="webcontent" href="300916/31.html">
+      <file href="300916/31.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-37E33F0D1E63F2EEA94EEDB607C7DC34" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_31.html">
+      <file href="300916/exam/300916_31.html" />
+    </resource>
+    <resource identifier="RES-DD498B9E897E6A5E26B493B2DFCE0FE6" adlcp:scormType="asset" type="webcontent" href="300916/32.html">
+      <file href="300916/32.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-56966C50690D763CC2E43E1904335D3F" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_32.html">
+      <file href="300916/exam/300916_32.html" />
+    </resource>
+    <resource identifier="RES-3C6DF417E1B1C544445ECBE7807B017C" adlcp:scormType="asset" type="webcontent" href="300916/33.html">
+      <file href="300916/33.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-F6A35E8E54628BC7F5986298A71B13CC" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_33.html">
+      <file href="300916/exam/300916_33.html" />
+    </resource>
+    <resource identifier="RES-094C68A48C6E8B26D590CF697FFACA2D" adlcp:scormType="asset" type="webcontent" href="300916/34.html">
+      <file href="300916/34.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-BE5D3DAE56755BBEC28651ADF282BE35" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_34.html">
+      <file href="300916/exam/300916_34.html" />
+    </resource>
+    <resource identifier="RES-2E76B01291D84E7ED52C65BA4B905615" adlcp:scormType="asset" type="webcontent" href="300916/35.html">
+      <file href="300916/35.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-836D318C2D37D9B0C8D725D3A47E9ED2" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_35.html">
+      <file href="300916/exam/300916_35.html" />
+    </resource>
+    <resource identifier="RES-0F504D285884D99FD7C8650816FA326B" adlcp:scormType="asset" type="webcontent" href="300916/36.html">
+      <file href="300916/36.html" />
+      <file href="300916/movie.css" />
+      <file href="300916/video.js" />
+      <file href="300916/images/center.jpg" />
+      <file href="300916/images/firefox.gif" />
+      <file href="300916/images/safari.gif" />
+      <file href="300916/images/space.gif" />
+      <file href="300916/images/top.jpg" />
+      <file href="300916/images/movie_01.gif" />
+      <file href="300916/images/movie_02.gif" />
+      <file href="300916/images/movie_03.gif" />
+      <file href="300916/images/movie_04.gif" />
+      <file href="300916/images/movie_05.gif" />
+      <file href="300916/images/movie_06.gif" />
+      <file href="300916/images/movie_06a.gif" />
+      <file href="300916/images/movie_07.gif" />
+      <file href="300916/images/movie_07a.gif" />
+      <file href="300916/images/movie_08.gif" />
+      <file href="300916/images/movie_08a.gif" />
+      <file href="300916/images/movie_09.gif" />
+      <file href="300916/images/movie_09a.gif" />
+      <file href="300916/images/movie_10.gif" />
+      <file href="300916/images/movie_10a.gif" />
+      <file href="300916/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-15EEE51346B01F0315C5B8DF8FB92BAF" adlcp:scormType="asset" type="webcontent" href="300916/exam/300916_36.html">
+      <file href="300916/exam/300916_36.html" />
+    </resource>
+    <resource identifier="RES-964B4819A712F061419F72707D06DB78" adlcp:scormType="asset" type="webcontent" href="300916/300916-3-1.pdf">
+      <file href="300916/300916-3-1.pdf" />
+    </resource>
+  </resources>
+</manifest>
+

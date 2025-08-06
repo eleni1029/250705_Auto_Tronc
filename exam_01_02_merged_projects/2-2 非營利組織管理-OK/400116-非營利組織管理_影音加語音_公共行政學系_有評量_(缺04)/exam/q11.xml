@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:27:"第十一講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692065908_055490" title="工作動機強但工作能力差的志工同仁，應 ...">
+    <presentation label="工作動機強但工作能力差的志工同仁，應 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;工作動機強但工作能力差的志工同仁，應如何進行績效管理？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+          <render_choice shuffle="Yes">
+            <response_label ident="1">
+              <flow_mat>
+                <material>
+                  <mattext>獎勵其卓越的表現</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="2">
+              <flow_mat>
+                <material>
+                  <mattext>忍痛割愛</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="3">
+              <flow_mat>
+                <material>
+                  <mattext>加強所需知能的訓練</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+            <response_label ident="4">
+              <flow_mat>
+                <material>
+                  <mattext>調整工作</mattext>
+                </material>
+              </flow_mat>
+            </response_label>
+          </render_choice>
+        </response_lid>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+      <respcondition title="Correct">
+        <conditionvar>
+          <varequal respident="ANS01">3</varequal>
+        </conditionvar>
+        <setvar action="Set">1</setvar>
+        <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+      </respcondition>
+    </resprocessing>
+    <itemfeedback ident="Correct">
+      <flow_mat>
+        <material>
+          <mattext/>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692065925_370445" title="何謂「生涯發展經驗交流工作室」（care ...">
+    <presentation label="何謂「生涯發展經驗交流工作室」（care ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;何謂「生涯發展經驗交流工作室」（career development workshop），請簡要說明之。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;所謂「見賢思齊，見不賢而內自省」，成立生涯發展工作室的主要目的在於：員工透過非正式、不定期的討論會，彼此交換有關生命成長、工作進展、生涯期望的各種經驗和感受；並藉由團體諮商的方法，激發人員對事業生涯的體悟和責任感，也可以增進事業主自我分析與解決生涯難題的能力。這種自發性、非強迫、開放自由、經驗分享的團體討論，不但有助於凝聚向心力，對於強化事業主生涯奮鬥之信心亦有裨益。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692065948_628011" title="請簡單討論說明「短期志工」招募的特殊 ...">
+    <presentation label="請簡單討論說明「短期志工」招募的特殊 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;請簡單討論說明「短期志工」招募的特殊性。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;「短期志工」因其志願參與的性質不太一樣，其招募的方法亦有差異：1.利用個別工作內容的吸引力。現代人一方面想藉假日休息一下，另一方面又不知道如何排遣這多出來的時間，而顯得有些內心空虛。真正的休息不是躺下來睡覺而是轉移注意力；非營利組織可以開放某些較有趣、較特別的工作，提供給潛在的志工一起來做、一起來玩泥巴；在自然的互動氣氛中，轉移其職場上的工作壓力，發現助人奉獻之美。2.運用個別特殊活動計畫的吸引力。每當機構對外舉辦大型活動時（如園遊會、義賣表演會），常會吸引一大堆社區的觀眾；非營利組織可以善用這種「人氣」，宣傳機構的理念作為，並邀請觀眾「有空到家裡來坐坐」。民眾投入志願服務是有選擇的，他們會挑比較特別、有意思、有意義的活動來參與，機構則可藉舉辦活動來擴大招募方面的效益。3.善用同儕壓力。大部分短期志工的心理充滿對志願服務的好奇心，卻又抱著觀望心態，裹足不前。這時候可以運用「機構內部員工推薦」的方式，鼓動親朋好友參加機構舉辦的有趣活動，或邀請參觀機構的運作實況，帶領他們一起接觸服務工作的樂趣；在不著痕跡又有親情壓力的情況下，發揮臨門一腳的效果。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>3</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692065966_588610" title="請說明擔任生涯發展良師顧問者必須具備 ...">
+    <presentation label="請說明擔任生涯發展良師顧問者必須具備 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;請說明擔任生涯發展良師顧問者必須具備的條件。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;專家建議，擔任良師顧問者必須具備：1.健康的人格特性，他是心胸開放、善體人意、做人成功、可以信賴的，同時也具備相當的專業才能。2.最好由職位較高的人員來擔任，他除了經驗豐富外，也擁有較廣的人脈。3.良好的人際溝通技巧，願意接納不同的意見，能夠鼓勵學徒勇於嘗試接受挑戰。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>4</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692066024_133040" title="請討論利益團體可能發生的反面功能。">
+    <presentation label="請討論利益團體可能發生的反面功能。">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;請討論利益團體可能發生的反面功能。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;1.利益競爭下的不公平。依多元民主政體的說法，利益團體間的競爭活動將形成政治利益的市場，優勝劣敗的結果，有強勢的利益團體就有強勢的利益區塊，弱勢的利益團體將不會出現在政府的政策討論過程。如此一來，分散個別的私利主張，將會淹沒公益的考量，公共的資源分配也會傾向競爭獲勝的一方。2.組織規模下的不公平。究實而論，利益團體政治並非多數決政治，反而是少數的統治；問題出在利益團體規模的門檻，規模因素又直接影響利益主張影響力的大小。多數的公民只對切身利害相關的議題有興趣，而多數公共政策的影響又非直接衝擊個別民眾的利益，因此就會衍成少數活躍的利益團體，決定多數冷漠群眾的未來命運。有組織、規模大、財力雄的利益團體，其影響政府決策的力量就大，相對的，組織鬆散、規模小、財力不足的利益團體，就比較不容易得到政府的青睞。3.將公共議題限縮於狹隘的利益範疇。在政策制定的檯面上，只存在少數幾家規模大、利益交關，但視野褊狹、計較一己私利的利益團體。他們也將動員所有的資源，影響行政部門的政策規劃與方案選擇，將公共議題限縮在其所關注的狹隘利益範疇。4.延宕政府決策過程。利益團體政治的功能在於，提供一種政策影響所及得失各造均等表達意見的機會；但同時也造就行政計畫遲緩、議會審查延宕的環境條件。一個政策計畫、一項法案，只要某一有力利益團體的反對，即能發生否決議案的效果，沒有效率的政策過程，影響的可能就是大眾的福祉。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>11</wm:chapter>
+      <wm:paragraph>3</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

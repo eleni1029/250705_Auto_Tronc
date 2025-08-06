@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:27:"第十三講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692066046_486117" title="請討論說明非營利組織進行議題管理的行 ...">
+    <presentation label="請討論說明非營利組織進行議題管理的行 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;請討論說明非營利組織進行議題管理的行動策略。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;1.傳播策略。此即社會議題的公眾炒作活動，其目標在拉高議題受社會關注的程度，以產生對行政機關的輿論壓力。表面上看起來，我們藉由大眾傳播媒體或草根宣傳來提高能見度，但群眾的關注不能停留在看熱鬧的階段，須要適時提出具體的議題內容和價值訴求，以延續群眾的熱情參與，並避免運動的空洞化。&lt;br /&gt;
+2.參與策略。一但民氣可用，即應將行動指向行政規劃的階段，針對行政機關的作業程序，進行各項遊說活動。同理，政策遊說的戰場勢必延燒到立法遊說的部份，總之，從議題管理的觀點來看，議題傳播的實際成果，要透過行政與立法的參與才可能具體實現。&lt;br /&gt;
+3.順應或監督策略。從實際的情況來說，立法的結果並未宣告議題管理的終局成敗，反而開啟了第二回合努力的契機。這個機會話分兩頭來說，如果議題順利成為法案，非營利組織仍須注意在政策執行過程中可能發生的挫敗，執法機關是否認真推行、反對勢力如何從中掣肘，皆須有具體的監看動作來營造政策順服的有利環境。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>13</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692066064_161350" title="請簡要說明司法遊說的主要過程。">
+    <presentation label="請簡要說明司法遊說的主要過程。">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;請簡要說明司法遊說的主要過程。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;1.選定訴訟個案。非營利組織可以擇定若干具有指標性的法律訴訟案，以為司法遊說的具體目標。如婦女新知基金會因長期觀照失婚婦女問題，從多起訴訟個案中發現，民法第1089條親權行使的規定，顯然採父權為大的偏頗觀點，而造成離婚婦女在爭取子女扶養權上的弱勢悲劇。&lt;br /&gt;
+2.參與訴訟進行與法庭觀察。若欲坐實法律不合時宜的問題，則非營利組織以必要直接參與訴訟進行的過程，協助當事人聘請律師，當庭進行兩造詰辯和法官心證形成的實地觀察紀錄，藉以深入發現法制論理的漏洞。&lt;br /&gt;
+3.藉具體事件突顯公共議題。雖然法院裁判有其自由心證的過程，但亦須審度社會價值、風俗規範的轉變軌跡。故司法遊說仍可透過具體事件的傳播，突顯明確的公共議題，如上述民法親屬篇有關父權為大的法理商榷。&lt;br /&gt;
+4.開啟公眾討論形成輿論。當訴訟個案反映的不僅是當事人個別的權利時，該案所涉意見就成為可供公眾討論的「政策議題」，這個社會的公民不但有知道的權力，更應有慎思明辨的義務。&lt;br /&gt;
+5.備齊相關資料和論點。司法遊說到了這個階段就有兩條路線可供選擇，一是回到行政與立法遊說，促請修法；若是緩不濟急，則往上推進為提出釋憲案。而不論採行何種路線，備齊相關資料和論點是最主要的工作。&lt;br /&gt;
+6.提請釋憲方案。依我國大法官釋憲的法定程序，其提請自有相關規定，為竟其功，此一階段的遊說自不應以司法機關為限。&lt;br /&gt;
+7.監看行政與立法回應。婦女新知基金會促成的大法官解釋的大意為，民法第1089條親權行使的規定，與憲法規定男女在法律上一律平等、應消除性別歧視不符，應予檢討修正。）為免此一成果被行政和立法部門忽略，非營利組織仍應賡續進行行政與立法回應的監看工作。進一步展開必要的行政遊說和立法遊說活動。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>13</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.5 SCORM 2004 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" identifier="MANIFEST-9F4F5956A77D88D98B9002652B2EDAC5" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+  </metadata>
+  <organizations default="ORG-D9A12E503F343BF30DDB861D759FBE36">
+    <organization identifier="ORG-D9A12E503F343BF30DDB861D759FBE36" structure="hierarchical">
+      <title>嬰幼兒健康照護與活動設計</title>
+      <item identifier="ITEM-B47F403AA194035185B0B144F011C64B" isvisible="true" identifierref="RES-3CA33C3B44B30918986C4EA8252D8CBA" canpreview="true">
+        <title>課程介紹</title>
+      </item>
+      <item identifier="ITEM-37049857F6728E25013E882EF76D77F6" isvisible="true" identifierref="RES-89FBDB27C702636B76013FDD86AA057C" canpreview="true">
+        <title>第 01 講 - 嬰幼兒的健康與安全</title>
+        <item identifier="ITEM-64E5986F6A41059774788ABD76D086A1" isvisible="true" identifierref="RES-86454DD5C8E3C5BA18BBEA4089727564">
+          <title>補充教材</title>
+        </item>
+      </item>
+      <item identifier="ITEM-5204A8764B63E52D41DB44D4859EEB7F" isvisible="true" identifierref="RES-E8578F85F3DA75B209DFD25CBEA7041B">
+        <title>第 02 講 - 0-3歲嬰幼兒的發展特徵</title>
+      </item>
+      <item identifier="ITEM-294E3832323AFFA5982EFBB196BECB04" isvisible="true" identifierref="RES-4DA45542F403BEE8D8F7790958E70DEB">
+        <title>第 03 講 - 專業的嬰幼兒照顧者</title>
+      </item>
+      <item identifier="ITEM-D9266D19CB52ED683ACE492CB554FB37" isvisible="true" identifierref="RES-B27CABA2939900B0677D4F6BCA9DA06B">
+        <title>第 04 講 - 照顧者的壓力與調適</title>
+      </item>
+      <item identifier="ITEM-4BE04C0C06ED11F8386876FE760CE47E" isvisible="true" identifierref="RES-84289AC12A896C73DD2E67CD96DD077F">
+        <title>第 05 講 - 照顧者的健康維護</title>
+      </item>
+      <item identifier="ITEM-89D5B4D58A7FECBAEC7727455599B560" isvisible="true" identifierref="RES-F58837461500AC7B54C323AC97270120">
+        <title>第 06 講 - 嬰幼兒預防保健服務</title>
+      </item>
+      <item identifier="ITEM-6D8CB2EF74DB3F415CFC17CE3FAE3EFE" isvisible="true" identifierref="RES-E71784F34181BA389A714B36AFE94EE7">
+        <title>第 07 講 - 嬰幼兒預防注射</title>
+      </item>
+      <item identifier="ITEM-65C35D17B734521C3BCDD9CC7CDBC5A2" isvisible="true" identifierref="RES-6544A817A89C0202DE4D2F3DE46749C0">
+        <title>第 08 講 - 嬰幼兒口腔保健</title>
+      </item>
+      <item identifier="ITEM-D7D7352982B94112A844C6234F83612E" isvisible="true" identifierref="RES-7E268A9F5BC2E9832ED0B2523DC3594B">
+        <title>第 09 講 - 嬰幼兒視力保健</title>
+      </item>
+      <item identifier="ITEM-2F07072F78B3F37517F2536C97C0A92C" isvisible="true" identifierref="RES-8014763A31E03B4197FE9F453D827BD5">
+        <title>第 10 講 - 合宜的副食品</title>
+      </item>
+      <item identifier="ITEM-701B9870D6E635B1337FA65FB0EE9B1E" isvisible="true" identifierref="RES-CA16DE5C5369544CA1E0A8EEA46026A7">
+        <title>第 11 講 - 嬰幼兒的膳食製備</title>
+      </item>
+      <item identifier="ITEM-6F2BEF43C1849A61131835B7C5F2C70F" isvisible="true" identifierref="RES-D375582E84D72BBA400BCD22F453AC2C">
+        <title>第 12 講 - 副食品製作要領</title>
+      </item>
+      <item identifier="ITEM-AED09402F492A3462FFD7892E9DD4EAB" isvisible="true" identifierref="RES-94C1A8FF6A7048735754B92C6F2452A3">
+        <title>第 13 講 - 嬰幼兒用品消毒</title>
+      </item>
+      <item identifier="ITEM-0B9AF14FECE075FE1AC5BC9ED2379B40" isvisible="true" identifierref="RES-32CA072D046FAA739491E775834FE3E3">
+        <title>第 14 講 - 嬰幼兒的沐浴與清潔</title>
+      </item>
+      <item identifier="ITEM-1A8FD9A8620F87F25094F8D79514A27B" isvisible="true" identifierref="RES-F7FF2F97B66513355DB562B4A7BAED59">
+        <title>第 15 講 - 嬰幼兒大小便練習</title>
+      </item>
+      <item identifier="ITEM-BE199AACF341811C9E4920A69C504248" isvisible="true" identifierref="RES-7A5799304635722D227F8D12F2DF24AA">
+        <title>第 16 講 - 嬰幼兒按摩</title>
+      </item>
+      <item identifier="ITEM-CDE540D6AC0785C167D70A56250E2B64" isvisible="true" identifierref="RES-6EAB8E8D0083C902886AA15CC6043C3C">
+        <title>第 17 講 - 嬰幼兒呼吸道感染及排痰技術</title>
+      </item>
+      <item identifier="ITEM-35D2AEE4133C216D05FE91EB5E69A665" isvisible="true" identifierref="RES-6140A2658E0329ED578FB6D679B887D9">
+        <title>第 18 講 - 嬰幼兒腸胃道照護</title>
+      </item>
+      <item identifier="ITEM-DC60153E76A87F308812A40B92506C5B" isvisible="true" identifierref="RES-B41C5CE98CFB4A9E8861C3E6A9737EC0">
+        <title>第 19 講 - 嬰幼兒常見用藥方式</title>
+      </item>
+      <item identifier="ITEM-404A745B164D9AC92BF0F029E347E049" isvisible="true" identifierref="RES-D6B1F4B99494EC3D335AD808394069C0">
+        <title>第 20 講 - 嬰幼兒常見一般傷害處理</title>
+      </item>
+      <item identifier="ITEM-C0B167FDCE732D10AC97CFE535D3EADD" isvisible="true" identifierref="RES-A4BF845D1C82C14CE4299B27C104A68A">
+        <title>第 21 講 - 嬰幼兒嚴重意外傷害處理</title>
+      </item>
+      <item identifier="ITEM-7EC6AB0C9408CC90720C33469F2D5FB0" isvisible="true" identifierref="RES-6F59C03810A5817A7E7A6E9DBE037983">
+        <title>第 22 講 - 嬰幼兒哽塞處理及心肺復甦術</title>
+      </item>
+      <item identifier="ITEM-0885C9D61CDE3DAF3E438E44945C2266" isvisible="true" identifierref="RES-FE24B24C6B71D79C15EEE53CCB33A902">
+        <title>第 23 講 - 嬰幼兒居家生活環境規劃</title>
+      </item>
+      <item identifier="ITEM-E31C25E8A70EAB3BB4003E17D34E22AC" isvisible="true" identifierref="RES-F1119E7685A26B3A2D20833CD5263FD1">
+        <title>第 24 講 - 嬰幼兒居家學習環境規劃</title>
+      </item>
+      <item identifier="ITEM-5DBE22BD34B7057CA12CA9CFC96C69FA" isvisible="true" identifierref="RES-A5A50CAAA27A146EA45A181D4763A968">
+        <title>第 25 講 - 嬰幼兒居家托育的安全管理</title>
+      </item>
+      <item identifier="ITEM-10A4443C7F1E8C2EFC09F6A20DB77F5F" isvisible="true" identifierref="RES-2F5AEC1DF9A0B3BB39585B5A069C5A38">
+        <title>第 26 講 - 如何打造一間適宜嬰幼兒成長的托嬰機構</title>
+        <item identifier="ITEM-587683BB6F9F80E6708F006F164D764B" isvisible="true" identifierref="RES-704098A36FBB922D318BABB74A54FE26">
+          <title>補充教材</title>
+        </item>
+      </item>
+      <item identifier="ITEM-33A89E83EC8A5EC27D8F3A7633D47429" isvisible="true" identifierref="RES-FA8953AA2DF1E53FBF6F064B83C11B49">
+        <title>第 27 講 - 如何規劃嬰兒/學步兒的活動教室</title>
+      </item>
+      <item identifier="ITEM-FDA9A6CCF2677723D808AEE69385ADB1" isvisible="true" identifierref="RES-614161CAC05C71DD145C2A56ADCD2C3F">
+        <title>第 28 講 - 托嬰機構內的健康及安全管理</title>
+      </item>
+      <item identifier="ITEM-F2D3C02CEA32DD1905619E252D555936" isvisible="true" identifierref="RES-1F94DD622DB012CAB5DDDA6E8450A076">
+        <title>第 29 講 - 如何設計嬰幼兒的遊戲與活動</title>
+      </item>
+      <item identifier="ITEM-1B9D11901D7765EBD5B1391A84E15E4E" isvisible="true" identifierref="RES-64243BA92BBDE80ADA200FFA2B850F5F">
+        <title>第 30 講 - 6個月以下嬰兒的遊戲與活動</title>
+      </item>
+      <item identifier="ITEM-166E7A1EFA6AF33017BA033919BE9F25" isvisible="true" identifierref="RES-818D3477FB2CCB96A602FA0A1FC6C1EF">
+        <title>第 31 講 - 7到12個月嬰兒的遊戲與活動</title>
+      </item>
+      <item identifier="ITEM-E73B6477C0B4ABBFFF8D25CB68394A5A" isvisible="true" identifierref="RES-BAE8B8D47109D4E04E0798DDFC8FF282">
+        <title>第 32 講 - 1到2歲學步兒的遊戲與活動</title>
+      </item>
+      <item identifier="ITEM-2F928248D2E9F9219F34142F4F069C57" isvisible="true" identifierref="RES-DC9D0C2C1F97079F975D3690CC5580FC">
+        <title>第 33 講 - 2到3歲學步兒的遊戲與活動</title>
+      </item>
+      <item identifier="ITEM-82E74A54A2FBE9CCD1F543A53DCC6038" isvisible="true" identifierref="RES-00B71B291C195E1E09662617DAB64120">
+        <title>第 34 講 - 認識托育資源</title>
+      </item>
+      <item identifier="ITEM-51B5BCA34DA3284BDD209F5CB522E9E6" isvisible="true" identifierref="RES-B7B1390E3827444696944D86D84567D2">
+        <title>第 35 講 - 托育資源的運用</title>
+      </item>
+      <item identifier="ITEM-E5F48A66167161CFC3E8A6B480929935" isvisible="true" identifierref="RES-83D71E75ABBD89A1C0F2EB2D72E44B44">
+        <title>第 36 講 - 托育資源的管理</title>
+      </item>
+      <item identifier="ITEM-A3E4F2E1F433A78273583977DE4EC55E" isvisible="true" identifierref="RES-CCE9C4BB11341961D6A993D4DCA83BF5">
+        <title>第 37 講 - 補充資料－安全醫護區01</title>
+      </item>
+      <item identifier="ITEM-7769A9C7C7EAB6EE265ECB3177BA5A5E" isvisible="true" identifierref="RES-7C5DA328C4B983B164BD4580A906C5CA">
+        <title>第 38 講 - 補充資料－安全醫護區02</title>
+      </item>
+      <item identifier="ITEM-8D392E5FF3FDDBDF21EE0D024863602F" isvisible="true" identifierref="RES-4EC04AD92643BF0B856D8C3E406B3585">
+        <title>第 39 講 - 補充資料－清潔區01</title>
+      </item>
+      <item identifier="ITEM-2B61B8C6F9BA0AE2593845C2D921F0D7" isvisible="true" identifierref="RES-80ECF67602D75826A78682DDF5D72959">
+        <title>第 40 講 - 補充資料－清潔區02</title>
+      </item>
+      <item identifier="ITEM-4D8B5EADC8EDAEC64CE5D59080A32DE6" isvisible="true" identifierref="RES-F324D267F65B9E1D04084AC4BE7D864C">
+        <title>第 41 講 - 補充資料－遊戲學習區01</title>
+      </item>
+      <item identifier="ITEM-637A23D173D81E07081538AC121BF7FA" isvisible="true" identifierref="RES-5F7E214A6AF31693F35AC96BCE4268D7">
+        <title>第 42 講 - 補充資料－遊戲學習區02</title>
+      </item>
+      <item identifier="ITEM-D3F131F093624B604152CFBC14231DEF" isvisible="true" identifierref="RES-358AB9D8EFE21249636AC941120B1A35">
+        <title>第 43 講 - 補充資料－調製區01</title>
+      </item>
+      <item identifier="ITEM-3E0105055B08DEC253D684DDFC045369" isvisible="true" identifierref="RES-BB85899CF7E91B166FBAB5A0C07F91A7">
+        <title>第 44 講 - 補充資料－調製區02</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-3CA33C3B44B30918986C4EA8252D8CBA" adlcp:scormType="asset" type="webcontent" href="750004/intro.html">
+      <file href="750004/intro.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-89FBDB27C702636B76013FDD86AA057C" adlcp:scormType="asset" type="webcontent" href="750004/01.html">
+      <file href="750004/01.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-91AF1A597F18EA4E60EEA4736088CE09" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_01.html">
+      <file href="750004/exam/750004_01.html" />
+    </resource>
+    <resource identifier="RES-86454DD5C8E3C5BA18BBEA4089727564" adlcp:scormType="asset" type="webcontent" href="750004/supply/750004_01/750004-3-1.pdf">
+      <file href="750004/supply/750004_01/750004-3-1.pdf" />
+    </resource>
+    <resource identifier="RES-E8578F85F3DA75B209DFD25CBEA7041B" adlcp:scormType="asset" type="webcontent" href="750004/02.html">
+      <file href="750004/02.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-ADD063D089F7B806CF4F29F1821A7FDD" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_02.html">
+      <file href="750004/exam/750004_02.html" />
+    </resource>
+    <resource identifier="RES-4DA45542F403BEE8D8F7790958E70DEB" adlcp:scormType="asset" type="webcontent" href="750004/03.html">
+      <file href="750004/03.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-BB94EBB7C71E697ABB9E22C9E6EE0BDE" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_03.html">
+      <file href="750004/exam/750004_03.html" />
+    </resource>
+    <resource identifier="RES-B27CABA2939900B0677D4F6BCA9DA06B" adlcp:scormType="asset" type="webcontent" href="750004/04.html">
+      <file href="750004/04.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-F55B22B6598982EE531F327445667102" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_04.html">
+      <file href="750004/exam/750004_04.html" />
+    </resource>
+    <resource identifier="RES-84289AC12A896C73DD2E67CD96DD077F" adlcp:scormType="asset" type="webcontent" href="750004/05.html">
+      <file href="750004/05.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-C0F9908FD7D3694D206C702FD716E7AA" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_05.html">
+      <file href="750004/exam/750004_05.html" />
+    </resource>
+    <resource identifier="RES-F58837461500AC7B54C323AC97270120" adlcp:scormType="asset" type="webcontent" href="750004/06.html">
+      <file href="750004/06.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-468270F2F480BB49E4FE38E7D84212CF" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_06.html">
+      <file href="750004/exam/750004_06.html" />
+    </resource>
+    <resource identifier="RES-E71784F34181BA389A714B36AFE94EE7" adlcp:scormType="asset" type="webcontent" href="750004/07.html">
+      <file href="750004/07.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-6E7B97BC16B6F5C964DBDF981ECB2741" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_07.html">
+      <file href="750004/exam/750004_07.html" />
+    </resource>
+    <resource identifier="RES-6544A817A89C0202DE4D2F3DE46749C0" adlcp:scormType="asset" type="webcontent" href="750004/08.html">
+      <file href="750004/08.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-8E839BBDC70F15115CF60D0B12BA11E4" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_08.html">
+      <file href="750004/exam/750004_08.html" />
+    </resource>
+    <resource identifier="RES-7E268A9F5BC2E9832ED0B2523DC3594B" adlcp:scormType="asset" type="webcontent" href="750004/09.html">
+      <file href="750004/09.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-B50AE2228EC6DC9CBDF19B53EAB5EF02" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_09.html">
+      <file href="750004/exam/750004_09.html" />
+    </resource>
+    <resource identifier="RES-8014763A31E03B4197FE9F453D827BD5" adlcp:scormType="asset" type="webcontent" href="750004/10.html">
+      <file href="750004/10.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-B34BECBAE74F41125268250AF512DF5F" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_10.html">
+      <file href="750004/exam/750004_10.html" />
+    </resource>
+    <resource identifier="RES-CA16DE5C5369544CA1E0A8EEA46026A7" adlcp:scormType="asset" type="webcontent" href="750004/11.html">
+      <file href="750004/11.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-986E8876D08DABD8D3E801FEC376AE92" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_11.html">
+      <file href="750004/exam/750004_11.html" />
+    </resource>
+    <resource identifier="RES-D375582E84D72BBA400BCD22F453AC2C" adlcp:scormType="asset" type="webcontent" href="750004/12.html">
+      <file href="750004/12.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-77B150E7B16A9250AD63CBB936FC5A11" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_12.html">
+      <file href="750004/exam/750004_12.html" />
+    </resource>
+    <resource identifier="RES-94C1A8FF6A7048735754B92C6F2452A3" adlcp:scormType="asset" type="webcontent" href="750004/13.html">
+      <file href="750004/13.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-3E66255FE086AF6B557D0788D0C19AFB" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_13.html">
+      <file href="750004/exam/750004_13.html" />
+    </resource>
+    <resource identifier="RES-32CA072D046FAA739491E775834FE3E3" adlcp:scormType="asset" type="webcontent" href="750004/14.html">
+      <file href="750004/14.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-E4264FEC0996BAD02E6D112FAF75889F" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_14.html">
+      <file href="750004/exam/750004_14.html" />
+    </resource>
+    <resource identifier="RES-F7FF2F97B66513355DB562B4A7BAED59" adlcp:scormType="asset" type="webcontent" href="750004/15.html">
+      <file href="750004/15.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-FFE0F45DE6E0097C99761E7B0861BEF0" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_15.html">
+      <file href="750004/exam/750004_15.html" />
+    </resource>
+    <resource identifier="RES-7A5799304635722D227F8D12F2DF24AA" adlcp:scormType="asset" type="webcontent" href="750004/16.html">
+      <file href="750004/16.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-18861EBAA3C383C63390F5A23A2DB129" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_16.html">
+      <file href="750004/exam/750004_16.html" />
+    </resource>
+    <resource identifier="RES-6EAB8E8D0083C902886AA15CC6043C3C" adlcp:scormType="asset" type="webcontent" href="750004/17.html">
+      <file href="750004/17.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-BA4A30BDC3EFB41B1460815AA7044738" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_17.html">
+      <file href="750004/exam/750004_17.html" />
+    </resource>
+    <resource identifier="RES-6140A2658E0329ED578FB6D679B887D9" adlcp:scormType="asset" type="webcontent" href="750004/18.html">
+      <file href="750004/18.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-E03650B7781E49A823884CF84A00C0BE" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_18.html">
+      <file href="750004/exam/750004_18.html" />
+    </resource>
+    <resource identifier="RES-B41C5CE98CFB4A9E8861C3E6A9737EC0" adlcp:scormType="asset" type="webcontent" href="750004/19.html">
+      <file href="750004/19.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-59AE34DDF6A0625499C769149F2D7954" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_19.html">
+      <file href="750004/exam/750004_19.html" />
+    </resource>
+    <resource identifier="RES-D6B1F4B99494EC3D335AD808394069C0" adlcp:scormType="asset" type="webcontent" href="750004/20.html">
+      <file href="750004/20.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-CC2FE80A0D413A324249717E85352BF6" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_20.html">
+      <file href="750004/exam/750004_20.html" />
+    </resource>
+    <resource identifier="RES-A4BF845D1C82C14CE4299B27C104A68A" adlcp:scormType="asset" type="webcontent" href="750004/21.html">
+      <file href="750004/21.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-6FD382768DE4FE07CE91650E2F471CB0" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_21.html">
+      <file href="750004/exam/750004_21.html" />
+    </resource>
+    <resource identifier="RES-6F59C03810A5817A7E7A6E9DBE037983" adlcp:scormType="asset" type="webcontent" href="750004/22.html">
+      <file href="750004/22.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-60EDC7BF4354085405F24E7E10656EA0" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_22.html">
+      <file href="750004/exam/750004_22.html" />
+    </resource>
+    <resource identifier="RES-FE24B24C6B71D79C15EEE53CCB33A902" adlcp:scormType="asset" type="webcontent" href="750004/23.html">
+      <file href="750004/23.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-49BE48CC1BC2FC8DC4576D09C176F478" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_23.html">
+      <file href="750004/exam/750004_23.html" />
+    </resource>
+    <resource identifier="RES-F1119E7685A26B3A2D20833CD5263FD1" adlcp:scormType="asset" type="webcontent" href="750004/24.html">
+      <file href="750004/24.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-2D6347B835F801AD7DB9D696BF628C50" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_24.html">
+      <file href="750004/exam/750004_24.html" />
+    </resource>
+    <resource identifier="RES-A5A50CAAA27A146EA45A181D4763A968" adlcp:scormType="asset" type="webcontent" href="750004/25.html">
+      <file href="750004/25.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-AAEEFF1CC4FE3BADB7B031690FD9158D" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_25.html">
+      <file href="750004/exam/750004_25.html" />
+    </resource>
+    <resource identifier="RES-2F5AEC1DF9A0B3BB39585B5A069C5A38" adlcp:scormType="asset" type="webcontent" href="750004/26.html">
+      <file href="750004/26.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-CAEBF226553450B92EDBA6830608A9A0" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_26.html">
+      <file href="750004/exam/750004_26.html" />
+    </resource>
+    <resource identifier="RES-704098A36FBB922D318BABB74A54FE26" adlcp:scormType="asset" type="webcontent" href="750004/supply/750004_26/750004-26-3.pdf">
+      <file href="750004/supply/750004_26/750004-26-3.pdf" />
+    </resource>
+    <resource identifier="RES-FA8953AA2DF1E53FBF6F064B83C11B49" adlcp:scormType="asset" type="webcontent" href="750004/27.html">
+      <file href="750004/27.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-0ADBE5D4F75323E0A7C71CC2D7A52705" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_27.html">
+      <file href="750004/exam/750004_27.html" />
+    </resource>
+    <resource identifier="RES-614161CAC05C71DD145C2A56ADCD2C3F" adlcp:scormType="asset" type="webcontent" href="750004/28.html">
+      <file href="750004/28.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-99F1C79A0748558539CC58D99BAECA59" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_28.html">
+      <file href="750004/exam/750004_28.html" />
+    </resource>
+    <resource identifier="RES-1F94DD622DB012CAB5DDDA6E8450A076" adlcp:scormType="asset" type="webcontent" href="750004/29.html">
+      <file href="750004/29.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-FAC1F84E5B8E109492BF856D9D41014C" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_29.html">
+      <file href="750004/exam/750004_29.html" />
+    </resource>
+    <resource identifier="RES-64243BA92BBDE80ADA200FFA2B850F5F" adlcp:scormType="asset" type="webcontent" href="750004/30.html">
+      <file href="750004/30.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-8432C3209478531A9761251A93DF8FFC" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_30.html">
+      <file href="750004/exam/750004_30.html" />
+    </resource>
+    <resource identifier="RES-818D3477FB2CCB96A602FA0A1FC6C1EF" adlcp:scormType="asset" type="webcontent" href="750004/31.html">
+      <file href="750004/31.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-0C25A5352F24DC527FB4DCE52A1254AD" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_31.html">
+      <file href="750004/exam/750004_31.html" />
+    </resource>
+    <resource identifier="RES-BAE8B8D47109D4E04E0798DDFC8FF282" adlcp:scormType="asset" type="webcontent" href="750004/32.html">
+      <file href="750004/32.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-4535C68432D3662D0140F29BB4CB7146" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_32.html">
+      <file href="750004/exam/750004_32.html" />
+    </resource>
+    <resource identifier="RES-DC9D0C2C1F97079F975D3690CC5580FC" adlcp:scormType="asset" type="webcontent" href="750004/33.html">
+      <file href="750004/33.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-D89D47057CA20DF1C189B101C94D6C5F" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_33.html">
+      <file href="750004/exam/750004_33.html" />
+    </resource>
+    <resource identifier="RES-00B71B291C195E1E09662617DAB64120" adlcp:scormType="asset" type="webcontent" href="750004/34.html">
+      <file href="750004/34.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-841E307F32CAB2233DDC7BD120383BED" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_34.html">
+      <file href="750004/exam/750004_34.html" />
+    </resource>
+    <resource identifier="RES-B7B1390E3827444696944D86D84567D2" adlcp:scormType="asset" type="webcontent" href="750004/35.html">
+      <file href="750004/35.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-2EF34C85D62D3001676B553E1DF0EF52" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_35.html">
+      <file href="750004/exam/750004_35.html" />
+    </resource>
+    <resource identifier="RES-83D71E75ABBD89A1C0F2EB2D72E44B44" adlcp:scormType="asset" type="webcontent" href="750004/36.html">
+      <file href="750004/36.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-341F6EE656EE2A48E9DE3C91C80F809F" adlcp:scormType="asset" type="webcontent" href="750004/exam/750004_36.html">
+      <file href="750004/exam/750004_36.html" />
+    </resource>
+    <resource identifier="RES-CCE9C4BB11341961D6A993D4DCA83BF5" adlcp:scormType="asset" type="webcontent" href="750004/37.html">
+      <file href="750004/37.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-7C5DA328C4B983B164BD4580A906C5CA" adlcp:scormType="asset" type="webcontent" href="750004/38.html">
+      <file href="750004/38.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-4EC04AD92643BF0B856D8C3E406B3585" adlcp:scormType="asset" type="webcontent" href="750004/39.html">
+      <file href="750004/39.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-80ECF67602D75826A78682DDF5D72959" adlcp:scormType="asset" type="webcontent" href="750004/40.html">
+      <file href="750004/40.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-F324D267F65B9E1D04084AC4BE7D864C" adlcp:scormType="asset" type="webcontent" href="750004/41.html">
+      <file href="750004/41.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-5F7E214A6AF31693F35AC96BCE4268D7" adlcp:scormType="asset" type="webcontent" href="750004/42.html">
+      <file href="750004/42.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-358AB9D8EFE21249636AC941120B1A35" adlcp:scormType="asset" type="webcontent" href="750004/43.html">
+      <file href="750004/43.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+    <resource identifier="RES-BB85899CF7E91B166FBAB5A0C07F91A7" adlcp:scormType="asset" type="webcontent" href="750004/44.html">
+      <file href="750004/44.html" />
+      <file href="750004/movie.css" />
+      <file href="750004/video.js" />
+      <file href="750004/images/center.jpg" />
+      <file href="750004/images/firefox.gif" />
+      <file href="750004/images/safari.gif" />
+      <file href="750004/images/space.gif" />
+      <file href="750004/images/top.jpg" />
+      <file href="750004/images/movie_01.gif" />
+      <file href="750004/images/movie_02.gif" />
+      <file href="750004/images/movie_03.gif" />
+      <file href="750004/images/movie_04.gif" />
+      <file href="750004/images/movie_05.gif" />
+      <file href="750004/images/movie_06.gif" />
+      <file href="750004/images/movie_06a.gif" />
+      <file href="750004/images/movie_07.gif" />
+      <file href="750004/images/movie_07a.gif" />
+      <file href="750004/images/movie_08.gif" />
+      <file href="750004/images/movie_08a.gif" />
+      <file href="750004/images/movie_09.gif" />
+      <file href="750004/images/movie_09a.gif" />
+      <file href="750004/images/movie_10.gif" />
+      <file href="750004/images/movie_10a.gif" />
+      <file href="750004/images/movie_11.gif" />
+    </resource>
+  </resources>
+</manifest>
+

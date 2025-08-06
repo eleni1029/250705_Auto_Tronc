@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:30:"第二十三講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067386_159240" title="人力資源管理可區分為那六個時期？每個 ...">
+    <presentation label="人力資源管理可區分為那六個時期？每個 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;人力資源管理可區分為那六個時期？每個時期的工作重點為何？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;人力資源管理的發展可劃分為六個時期，每個時期的管理工作都不一樣，且大致都是把前一時期的工作重點再加以延續並予以擴大，茲將各時期的主要工作重點說明如下：&lt;br /&gt;
+1.人事作業管理：1860年代起，工作重點：招募、;甄選、薪資、出勤管理。&lt;br /&gt;
+2.科學管理：1900年代起，工作分析、工作設計。&lt;br /&gt;
+3.人群關係：1930年代起，溝通、激勵、衝突、勞資關係。&lt;br /&gt;
+4.人力資源管理：1960年代起，人力資源規劃、員工生涯發展。&lt;br /&gt;
+5.策略性人力資源管理：1980年代起，以人為組織的策略性資源。&lt;br /&gt;
+6.國際人力資源管理：1990年代起，強調跨國人力的派遣與管理。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>23</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067396_902578" title="「人力的獲得」的管理活動有那些？">
+    <presentation label="「人力的獲得」的管理活動有那些？">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;「人力的獲得」的管理活動有那些？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;若就「人力的獲得」部分而言，管理活動大致可區分三大類，其內容如下：&lt;br /&gt;
+1.工作分析與工作設計：&lt;br /&gt;
+依工作分析的結果撰寫工作說明書及工作規範，以作為其他人力資源管理活動的依據；而工作設計則是強調如何運用管理理論來進行員工工作或職務的設計與安排，使工作成為有趣及快樂的泉源。&lt;br /&gt;
+2.人力資源規劃：&lt;br /&gt;
+依組織未來的發展需求來規劃人力，強調人力需求與供給的均衡，使組織的人力不會短缺或過剩。&lt;br /&gt;
+3.招募與甄選：&lt;br /&gt;
+依據工作說明書及工作規範之要求條件，透過各類的管理與方式發出求才之訊息，以吸引潛在的求職者至組織應徵工作。另再以合乎信度與效度的各類甄試工具，從所有的應徵者中挑選出最合適之員工。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>23</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067406_946176" title="就「人員的激勵與維持」而言，其主要的 ...">
+    <presentation label="就「人員的激勵與維持」而言，其主要的 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;就「人員的激勵與維持」而言，其主要的管理活動為何？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;就「人員的激勵與維持」部分而言，主要的管理工作包括六大部分，茲將相關的工作內容詳細介紹於下：&lt;br /&gt;
+1.激勵與領導：有效的運用激勵理論之相關概念，對員工進行適切的引導，使其士氣提升，並對組織產生高度的認同。&lt;br /&gt;
+2.薪資管理：根據薪資調查及工作評價的結果，將相似職位劃歸同一職等職級，在兼顧內外公平的情況與政府法規之要求，訂定合理的薪資結構與制度，以作為激勵員工的誘因及貢獻的回饋。&lt;br /&gt;
+3.獎金與福利：依據績效考核的結果，以及組織的營運狀況，對表現良好之員工予以金錢上的獎勵；另為照顧員工使其安心工作，組織亦應予以員工合理的保險、休假、請假、以及相關的補貼等福利。&lt;br /&gt;
+4.勞工安全與衛生：良好工作環境之建立是很重要的，故要考量並設置有關勞工安全的措施、職業災害的預防、以及企業救助計畫等事項。&lt;br /&gt;
+5.勞資關係：和諧勞資關係的建立，對僱主與員工皆有利，故宜尊重勞動三權：團結權、集體協商與爭議權，讓員工透過工會及相關的協商管道，彼此溝通並尋求共識，讓僱主與勞工達到雙嬴之局面。&lt;br /&gt;
+6.紀律管理：為求組織能正常運行，適度合理的管控是必需的。因此組織可透過獎懲制度與申訴程序等法制的建立，讓表現優者得到獎勵，而行為不當者受到應有的懲處，如此才能維持一個有紀律的組織。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>23</wm:chapter>
+      <wm:paragraph>3</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:22:"第一章 自我評量";s:6:"GB2312";s:19:"COPY_COPY_undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <section ident="section-1">
+    <presentation_material>
+      <flow_mat>
+        <material>
+          <mattext>單選題</mattext>
+        </material>
+      </flow_mat>
+    </presentation_material>
+    <item ident="WM_ITEM1_1000100000_10008821_1519970472_235979" title="聚焦在｢我想從事什麼活動/追求什麼興趣 ...">
+      <presentation label="聚焦在｢我想從事什麼活動/追求什麼興趣 ...">
+        <flow>
+          <material>
+            <mattext>聚焦在｢我想從事什麼活動/追求什麼興趣，我可以去哪裡完成？｣屬於哪種旅遊產品規劃？</mattext>
+          </material>
+          <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+            <render_choice shuffle="Yes">
+              <response_label ident="1">
+                <flow_mat>
+                  <material>
+                    <mattext>大眾旅遊</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="2">
+                <flow_mat>
+                  <material>
+                    <mattext>混合興趣旅遊</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="3">
+                <flow_mat>
+                  <material>
+                    <mattext>主題旅遊</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="4">
+                <flow_mat>
+                  <material>
+                    <mattext>獎勵旅遊</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </flow>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar vartype="Integer" defaultval="20"/>
+        </outcomes>
+        <respcondition title="Correct">
+          <conditionvar>
+            <varequal respident="ANS01">3</varequal>
+          </conditionvar>
+          <setvar action="Set">1</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="Correct">
+        <flow_mat>
+          <material>
+            <mattext/>
+          </material>
+        </flow_mat>
+        <solution>
+          <solutionmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </solutionmaterial>
+          <wm:refurl>http://</wm:refurl>
+        </solution>
+        <hint enable="false">
+          <hintmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </hintmaterial>
+        </hint>
+      </itemfeedback>
+      <wm:hardlevel>3</wm:hardlevel>
+      <wm:class>
+        <wm:version>0</wm:version>
+        <wm:volume>0</wm:volume>
+        <wm:chapter>1</wm:chapter>
+        <wm:paragraph>0</wm:paragraph>
+        <wm:section>0</wm:section>
+      </wm:class>
+    </item>
+    <item ident="WM_ITEM1_1000100000_10008821_1519970472_235980" title="下列各產業間的關係敘述哪個正確？">
+      <presentation label="下列各產業間的關係敘述哪個正確？">
+        <flow>
+          <material>
+            <mattext>下列各產業間的關係敘述哪個正確？</mattext>
+          </material>
+          <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+            <render_choice shuffle="Yes">
+              <response_label ident="1">
+                <flow_mat>
+                  <material>
+                    <mattext>休閒產業＞生活產業＞觀光產業＞旅行業</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="2">
+                <flow_mat>
+                  <material>
+                    <mattext>生活產業＞休閒產業＞觀光產業＞旅行業</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="3">
+                <flow_mat>
+                  <material>
+                    <mattext>生活產業＞休閒產業＞旅行業＞觀光產業</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="4">
+                <flow_mat>
+                  <material>
+                    <mattext>生活產業＞觀光產業＞休閒產業＞旅行業</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </flow>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar vartype="Integer" defaultval="20"/>
+        </outcomes>
+        <respcondition title="Correct">
+          <conditionvar>
+            <varequal respident="ANS01">2</varequal>
+          </conditionvar>
+          <setvar action="Set">1</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="Correct">
+        <flow_mat>
+          <material>
+            <mattext/>
+          </material>
+        </flow_mat>
+        <solution>
+          <solutionmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </solutionmaterial>
+          <wm:refurl>http://</wm:refurl>
+        </solution>
+        <hint enable="false">
+          <hintmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </hintmaterial>
+        </hint>
+      </itemfeedback>
+      <wm:hardlevel>3</wm:hardlevel>
+      <wm:class>
+        <wm:version>0</wm:version>
+        <wm:volume>0</wm:volume>
+        <wm:chapter>1</wm:chapter>
+        <wm:paragraph>0</wm:paragraph>
+        <wm:section>0</wm:section>
+      </wm:class>
+    </item>
+    <item ident="WM_ITEM1_1000100000_10008821_1519970472_235981" title="下列敘述何者不正確？">
+      <presentation label="下列敘述何者不正確？">
+        <flow>
+          <material>
+            <mattext>下列敘述何者不正確？</mattext>
+          </material>
+          <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+            <render_choice shuffle="Yes">
+              <response_label ident="1">
+                <flow_mat>
+                  <material>
+                    <mattext>甲種旅行社不得委託其他甲、乙種旅行社代為招攬業務。</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="2">
+                <flow_mat>
+                  <material>
+                    <mattext>甲種旅行社不得代理外國旅行業辦理聯絡、推廣、報價等業務。</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="3">
+                <flow_mat>
+                  <material>
+                    <mattext>乙種旅行社不得接受代辦出入國證照業務。</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="4">
+                <flow_mat>
+                  <material>
+                    <mattext>乙種旅行社可接待國外觀光客。</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </flow>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar vartype="Integer" defaultval="20"/>
+        </outcomes>
+        <respcondition title="Correct">
+          <conditionvar>
+            <varequal respident="ANS01">4</varequal>
+          </conditionvar>
+          <setvar action="Set">1</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="Correct">
+        <flow_mat>
+          <material>
+            <mattext/>
+          </material>
+        </flow_mat>
+        <solution>
+          <solutionmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </solutionmaterial>
+          <wm:refurl>http://</wm:refurl>
+        </solution>
+        <hint enable="false">
+          <hintmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </hintmaterial>
+        </hint>
+      </itemfeedback>
+      <wm:hardlevel>3</wm:hardlevel>
+      <wm:class>
+        <wm:version>0</wm:version>
+        <wm:volume>0</wm:volume>
+        <wm:chapter>1</wm:chapter>
+        <wm:paragraph>0</wm:paragraph>
+        <wm:section>0</wm:section>
+      </wm:class>
+    </item>
+    <item ident="WM_ITEM1_1000100000_10008821_1519970472_235982" title="下列何者為團體旅遊的價值活動？">
+      <presentation label="下列何者為團體旅遊的價值活動？">
+        <flow>
+          <material>
+            <mattext>下列何者為團體旅遊的價值活動？</mattext>
+          </material>
+          <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+            <render_choice shuffle="Yes">
+              <response_label ident="1">
+                <flow_mat>
+                  <material>
+                    <mattext>產品企劃</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="2">
+                <flow_mat>
+                  <material>
+                    <mattext>控團</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="3">
+                <flow_mat>
+                  <material>
+                    <mattext>OP作業</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="4">
+                <flow_mat>
+                  <material>
+                    <mattext>以上皆是</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </flow>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar vartype="Integer" defaultval="20"/>
+        </outcomes>
+        <respcondition title="Correct">
+          <conditionvar>
+            <varequal respident="ANS01">4</varequal>
+          </conditionvar>
+          <setvar action="Set">1</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="Correct">
+        <flow_mat>
+          <material>
+            <mattext/>
+          </material>
+        </flow_mat>
+        <solution>
+          <solutionmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </solutionmaterial>
+          <wm:refurl>http://</wm:refurl>
+        </solution>
+        <hint enable="false">
+          <hintmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </hintmaterial>
+        </hint>
+      </itemfeedback>
+      <wm:hardlevel>3</wm:hardlevel>
+      <wm:class>
+        <wm:version>0</wm:version>
+        <wm:volume>0</wm:volume>
+        <wm:chapter>1</wm:chapter>
+        <wm:paragraph>0</wm:paragraph>
+        <wm:section>0</wm:section>
+      </wm:class>
+    </item>
+    <item ident="WM_ITEM1_1000100000_10008821_1519970472_235983" title="下列何者非遊程規劃者的角色？">
+      <presentation label="下列何者非遊程規劃者的角色？">
+        <flow>
+          <material>
+            <mattext>下列何者非遊程規劃者的角色？</mattext>
+          </material>
+          <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+            <render_choice shuffle="Yes">
+              <response_label ident="1">
+                <flow_mat>
+                  <material>
+                    <mattext>目標擔當者</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="2">
+                <flow_mat>
+                  <material>
+                    <mattext>旅客分房執行者</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="3">
+                <flow_mat>
+                  <material>
+                    <mattext>產品創意發想者</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="4">
+                <flow_mat>
+                  <material>
+                    <mattext>創價流程控管者</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </flow>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar vartype="Integer" defaultval="20"/>
+        </outcomes>
+        <respcondition title="Correct">
+          <conditionvar>
+            <varequal respident="ANS01">2</varequal>
+          </conditionvar>
+          <setvar action="Set">1</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="Correct">
+        <flow_mat>
+          <material>
+            <mattext/>
+          </material>
+        </flow_mat>
+        <solution>
+          <solutionmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </solutionmaterial>
+          <wm:refurl>http://</wm:refurl>
+        </solution>
+        <hint enable="false">
+          <hintmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </hintmaterial>
+        </hint>
+      </itemfeedback>
+      <wm:hardlevel>3</wm:hardlevel>
+      <wm:class>
+        <wm:version>0</wm:version>
+        <wm:volume>0</wm:volume>
+        <wm:chapter>1</wm:chapter>
+        <wm:paragraph>0</wm:paragraph>
+        <wm:section>0</wm:section>
+      </wm:class>
+    </item>
+  </section>
+</questestinterop>

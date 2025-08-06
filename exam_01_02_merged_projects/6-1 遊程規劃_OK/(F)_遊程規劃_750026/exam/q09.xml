@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:22:"第九章 自我評量";s:6:"GB2312";s:19:"COPY_COPY_undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <section ident="section-1">
+    <presentation_material>
+      <flow_mat>
+        <material>
+          <mattext>單選題</mattext>
+        </material>
+      </flow_mat>
+    </presentation_material>
+    <item ident="WM_ITEM1_1000100000_10008821_1519970472_236019" title="下列何者不在Clawson與Knetsch所提出的 ...">
+      <presentation label="下列何者不在Clawson與Knetsch所提出的 ...">
+        <flow>
+          <material>
+            <mattext>下列何者不在Clawson與Knetsch所提出的遊憩體驗階段：</mattext>
+          </material>
+          <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+            <render_choice shuffle="Yes">
+              <response_label ident="1">
+                <flow_mat>
+                  <material>
+                    <mattext>預期階段</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="2">
+                <flow_mat>
+                  <material>
+                    <mattext>前往目的地階段</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="3">
+                <flow_mat>
+                  <material>
+                    <mattext>回程返家階段</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="4">
+                <flow_mat>
+                  <material>
+                    <mattext>購物階段</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </flow>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar vartype="Integer" defaultval="20"/>
+        </outcomes>
+        <respcondition title="Correct">
+          <conditionvar>
+            <varequal respident="ANS01">4</varequal>
+          </conditionvar>
+          <setvar action="Set">1</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="Correct">
+        <flow_mat>
+          <material>
+            <mattext/>
+          </material>
+        </flow_mat>
+        <solution>
+          <solutionmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </solutionmaterial>
+          <wm:refurl>http://</wm:refurl>
+        </solution>
+        <hint enable="false">
+          <hintmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </hintmaterial>
+        </hint>
+      </itemfeedback>
+      <wm:hardlevel>3</wm:hardlevel>
+      <wm:class>
+        <wm:version>0</wm:version>
+        <wm:volume>0</wm:volume>
+        <wm:chapter>9</wm:chapter>
+        <wm:paragraph>1</wm:paragraph>
+        <wm:section>0</wm:section>
+      </wm:class>
+    </item>
+    <item ident="WM_ITEM1_1000100000_10008821_1519970472_236020" title="知覺風險不包括下列那一項因素：">
+      <presentation label="知覺風險不包括下列那一項因素：">
+        <flow>
+          <material>
+            <mattext>知覺風險不包括下列那一項因素：</mattext>
+          </material>
+          <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+            <render_choice shuffle="Yes">
+              <response_label ident="1">
+                <flow_mat>
+                  <material>
+                    <mattext>不確定性</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="2">
+                <flow_mat>
+                  <material>
+                    <mattext>後果</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="3">
+                <flow_mat>
+                  <material>
+                    <mattext>時間</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </flow>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar vartype="Integer" defaultval="20"/>
+        </outcomes>
+        <respcondition title="Correct">
+          <conditionvar>
+            <varequal respident="ANS01">3</varequal>
+          </conditionvar>
+          <setvar action="Set">1</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="Correct">
+        <flow_mat>
+          <material>
+            <mattext/>
+          </material>
+        </flow_mat>
+        <solution>
+          <solutionmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </solutionmaterial>
+          <wm:refurl>http://</wm:refurl>
+        </solution>
+        <hint enable="false">
+          <hintmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </hintmaterial>
+        </hint>
+      </itemfeedback>
+      <wm:hardlevel>3</wm:hardlevel>
+      <wm:class>
+        <wm:version>0</wm:version>
+        <wm:volume>0</wm:volume>
+        <wm:chapter>9</wm:chapter>
+        <wm:paragraph>2</wm:paragraph>
+        <wm:section>0</wm:section>
+      </wm:class>
+    </item>
+    <item ident="WM_ITEM1_1000100000_10008821_1519970472_236021" title="Roselius以四大面向來探討知覺風險，下 ...">
+      <presentation label="Roselius以四大面向來探討知覺風險，下 ...">
+        <flow>
+          <material>
+            <mattext>Roselius以四大面向來探討知覺風險，下列何者不包括其中：</mattext>
+          </material>
+          <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+            <render_choice shuffle="Yes">
+              <response_label ident="1">
+                <flow_mat>
+                  <material>
+                    <mattext>時間損失</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="2">
+                <flow_mat>
+                  <material>
+                    <mattext>危險損失</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="3">
+                <flow_mat>
+                  <material>
+                    <mattext>自我損失</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="4">
+                <flow_mat>
+                  <material>
+                    <mattext>金錢損失</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </flow>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar vartype="Integer" defaultval="20"/>
+        </outcomes>
+        <respcondition title="Correct">
+          <conditionvar>
+            <varequal respident="ANS01">3</varequal>
+          </conditionvar>
+          <setvar action="Set">1</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="Correct">
+        <flow_mat>
+          <material>
+            <mattext/>
+          </material>
+        </flow_mat>
+        <solution>
+          <solutionmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </solutionmaterial>
+          <wm:refurl>http://</wm:refurl>
+        </solution>
+        <hint enable="false">
+          <hintmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </hintmaterial>
+        </hint>
+      </itemfeedback>
+      <wm:hardlevel>3</wm:hardlevel>
+      <wm:class>
+        <wm:version>0</wm:version>
+        <wm:volume>0</wm:volume>
+        <wm:chapter>9</wm:chapter>
+        <wm:paragraph>2</wm:paragraph>
+        <wm:section>0</wm:section>
+      </wm:class>
+    </item>
+    <item ident="WM_ITEM1_1000100000_10008821_1519970472_236022" title="Mansfeld將旅遊認知風險分為下列五種因 ...">
+      <presentation label="Mansfeld將旅遊認知風險分為下列五種因 ...">
+        <flow>
+          <material>
+            <mattext>Mansfeld將旅遊認知風險分為下列五種因素，下列何者不包括其中：</mattext>
+          </material>
+          <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+            <render_choice shuffle="Yes">
+              <response_label ident="1">
+                <flow_mat>
+                  <material>
+                    <mattext>自然災難事件</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="2">
+                <flow_mat>
+                  <material>
+                    <mattext>偷竊</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="3">
+                <flow_mat>
+                  <material>
+                    <mattext>戰爭</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="4">
+                <flow_mat>
+                  <material>
+                    <mattext>傳染病</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="5">
+                <flow_mat>
+                  <material>
+                    <mattext>恐怖主義</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </flow>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar vartype="Integer" defaultval="20"/>
+        </outcomes>
+        <respcondition title="Correct">
+          <conditionvar>
+            <varequal respident="ANS01">2</varequal>
+          </conditionvar>
+          <setvar action="Set">1</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="Correct">
+        <flow_mat>
+          <material>
+            <mattext/>
+          </material>
+        </flow_mat>
+        <solution>
+          <solutionmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </solutionmaterial>
+          <wm:refurl>http://</wm:refurl>
+        </solution>
+        <hint enable="false">
+          <hintmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </hintmaterial>
+        </hint>
+      </itemfeedback>
+      <wm:hardlevel>3</wm:hardlevel>
+      <wm:class>
+        <wm:version>0</wm:version>
+        <wm:volume>0</wm:volume>
+        <wm:chapter>9</wm:chapter>
+        <wm:paragraph>2</wm:paragraph>
+        <wm:section>0</wm:section>
+      </wm:class>
+    </item>
+    <item ident="WM_ITEM1_1000100000_10008821_1519970472_236023" title="顧客認定且願意去接受的變異範圍稱為：">
+      <presentation label="顧客認定且願意去接受的變異範圍稱為：">
+        <flow>
+          <material>
+            <mattext>顧客認定且願意去接受的變異範圍稱為：</mattext>
+          </material>
+          <response_lid ident="ANS01" rcardinality="Single" rtiming="No">
+            <render_choice shuffle="Yes">
+              <response_label ident="1">
+                <flow_mat>
+                  <material>
+                    <mattext>容忍度</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="2">
+                <flow_mat>
+                  <material>
+                    <mattext>接受度</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+              <response_label ident="3">
+                <flow_mat>
+                  <material>
+                    <mattext>滿意度</mattext>
+                  </material>
+                </flow_mat>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </flow>
+      </presentation>
+      <resprocessing>
+        <outcomes>
+          <decvar vartype="Integer" defaultval="20"/>
+        </outcomes>
+        <respcondition title="Correct">
+          <conditionvar>
+            <varequal respident="ANS01">1</varequal>
+          </conditionvar>
+          <setvar action="Set">1</setvar>
+          <displayfeedback feedbacktype="Response" linkrefid="Correct"/>
+        </respcondition>
+      </resprocessing>
+      <itemfeedback ident="Correct">
+        <flow_mat>
+          <material>
+            <mattext/>
+          </material>
+        </flow_mat>
+        <solution>
+          <solutionmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </solutionmaterial>
+          <wm:refurl>http://</wm:refurl>
+        </solution>
+        <hint enable="false">
+          <hintmaterial>
+            <material>
+              <mattext/>
+            </material>
+          </hintmaterial>
+        </hint>
+      </itemfeedback>
+      <wm:hardlevel>3</wm:hardlevel>
+      <wm:class>
+        <wm:version>0</wm:version>
+        <wm:volume>0</wm:volume>
+        <wm:chapter>9</wm:chapter>
+        <wm:paragraph>3</wm:paragraph>
+        <wm:section>0</wm:section>
+      </wm:class>
+    </item>
+  </section>
+</questestinterop>

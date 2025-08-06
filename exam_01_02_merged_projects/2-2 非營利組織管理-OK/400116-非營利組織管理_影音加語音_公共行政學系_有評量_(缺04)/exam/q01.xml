@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:24:"第一講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692064807_009860" title="就非營利組織的屬性觀之，一般的書籍皆 ...">
+    <presentation label="就非營利組織的屬性觀之，一般的書籍皆 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;就非營利組織的屬性觀之，一般的書籍皆認為其應具有那些特徴？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;1.正式的組織：要有某種程度的制度化，同時要得到政府合法的承認。&lt;br /&gt;
+2.具民間性質：其雖可接受政府的財源補助，但應與政府有所區隔。&lt;br /&gt;
+3.利潤不分配：即使有盈餘亦不得分配給組織內部的人員。&lt;br /&gt;
+4.要能夠自理：要有自我治理的能力，不受外部團體的掌控&lt;br /&gt;
+5.要有志願人員的參與：由民間人士，自動自發的參與。&lt;br /&gt;
+6.公共利益的屬性：要以不特定多數人的利益為主要的考量，並提供相關的服務。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>1</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692064824_686851" title="非營利組織在設立績效標準時會面臨那些 ...">
+    <presentation label="非營利組織在設立績效標準時會面臨那些 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;非營利組織在設立績效標準時會面臨那些困境？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;營利組織有一項重要的特性，那就是「產品多樣化，績效不易衡」。非營利組織與私人企業最大的差異在於：一個以營利為目標，而另一個則以非營利性的服務使命達成為最終的目的。所以在績效的評量上，市場導向的私部門往往能依具體的底線標準（bottom-line）作為財務狀況與績效衡量的依據，並適時修正其營運策略。但就非營利組織而言，其成立的目的係在服務人群並達成使命，故其在設立績效標準時，可能會面臨到下列的困境：&lt;br /&gt;
+1.非營利組織所提供的是服務，而非手工製品，所以很難具體測量。&lt;br /&gt;
+2.組織的服務對象分歧，再加上需仰賴捐助者的捐獻，所以管理者通常會以廣泛的目標陳述作為吸收財源的利器，致使組織內各目標間相衝突；有時甚至忽略服務對象的需求，而導致評估上的困難。&lt;br /&gt;
+3.如果以資源的取得作為績效的標準，則可能面臨資源分配與資源取得各不相干的問題。&lt;br /&gt;
+4.模糊的目標陳述與偏重資源取得的結果，易造成管理者為取悅有力捐助者而出現不當的行為。&lt;br /&gt;
+5.專業的評定標準容易與服務對象不同，再加上捐助者的鼓勵助長，易使受惠者的利益受損。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>1</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

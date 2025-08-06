@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:27:"第十六講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692069592_415162" title="何謂「單回饋圈學習」與「雙回饋圈學習 ...">
+    <presentation label="何謂「單回饋圈學習」與「雙回饋圈學習 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;何謂「單回饋圈學習」與「雙回饋圈學習」，試討論說明之。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;針對既定的目標、政策，找尋行動方案與目標乖離的錯誤並予以矯正，藉以媒合行動和預期結果間的關係，連結手段與目標間的關係，貫徹工作方法和績效標準間的關係，是謂「單回饋圈學習」。在抽象的組織意圖指引下，重新修正目標政策與組織意圖的關係，設法找出意圖與結果圖象間乖離的地方予以矯正（如修改組織目標、目標的優先順序，調整政策方向或改造組織規範），並往下找尋可行的具體作為，即謂「雙回饋圈學習」。當組織行動的實際結果和期望結果相合時，即表示行動理論足以應付環境刺激所產生的影響，而當既有的行動理論未能有效指引組織採取適當的作為來回應環境刺激時，便發生實際和期望的落差；差距將造成執事人員對行動理論有效性的困擾與懷疑，形成組織運作的難題。組織針對此一落差重新理解並建構環境刺激與行動回應間的關係形態，在既定的政策目標下調整手段策略即構成單圈學習，更改根本性的目標規範即形成雙圈學習；單圈學習使組織行動理論更加周延完整，雙圈學習則會更動行動理論的內容與結構。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>16</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692069601_767536" title="試從織溝通的觀點說明組織學習的意義。">
+    <presentation label="試從織溝通的觀點說明組織學習的意義。">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;試從織溝通的觀點說明組織學習的意義。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;Daft和Huber二氏認為，組織學習即組織資訊處理和詮釋的過程，組織透過資訊的獲取、分配、解釋與記憶活動來學習。而組織學習的研究在探討：組織如何採行恰當的溝通策略、結構及科技，用來汲取、消化有關內外環境的資訊，以供決策所需，學習能力的提升將使組織更能適應環境的變化。進一步來說，凡組織之構成單位（個人與團體）能夠羅致對組織有所裨益的知識，即可謂之組織學習。其所稱組織知識係指：（舉凡吾人對環境事實的認定與詮釋，基於此一認識而產生相關之行動因果信念（即問題對策的應用邏輯），並發展出具體的行動程序與方法訣竅。這種知識可能產生立竿見影的效驗，如行為的改變；也可能形成某種潛移默化的影響，如認知與態度的改變。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>16</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692069610_329178" title="試討論組織學習與組織進行變革管理的關 ...">
+    <presentation label="試討論組織學習與組織進行變革管理的關 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;試討論組織學習與組織進行變革管理的關係。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;Duncan和Weiss二氏認為，組織學習即組織行動、結果、及行動結果對環境影響效果之諸般知識的發展過程。組織變革策略的更張係根據組織知識而來，組織知識即推定之組織行動與結果（含環境的回應效果）間的因果關係；組織知識更新或增長的社會過程即為組織學習，而組織知識的建立與採納可以從組織內部的權力政治動態獲得解釋。組織知識何以改變？當績效落差發生的時候，得勢團體必須設法縮小此一差距。績效落差的原因不一而足，可能與組織知識的不完備有關（如組織知識對環境狀態產生誤判，致無法形成有效策略進行組織調整），也可能和組織知識的有效性無關（或因策略執行的瑕疵、執行過程的失控，基本上屬於管控的問題而非策略問題）。當績效落差的事實被得勢團體判定與組織知識有關時，即會展開知識的改造活動，得勢團體對組織行動因果關係的重新界定，還得經歷內部權力鬥爭的政治過程才告塵埃落定。因此，組織學習也可以說是組織發現行動因果假定的謬誤，並予改正的演進過程。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>16</wm:chapter>
+      <wm:paragraph>3</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

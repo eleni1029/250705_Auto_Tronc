@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:30:"第二十二講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067353_905817" title="試說明「低成本」、「差異化」與「集中 ...">
+    <presentation label="試說明「低成本」、「差異化」與「集中 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;試說明「低成本」、「差異化」與「集中化」等三種策略的內涵？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;依波特的觀點，競爭策略可分為：低成本、差異化與集中化策略等三種，其中集中化策略，須與低成本或差異化配合方可成功。所謂低成本策略係指組織可透過有效率的管理來降低成本，進而提升市占率。若以非營利組織來看，其可透過良好的管理來降低服務或產品的價格，進而擁有更多的服務收入與對象。而差異化策略則是指組織所提供的產品與服務，具有別家組織難以模仿的特性，因而可以取得顧客的睛睞。就就以非營利組織而言，或許可提供不同的服務以吸引大眾對其認可，進而增加捐贈資金的來源。而集中化策略則通常是資本額小的新加入者，僅針對某一利基集中經營，它的經營策略可能是低成本或差異化中的一種。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>22</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+  <item ident="WM_ITEM1_1000100000_10006073_1692067365_089800" title="何謂總體環境的分析？">
+    <presentation label="何謂總體環境的分析？">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;何謂總體環境的分析？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;總體環境分析：總體環境分析項目包括政治（法律）環境、環保環境、社會環境、人口統計環境、總體經濟環境與科技環境等六項，茲將各總體環境的內涵詳述於下：&lt;br /&gt;
+1.政治法律環境：包括政府的體制、政治的穩定性、相關法律的制定與執行等，這些都和組織未來的經營績效相關。如在兩性平等法通過後，非營利組織在用人時便需考量到兩性平權的問題，亦需遵守性騷擾相關的防治規定。&lt;br /&gt;
+2.社會環境：社會環境的變遷創造了一些組織經營的新機會，但相對地，也會導致某些守成不變的組織走入黃昏。例如有些基金會強調以一族群作為服務對象，一旦該族群消失，則該基金會便無法繼續營運下去，就以早期的煤礦工人為例，現今己不存在，故服務該族群的基金會很可能喪失立基。&lt;br /&gt;
+3.人口環境：人口環境的變化創造了新機會也產生新威脅。例如美國的嬰兒潮改變了人口結構，在這批人口的成長過程中，導致了某些產品的大量需求，於其適婚階段，家電產品如洗衣機，洗碗機與脫水機的需求量遽增。&lt;br /&gt;
+4. 總體經濟環境：總體經濟環境影響企業經營績效甚鉅，例如利率水準的下降，對於那些僅靠基金孳息為生的基金會而言，其收入來源便大幅下滑，進而影響服務的水準。&lt;br /&gt;
+5.技術環境：技術的快速革新已造成技術環境的重大不確定性，組織在擬定策略方向時，勢必把未來科技的發展列為重要的考慮因素，若不加以深思熟慮，則其所採用的製程技術或其產品或所用到的科技水準，在未來極可能無法與競爭者相抗衡。因此，在科技技術發達的年代，非營利組織應善用網路科技來行銷自己，並多利用e化來進行內部人事與財務的管理。&lt;br /&gt;
+總之，非營利組織在擬定策略時，宜針對上述的總體環境進行系統化的分析，並結合本身的優勢，進而提出足以抓住機會並規避威脅的好策略，則其經營成效定是非凡的。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>22</wm:chapter>
+      <wm:paragraph>2</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

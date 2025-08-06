@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:24:"第六講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692065538_601562" title="非營利組織董事會的具體規範性職責為何？">
+    <presentation label="非營利組織董事會的具體規範性職責為何？">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;非營利組織董事會的具體規範性職責為何？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;就管理的觀點來看，非營利組織的董事會與一般民間企業的董事會並無太大的差異，主要差別在一為無給職，一為有給職且可分配盈餘，但在職責方面則無太大的差別。茲就「對內管理活動」與「對外聯結活動」兩方面闡明其所應履行的職責內涵。&lt;br /&gt;
+一、對內管理活動：係指治理基金會內部事宜所需採行的活動，其具體內涵如下：&lt;br /&gt;
+1.決定組織的使命與目的：董事會除了須熟悉組織的使命，並依其規劃活動外，更應定期與組織成員商討並更新使命的內涵，使組織的活動更能符合時勢的需求。執行長則依實際的運作狀況，適時將外部訊息及職員感受傳達給董事會，以利服務使命的修正與調整。&lt;br /&gt;
+2.甄拔行政主管（執行長）並予以實質協助：執行長是組織運作的靈魂人物，是董事會的諮詢顧問與貫徹決策的執行者，更是統轄內部人事活動的主管，因而適任人選的甄拔實與組織的營運成效有莫大的關聯。為能有效達成使命並貫徹任務，董事會當授權予執行長，使其有自主發揮的空間，並在互信合作的氣氛下共同營造組織的願景與活力。&lt;br /&gt;
+3.定期評估執行長的工作績效：董事會每年皆應進行一次工作成果總評估，由全體董事會成員行之，此類作法的好處為：可明確釐清董事會與執行長的角色關係及彼此的期許；此外，尚可透過適度的控制使執行長的工作方向不會與組織的使命相悖。&lt;br /&gt;
+4.從事組織目標的規劃：董事會當依據組織使命從事中長短期的工作目標與計畫的擬定，並針對外在環境的變遷適時修定計畫。一般而言，這些策略規劃活動或可委由專業的幕僚及顧問進行，但最終的決定權仍保留在董事會手中。&lt;br /&gt;
+5.確保組織的財務與資源的健全：操作性的預算編列是由財務委員會及幕僚們負責進行，董事會則是最後把關與合法化的機制，而年度預算的編列與審核更是董事會發揮影響力的時機。除了有效管理組織的財務運作外，董事的另一項重要工作便是進行財源的開拓與資金捐獻，董事當運用各自的影響力爭取各種可能的財源，此外，董事每年亦應盡其所能對組織捐獻所需資金。&lt;br /&gt;
+6.決定並監督組織的方案與服務：方案的擬定與服務的傳輸雖由執行長與其他受薪人員負責推動，但董事會仍須扮演詢問與把關的角色。董事會應針對組織的使命、現有的資源、服務對象的需求、以及捐款者的期望等議題，對組織的方案與服務提出質疑與詢問，並決定政策與方案的優先順序。&lt;br /&gt;
+7.充任內部衝突的最終仲裁者：理論上，組織內部的行政運作與管理活動是由執行長負責，董事會不應過度干涉行政事務。惟當內部成員對相關事宜有所爭論（特別是人事政策），而執行長又無法作適時的排解時，董事會便不得不充任訴願仲裁的公正者，依個案的性質與組織的政策尋求解決的方法。&lt;br /&gt;
+8.定期評估自我的表現：董事會當定期進行自我成效的評比與反省，評估的事項包括：職責的分配是否恰當、董事的組成為何、選拔過程是否能甄補適任的人員、組織的結構安排是否正確、以及整體的績效為何等，評估的進行可由自我測量表或請第三者評估。&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+二、對外聯結活動:係指治理基金會對外運作關係時所需採行的相關活動，諸如對外公關與行銷、對外募款並爭取資源等皆屬之，具體的活動內涵如下：&lt;br /&gt;
+1.提昇組織的公共形象：為能有效提昇組織的形象並獲取外界有利的支持，董事會當擔負起公關者的角色，透過年度書面報告、定期的新聞發布、常與政府及社區維持密切的聯繫、以及參與社區活動並演講等方式，適時將組織的目標、所作的貢獻、資金的運用與分配等事項，向外界解說，並將外界的評論回饋給組織，從良性互動的過程建立負責的形象，以便爭取更多的支持與鼓勵。&lt;br /&gt;
+2.對外募款：董事會成員理當致力於財源的尋找，或是透過良好社會關係網絡的建立以爭取資源，使組織有充裕的經費開辦活動。&lt;br /&gt;
+3.與政府主管機關建立良好關係：董事會成員當以特有的關係及影響力，盡力與政府部門維時良好關係，並透過良性互動爭取經費補助。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>6</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>

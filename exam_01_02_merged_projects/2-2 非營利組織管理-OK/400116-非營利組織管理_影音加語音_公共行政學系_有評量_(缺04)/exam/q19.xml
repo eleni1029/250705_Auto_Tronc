@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns:wm="http://www.sun.net.tw/WisdomMaster" threshold_score="" score_publish_type="complete">
+  <wm:title>a:5:{s:4:"Big5";s:27:"第十九講　自我評量";s:6:"GB2312";s:9:"undefined";s:2:"en";s:0:"";s:6:"EUC-JP";s:0:"";s:11:"user_define";s:0:"";}</wm:title>
+  <item ident="WM_ITEM1_1000100000_10006073_1692069962_766577" title="美國學者Salamon（1995）所提之「四大 ...">
+    <presentation label="美國學者Salamon（1995）所提之「四大 ...">
+      <flow>
+        <material>
+          <mattext>&lt;p&gt;&lt;b&gt;&lt;font color="#000000" size="2"&gt;美國學者Salamon（1995）所提之「四大危機」的具體內涵為何？&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;</mattext>
+        </material>
+        <response_str ident="FIB91" rcardinality="Ordered" rtiming="No">
+          <render_fib fibtype="String" prompt="Box" rows="10" columns="50">
+            <response_label ident="A"/>
+          </render_fib>
+        </response_str>
+      </flow>
+    </presentation>
+    <resprocessing>
+      <outcomes>
+        <decvar vartype="Integer" defaultval="0"/>
+      </outcomes>
+    </resprocessing>
+    <itemfeedback ident="AllCorrect">
+      <flow_mat>
+        <material>
+          <mattext>All correct. Well done.</mattext>
+        </material>
+      </flow_mat>
+      <solution>
+        <solutionmaterial>
+          <material>
+            <mattext>&lt;p&gt;根據美國學者Salamon（1995）的分析，之所以會造成非營利組織大量興起的原因可從「四大危機」談起，所謂的四大危機係指「福利國家的危機」、「發展的危機」、「環境危機」、以及「社會主義的危機」。&lt;br /&gt;
+首先，造成福利國家危機的原因有四：(一)1970年代初期的石油危機，促使人們更加相信，社會福利的支出會排擠個人對於生產資本及設備的投資；(二)愈來愈多的人認為政府變得太專業化與官僚化，以致於無法再負荷日益增加的任務；(三)政府所提的服務供愈來愈多，其所需的費用已超過人民所願意負擔的程度；(四)許多輿論認為，「福利國家」的作法是在扼殺人們的進取心，並增強人們的依賴心理，而此與促進經濟發展背道而馳。於是各國在保守派與新右派領導者的帶領下，於1970年代晚期與1980年代初期，展開了一波縮減支出的風潮。非營利組織因具有較佳的彈性，以及運用私人慈善捐款的特性，使得它隱然成為政府之外的另一個重要供給來源。&lt;br /&gt;
+第二個原因是「發展的危機」：在1970年代的石油危機之後，非洲國家、西亞、以及中南美洲等地的發展中國家，經濟呈現衰退的現象。到了1990年，許多發展中國家的經濟情勢甚至比在七、八○年代時還要惡化。許多發展中國家，特別是在非洲，其目前的政府通常是屬於外來政權，政策是否能夠符合一般民眾需要也頗令人質疑。因此愈來愈多人認為，藉由「參與者發展的途徑」來推動經濟發展，其效率是要好的多，而這個方式多透過非營利組織來執行，因此促成了非營利組織的發展。&lt;br /&gt;
+第三個原因是「環境危機」：全球環境惡化，導致世界各國的人民無法再坐視環境惡化下去，並認為光靠政府的力量根本無法解決此問題。因此，人們試圖依靠自己的力量來挽救生態環境，如中歐與東歐各國的「綠黨」便以驚人的數量成長。而發展中國家中的「生態行動主義」也刺激當地非營利組織的快速產生，其藉由民間的力量動員人力，募集資金，試圖改變可能污染環境或濫用資源者的行為，以達到保護環境的目的。&lt;br /&gt;
+第四個原因是「社會主義的危機」：1970年代中期的經濟衰退，促使許多社會主義國家認清共產制度並未能夠兼顧社會正義與經濟富裕。為了維持其統治的正當性，許多中歐國家開始引進市場導向的機制，試圖挽救國家經濟。然而，此項措施除了提升這些國家的經濟之外，也帶來了一個副作用－促使這些國家「市民社會」的誕生。此發展剛開始是十分緩慢的，然隨著時間的經過，非營利組織在這些國家當中急速的發展。在1988年，蘇維埃共和國解體的前一年，匈牙利境內已經有了六千個自願組織以及六百個私人基金會。非營利組織之所以如此迅速發展，是因為人民對其中央政府與制度不信任，希望能盡量直接控制經濟、政治與社會相關事務，而非營利組織正是一個十分適當的管道。&lt;/p&gt;</mattext>
+          </material>
+        </solutionmaterial>
+        <wm:refurl>http://</wm:refurl>
+      </solution>
+      <hint enable="false">
+        <hintmaterial>
+          <material>
+            <mattext/>
+          </material>
+        </hintmaterial>
+      </hint>
+    </itemfeedback>
+    <wm:hardlevel>3</wm:hardlevel>
+    <wm:class>
+      <wm:version>0</wm:version>
+      <wm:volume>0</wm:volume>
+      <wm:chapter>19</wm:chapter>
+      <wm:paragraph>1</wm:paragraph>
+      <wm:section>0</wm:section>
+    </wm:class>
+  </item>
+</questestinterop>
