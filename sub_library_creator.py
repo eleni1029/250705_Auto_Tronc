@@ -33,8 +33,95 @@ class LibraryCreator:
         return logger
     
     def create_test_library(self, driver, title=None):
-        """創建測驗題庫，參考exam_3_xmlpouring.py的流程"""
+        """創建測驗題庫，智能檢測當前頁面位置"""
         self.logger.info("=== 開始創建測驗題庫 ===")
+        
+        try:
+            # 檢查當前是否已在題庫列表頁面
+            current_url = driver.current_url
+            self.logger.info(f"當前頁面URL: {current_url}")
+            
+            if '/user/resources/subject-libs' in current_url and 'parent_id=0' in current_url:
+                self.logger.info("✅ 已在題庫列表頁面，直接開始創建流程")
+                # 直接跳到 hover 新增步驟
+                return self._create_from_library_page(driver, title)
+            else:
+                self.logger.info("⚠️ 不在題庫列表頁面，執行完整導航流程")
+                return self._create_with_full_navigation(driver, title)
+                
+        except Exception as e:
+            self.logger.exception(f"創建測驗題庫時發生錯誤: {e}")
+            return None
+    
+    def _create_from_library_page(self, driver, title=None):
+        """從題庫列表頁面直接開始創建"""
+        self.logger.info("=== 從題庫列表頁面開始創建 ===")
+        
+        try:
+            # 確保頁面完全加載
+            time.sleep(2)
+            
+            # hover 新增
+            self.logger.info("步驟1: hover 新增...")
+            new_button_selectors = [
+                "//span[text()='新增']",
+                "//a[contains(text(), '新增')]",
+                "//button[contains(text(), '新增')]"
+            ]
+            
+            new_button = None
+            for selector in new_button_selectors:
+                try:
+                    new_button = WebDriverWait(driver, 15).until(
+                        EC.element_to_be_clickable((By.XPATH, selector))
+                    )
+                    break
+                except TimeoutException:
+                    continue
+            
+            if not new_button:
+                self.logger.error("找不到 新增 按鈕")
+                return None
+            
+            actions = ActionChains(driver)
+            actions.move_to_element(new_button).perform()
+            self.logger.info("已hover 新增按鈕")
+            time.sleep(2)
+            
+            # 點擊 測驗題庫
+            self.logger.info("步驟2: 點擊 測驗題庫...")
+            test_library_selectors = [
+                "//span[contains(text(), '測驗題庫')]",
+                "//a[contains(text(), '測驗題庫')]",
+                "//li[contains(text(), '測驗題庫')]"
+            ]
+            
+            for selector in test_library_selectors:
+                try:
+                    test_library_elem = WebDriverWait(driver, 10).until(
+                        EC.element_to_be_clickable((By.XPATH, selector))
+                    )
+                    test_library_elem.click()
+                    self.logger.info("已點擊 測驗題庫")
+                    break
+                except TimeoutException:
+                    continue
+            else:
+                self.logger.error("找不到 測驗題庫 選項")
+                return None
+            
+            time.sleep(5)
+            
+            # 獲取題庫ID
+            return self._extract_library_id(driver)
+            
+        except Exception as e:
+            self.logger.exception(f"從題庫列表頁面創建時發生錯誤: {e}")
+            return None
+    
+    def _create_with_full_navigation(self, driver, title=None):
+        """執行完整的導航流程創建題庫"""
+        self.logger.info("=== 執行完整導航流程 ===")
         
         try:
             # 點擊 我的主頁
@@ -110,58 +197,16 @@ class LibraryCreator:
             
             time.sleep(3)
             
-            # hover 新增
-            self.logger.info("步驟4: hover 新增...")
-            new_button_selectors = [
-                "//span[text()='新增']",
-                "//a[contains(text(), '新增')]",
-                "//button[contains(text(), '新增')]"
-            ]
+            # 現在在題庫列表頁面，調用簡化的創建流程
+            return self._create_from_library_page(driver, title)
             
-            new_button = None
-            for selector in new_button_selectors:
-                try:
-                    new_button = WebDriverWait(driver, 15).until(
-                        EC.element_to_be_clickable((By.XPATH, selector))
-                    )
-                    break
-                except TimeoutException:
-                    continue
-            
-            if not new_button:
-                self.logger.error("找不到 新增 按鈕")
-                return None
-            
-            actions = ActionChains(driver)
-            actions.move_to_element(new_button).perform()
-            self.logger.info("已hover 新增按鈕")
-            time.sleep(2)
-            
-            # 點擊 測驗題庫
-            self.logger.info("步驟5: 點擊 測驗題庫...")
-            test_library_selectors = [
-                "//span[contains(text(), '測驗題庫')]",
-                "//a[contains(text(), '測驗題庫')]",
-                "//li[contains(text(), '測驗題庫')]"
-            ]
-            
-            for selector in test_library_selectors:
-                try:
-                    test_library_elem = WebDriverWait(driver, 10).until(
-                        EC.element_to_be_clickable((By.XPATH, selector))
-                    )
-                    test_library_elem.click()
-                    self.logger.info("已點擊 測驗題庫")
-                    break
-                except TimeoutException:
-                    continue
-            else:
-                self.logger.error("找不到 測驗題庫 選項")
-                return None
-            
-            time.sleep(5)
-            
-            # 獲取題庫ID
+        except Exception as e:
+            self.logger.exception(f"完整導航流程創建時發生錯誤: {e}")
+            return None
+    
+    def _extract_library_id(self, driver):
+        """提取題庫ID"""
+        try:
             current_url = driver.current_url
             self.logger.info(f"頁面跳轉後URL: {current_url}")
             
@@ -188,9 +233,9 @@ class LibraryCreator:
             else:
                 self.logger.error(f"無法從URL提取題庫ID: {current_url}")
                 return None
-            
+                
         except Exception as e:
-            self.logger.exception(f"創建測驗題庫時發生錯誤: {e}")
+            self.logger.exception(f"提取題庫ID時發生錯誤: {e}")
             return None
 
 def create_library(driver, title=None, logger=None):

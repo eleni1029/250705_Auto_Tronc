@@ -28,9 +28,7 @@ from create_05_material import upload_material
 from config import BASE_URL, COOKIE
 from tronc_login import login_and_get_cookie, update_config, setup_driver
 from sub_library_creator import create_library
-from sub_word_import import word_import_and_convert
-from sub_identify_save import identify_and_save_questions
-from sub_return_library import return_to_library_page
+# from sub_return_library import return_to_library_page  # 已替換為自定義方法
 
 def convert_chinese_numbers_to_digits(text):
     """將中文數字轉換為阿拉伯數字以便自然排序"""
@@ -846,76 +844,86 @@ class WordResourceTool:
             for index, row in df.iterrows():
                 print(f"\n=== 處理第 {index + 1} 行: {row.get('標題名稱', '未知')} ===")
                 
-                # 檢查是否有資源ID
-                if pd.isna(row['題庫資源ID']) or not row['題庫資源ID']:
-                    print(f"❌ 第 {index + 1} 行缺少資源ID，跳過")
+                # 快速檢查各欄位是否為空
+                upload_id = row.get('題庫資源ID', '')
+                lib_id = row.get('題庫編號', '')
+                title_modify_time = row.get('標題修改時間', '')
+                save_time = row.get('識別完成保存時間', '')
+                
+                # 轉換為字符串並檢查空值
+                upload_id = str(upload_id).strip() if upload_id and str(upload_id).lower() != 'nan' else ''
+                lib_id = str(lib_id).strip() if lib_id and str(lib_id).lower() != 'nan' else ''
+                title_modify_time = str(title_modify_time).strip() if title_modify_time and str(title_modify_time).lower() != 'nan' else ''
+                save_time = str(save_time).strip() if save_time and str(save_time).lower() != 'nan' else ''
+                
+                # 1. 檢查題庫資源ID
+                if not upload_id:
+                    print(f"❌ 缺少題庫資源ID，跳過")
                     continue
+                print(f"✅ 題庫資源ID: {upload_id}")
                 
-                upload_id = row['題庫資源ID']
-                
-                # 檢查是否已有題庫編號
-                if pd.isna(row['題庫編號']):
-                    # 創建新的測驗題庫
-                    result = create_library(self.current_driver, row.get('題庫標題'), self.logger)
+                # 2. 檢查題庫編號
+                if not lib_id:
+                    print(f"📝 需要創建新題庫")
+                    if not self.return_to_subject_libs_page():
+                        print(f"❌ 無法導航到題庫列表頁面")
+                        continue
                     
+                    result = create_library(self.current_driver, row.get('題庫標題'), self.logger)
                     if result:
                         lib_id, create_time = result
-                        
-                        # 即時更新Excel
-                        df.at[index, '題庫編號'] = str(lib_id)  # 確保為字符串
-                        df.at[index, '題庫創建時間'] = str(create_time)  # 確保為字符串
+                        df.at[index, '題庫編號'] = str(lib_id)
+                        df.at[index, '題庫創建時間'] = str(create_time)
                         df.to_excel(excel_path, index=False)
-                        
                         print(f"✅ 題庫創建成功: ID={lib_id}")
-                        self.logger.info(f"題庫創建成功: ID={lib_id}")
-                        
-                        # 修改題庫標題
-                        if row.get('題庫標題'):
-                            print(f"🔄 修改題庫標題: {row['題庫標題']}")
-                            modify_time = self.update_library_title(lib_id, row['題庫標題'])
-                            if modify_time:
-                                df.at[index, '標題修改時間'] = str(modify_time)  # 確保為字符串
-                                df.to_excel(excel_path, index=False)
-                                print(f"✅ 標題修改完成")
-                            else:
-                                print(f"⚠️ 標題修改失敗，但繼續流程")
-                        
                     else:
-                        print(f"❌ 題庫創建失敗")
+                        print(f"❌ 題庫創建失敗，跳過")
                         continue
                 else:
-                    lib_id = str(int(float(row['題庫編號'])))  # 轉換為字符串格式的整數
-                    print(f"使用現有題庫ID: {lib_id}")
-                    
-                    # 檢查是否需要修改標題
-                    if pd.isna(row['標題修改時間']) and row.get('題庫標題'):
+                    lib_id = lib_id.split('.')[0]  # 移除小數點
+                    print(f"✅ 使用現有題庫ID: {lib_id}")
+                
+                # 3. 檢查標題修改時間
+                if not title_modify_time:
+                    if row.get('題庫標題'):
                         print(f"🔄 修改題庫標題: {row['題庫標題']}")
                         modify_time = self.update_library_title(lib_id, row['題庫標題'])
                         if modify_time:
-                            df.at[index, '標題修改時間'] = str(modify_time)  # 確保為字符串
+                            df.at[index, '標題修改時間'] = str(modify_time)
                             df.to_excel(excel_path, index=False)
                             print(f"✅ 標題修改完成")
                         else:
-                            print(f"⚠️ 標題修改失敗，但繼續流程")
-                
-                # 執行Word匯入和AI轉換
-                if word_import_and_convert(self.current_driver, lib_id, upload_id, self.logger):
-                    # 執行識別和儲存
-                    if identify_and_save_questions(self.current_driver, self.logger):
-                        # 更新識別完成保存時間
-                        save_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                        df.at[index, '識別完成保存時間'] = str(save_time)  # 確保為字符串
-                        df.to_excel(excel_path, index=False)
-                        
-                        # 返回題庫列表
-                        if return_to_library_page(self.current_driver, self.logger):
-                            print(f"✅ 第 {index + 1} 行處理完成")
-                        else:
-                            print(f"⚠️ 第 {index + 1} 行處理完成，但返回失敗")
-                    else:
-                        print(f"❌ 第 {index + 1} 行識別儲存失敗")
+                            print(f"⚠️ 標題修改失敗，繼續流程")
                 else:
-                    print(f"❌ 第 {index + 1} 行Word匯入失敗")
+                    print(f"✅ 標題已修改")
+                
+                # 4. 檢查識別完成保存時間
+                if not save_time:
+                    print(f"🔄 執行Word解析、識別和儲存")
+                    
+                    import_url = f"{self.base_url}/subject-lib/{lib_id}/import?mode=word"
+                    self.current_driver.get(import_url)
+                    
+                    from selenium.webdriver.support.ui import WebDriverWait
+                    WebDriverWait(self.current_driver, 15).until(
+                        lambda d: d.execute_script('return document.readyState') == 'complete'
+                    )
+                    time.sleep(3)
+                    
+                    if self.word_convert_and_identify_via_api(lib_id, upload_id):
+                        save_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        df.at[index, '識別完成保存時間'] = str(save_time)
+                        df.to_excel(excel_path, index=False)
+                        print(f"✅ 解析、識別和儲存完成")
+                    else:
+                        print(f"❌ 解析、識別和儲存失敗")
+                    
+                    if not self.return_to_subject_libs_page():
+                        print(f"⚠️ 返回題庫列表失敗，繼續流程")
+                else:
+                    print(f"✅ 已完成解析識別儲存")
+                
+                print(f"✅ 第 {index + 1} 行處理完成")
                 
                 # 短暫延遲
                 time.sleep(2)
@@ -936,6 +944,287 @@ class WordResourceTool:
                 except:
                     pass
     
+    def word_convert_and_identify_via_api(self, lib_id, upload_id):
+        """使用 API 直接調用解析、識別和儲存，完整三步流程"""
+        self.logger.info(f"開始 API 解析、識別和儲存: lib_id={lib_id}, upload_id={upload_id}")
+        
+        if not self.current_driver:
+            self.logger.error("沒有可用的瀏覽器會話")
+            print("❌ 沒有可用的瀏覽器會話")
+            return False
+        
+        try:
+            
+            # 執行 JavaScript 來完成三步 API 調用
+            js_code = f"""
+const done = arguments[0];
+
+(async () => {{
+  try {{
+    // 獲取CSRF token和必要的headers
+    function getCSRFToken() {{
+      const token = document.querySelector('meta[name="csrf-token"]');
+      return token ? token.getAttribute('content') : '';
+    }}
+    
+    // 第一步：ai-convert SSE 流處理
+    async function aiConvert() {{
+      const headers = {{
+        'Content-Type': 'application/json',
+        'X-Requested-With': 'XMLHttpRequest'
+      }};
+      
+      const csrfToken = getCSRFToken();
+      if (csrfToken) {{
+        headers['X-CSRF-TOKEN'] = csrfToken;
+      }}
+      
+      const resp = await fetch('/api/data-import/ai-convert', {{
+        method: 'POST',
+        headers: headers,
+        credentials: 'include',
+        body: JSON.stringify({{
+          upload_id: {upload_id},
+          belong: 'library',
+          belong_id: {lib_id}
+        }})
+      }});
+      
+      if (!resp.ok) {{
+        const errorText = await resp.text();
+        throw new Error('ai-convert HTTP ' + resp.status + ': ' + errorText.substring(0, 200));
+      }}
+
+      const reader = resp.body.getReader();
+      const decoder = new TextDecoder();
+      let buf = '';
+      let html = '';
+
+      while (true) {{
+        const {{ value, done }} = await reader.read();
+        if (done) break;
+        
+        buf += decoder.decode(value, {{stream: true}});
+        const parts = buf.split('\\n\\n');
+        buf = parts.pop();
+        
+        for (const part of parts) {{
+          const match = part.match(/^data:\\s*(.*)$/m);
+          if (match) {{
+            try {{
+              const obj = JSON.parse(match[1]);
+              if (obj && obj.data) {{
+                html += obj.data;
+              }}
+            }} catch(e) {{}}
+          }}
+        }}
+      }}
+      
+      return html;
+    }}
+
+    // 第二步：from-word 識別
+    async function fromWord(html) {{
+      const headers = {{
+        'Content-Type': 'application/json;charset=UTF-8',
+        'X-Requested-With': 'XMLHttpRequest'
+      }};
+      
+      const csrfToken = getCSRFToken();
+      if (csrfToken) {{
+        headers['X-CSRF-TOKEN'] = csrfToken;
+      }}
+      
+      const resp = await fetch('/api/data-import/from-word', {{
+        method: 'POST',
+        headers: headers,
+        credentials: 'include',
+        body: JSON.stringify({{ 
+          upload_id: 0, 
+          html: html,
+          template: 'lms',
+          belong: 'library' 
+        }})
+      }});
+      
+      if (!resp.ok) {{
+        const errorText = await resp.text();
+        throw new Error('from-word HTTP ' + resp.status + ': ' + errorText.substring(0, 200));
+      }}
+      
+      return await resp.json();
+    }}
+
+    // 第三步：儲存 subjects
+    async function saveSubjects(subjects) {{
+      if (!subjects || subjects.length === 0) {{
+        throw new Error('沒有 subjects 可以儲存');
+      }}
+      
+      const headers = {{
+        'Content-Type': 'application/json;charset=UTF-8',
+        'X-Requested-With': 'XMLHttpRequest'
+      }};
+      
+      const csrfToken = getCSRFToken();
+      if (csrfToken) {{
+        headers['X-CSRF-TOKEN'] = csrfToken;
+      }}
+      
+      const resp = await fetch(`/api/subject-libs/{lib_id}/subjects`, {{
+        method: 'POST',
+        headers: headers,
+        credentials: 'include',
+        body: JSON.stringify({{ subjects }})
+      }});
+      
+      if (!resp.ok) {{
+        const errorText = await resp.text();
+        throw new Error('save HTTP ' + resp.status + ': ' + errorText.substring(0, 200));
+      }}
+      
+      try {{
+        return await resp.json();
+      }} catch (e) {{
+        return {{ ok: true, note: 'saved but no JSON body' }};
+      }}
+    }}
+
+    // 執行完整三步流程
+    const html = await aiConvert();
+    const parsed = await fromWord(html);
+    
+    // 檢查 from-word 是否有錯誤
+    if (parsed.errors && parsed.errors.length > 0) {{
+      done({{ 
+        ok: false, 
+        stage: 'from-word', 
+        errors: parsed.errors,
+        sse_html_length: html.length
+      }});
+      return;
+    }}
+    
+    // 確保有 subjects 可以儲存
+    if (!parsed.subjects || parsed.subjects.length === 0) {{
+      done({{ 
+        ok: false, 
+        stage: 'from-word', 
+        error: '沒有識別到任何題目',
+        sse_html_length: html.length,
+        from_word: parsed
+      }});
+      return;
+    }}
+    
+    const saveResp = await saveSubjects(parsed.subjects);
+
+    // 頁面成功提示
+    try {{
+      const bar = document.createElement('div');
+      bar.textContent = '✅ 解析 + 識別 + 儲存 完成';
+      bar.style.cssText = 'position:fixed;top:8px;left:50%;transform:translateX(-50%);' +
+                          'background:#2ecc71;color:#fff;padding:8px 16px;border-radius:6px;z-index:99999;' +
+                          'font-size:14px;box-shadow:0 2px 10px rgba(0,0,0,0.2);font-weight:bold';
+      document.body.appendChild(bar);
+      
+      setTimeout(() => {{
+        if (bar.parentNode) bar.parentNode.removeChild(bar);
+      }}, 3000);
+    }} catch(e) {{}}
+
+    done({{
+      ok: true,
+      counts: {{
+        sse_html_length: html.length,
+        subjects: (parsed.subjects || []).length
+      }},
+      from_word: parsed,
+      save: saveResp
+    }});
+    
+  }} catch (err) {{
+    done({{ ok: false, error: String(err) }});
+  }}
+}})();
+"""
+            
+            # 設置較長的超時時間，因為 AI 轉換可能需要時間
+            self.current_driver.set_script_timeout(300)  # 5分鐘
+            
+            self.logger.info("執行三步 API 調用...")
+            result = self.current_driver.execute_async_script(js_code)
+            
+            if result.get('ok'):
+                counts = result.get('counts', {})
+                html_length = counts.get('sse_html_length', 0)
+                subjects_count = counts.get('subjects', 0)
+                
+                self.logger.info(f"✅ 三步流程成功: HTML {html_length}字符, 識別 {subjects_count}題, 已儲存")
+                print(f"✅ 解析識別儲存成功! 識別題目: {subjects_count}個")
+                return True
+            else:
+                # 處理錯誤
+                stage = result.get('stage', '未知階段')
+                error_msg = result.get('error', '未知錯誤')
+                errors = result.get('errors', [])
+                
+                if stage == 'from-word' and errors:
+                    self.logger.error(f"❌ 題目識別錯誤: {errors}")
+                    print(f"❌ 題目識別失敗: {errors}")
+                elif '400:' in error_msg and '必填' in error_msg:
+                    self.logger.error(f"❌ 題目保存失敗: 題目選項格式錯誤或缺失必填字段")
+                    print(f"❌ 題目保存失敗: 題目選項格式錯誤，請檢查Word文件格式")
+                else:
+                    self.logger.error(f"❌ {stage} 失敗: {error_msg}")
+                    print(f"❌ {stage} 失敗: {error_msg}")
+                
+                return False
+                
+        except Exception as e:
+            self.logger.exception(f"word_convert_and_identify_via_api 發生錯誤: {e}")
+            print(f"❌ API 調用過程發生錯誤: {e}")
+            return False
+
+    def return_to_subject_libs_page(self):
+        """儲存完成後返回題庫列表頁面，準備處理下一行"""
+        if not self.current_driver:
+            return False
+        
+        try:
+            # 導航到題庫列表頁面
+            subject_libs_url = f"{self.base_url}/user/resources/subject-libs#/?parent_id=0&pageIndex=1"
+            self.current_driver.get(subject_libs_url)
+            
+            # 等待頁面完全加載
+            from selenium.webdriver.support.ui import WebDriverWait
+            from selenium.webdriver.support import expected_conditions as EC
+            from selenium.webdriver.common.by import By
+            
+            WebDriverWait(self.current_driver, 15).until(
+                lambda d: d.execute_script('return document.readyState') == 'complete'
+            )
+            time.sleep(3)
+            
+            # 檢查是否成功到達題庫列表頁面
+            current_url = self.current_driver.current_url
+            if 'subject-libs' in current_url:
+                # 確保頁面中有"新增"按鈕
+                try:
+                    WebDriverWait(self.current_driver, 10).until(
+                        EC.presence_of_element_located((By.XPATH, "//span[text()='新增'] | //a[contains(text(), '新增')] | //button[contains(text(), '新增')]"))
+                    )
+                except:
+                    pass
+                return True
+            else:
+                return True  # 繼續流程
+                
+        except Exception as e:
+            self.logger.error(f"返回題庫列表頁面失敗: {e}")
+            return False
+
     def update_library_title(self, lib_id, new_title):
         """修改題庫標題"""
         self.logger.info(f"開始修改題庫標題: ID={lib_id}, 標題={new_title}")

@@ -8,7 +8,17 @@ Note  2025.08.01
 
 ## 🎯 專案概述
 
-Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClass 平台設計。本專案提供了直觀的圖形用戶界面 (GUI)，整合了完整的課程製作工作流程，從資料整理到最終課程上線，實現一鍵式自動化處理。
+Auto Tronc 是一個功能完整的自動化教學系統，專為 TronClass 平台設計。本專案提供了直觀的圖形用戶界面 (GUI)，整合了兩大核心模塊：**課程創建**與**題庫創建**，從資料整理到最終內容上線，實現一鍵式自動化處理。
+
+## 🏗️ 系統架構
+
+本系統分為兩大核心模塊：
+
+### 🎓 模塊一：課程創建系統
+專注於 SCORM 課程包的處理與自動上傳，完整支援從原始資料到線上課程的全流程自動化。
+
+### 📝 模塊二：題庫創建系統  
+專注於測驗題目的批量處理與上傳，支援多種題型格式轉換與資源管理。
 
 ## ✨ 核心功能
 
@@ -19,7 +29,7 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 - **Excel 文件編輯器**：內建配置文件編輯功能
 - **互動式終端**：支援腳本互動式執行
 
-### 📋 完整工作流程
+### 🎓 模塊一：課程創建工作流程
 
 #### 1. ZIP 檔案解壓縮 (`1_folder_merger.py`)
 - 按檔案名稱排序，逐一解壓縮 ZIP 檔案到統一目錄
@@ -55,6 +65,33 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 - **單元組織**：自動生成學習單元
 - **學習活動**：支援多種活動類型（影片、文件、連結）**註：音訊功能尚未驗證支持**
 - **資源上傳**：自動化材料上傳和管理
+
+### 📝 模塊二：題庫創建工作流程
+
+#### 1. 題目資料提取 (`exam_1_extractor.py`)
+- 從各種格式文件中提取題目內容
+- 支援 Word 文檔和其他常見格式
+- 自動分析題目結構和類型
+
+#### 2. 檔案重命名整理 (`exam_2_rename.py`)
+- 標準化題庫檔案命名規則
+- 批量整理題目資源文件
+- 建立有序的檔案結構
+
+#### 3. XML 題目生成 (`exam_3_xmlpouring.py`)
+- 將題目內容轉換為標準 XML 格式
+- 支援多種題型（選擇題、填空題、問答題等）
+- 自動驗證 XML 格式正確性
+
+#### 4. Word 檔案切分 (`exam_4_wordsplitter.py`)
+- 智能切分大型 Word 題庫文件
+- 按章節或題目數量自動分割
+- 保持原有格式和圖片資源
+
+#### 5. Word 資源批量上傳 (`exam_5_wordpouring.py`)
+- 批量上傳 Word 格式題庫到平台
+- 自動創建題庫資源庫條目
+- 即時更新上傳狀態和資源 ID
 
 ## 🚀 快速開始
 
@@ -142,36 +179,47 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 ├── requirements.txt           # Python 依賴清單
 ├── final_terminal.py          # 終端模擬器
 ├── tronc_login.py            # 登入管理模組
+├── excel_analyzer.py          # Excel 分析器
 ├── 
-├── 工作流程腳本/
-│   ├── 1_folder_merger.py     # 資料夾合併工具
+├── 🎓 模塊一：課程創建系統/
+│   ├── 1_folder_merger.py     # ZIP 檔案解壓縮
 │   ├── 2_scorm_packager.py    # SCORM 打包器
-│   ├── 3_manifest_extractor.py # 結構提取器
-│   ├── 4_cloud_mapping.py     # 資源映射工具
+│   ├── 3_manifest_extractor.py # 課程結構提取器
+│   ├── 4_cloud_mapping.py     # 資源庫映射工具
 │   ├── 5_0_to_be_executed_excel_generator.sh # 執行文件生成
-│   ├── 6_system_todolist_maker.py # 待辦清單生成器
-│   └── 7_start_tronc.py       # 自動創課主程序
+│   ├── 6_system_todolist_maker.py # 系統待辦清單生成器
+│   ├── 7_start_tronc.py       # 自動創課主程序
+│   └── create_*.py           # 創建功能模組
+│       ├── create_01_course.py    # 課程創建
+│       ├── create_02_module.py    # 章節創建
+│       ├── create_03_syllabus.py  # 大綱創建
+│       ├── create_04_activity.py  # 活動創建
+│       └── create_05_material.py  # 資源上傳
 ├── 
-├── 創建模組/
-│   ├── create_01_course.py    # 課程創建
-│   ├── create_02_module.py    # 章節創建  
-│   ├── create_03_syllabus.py  # 大綱創建
-│   ├── create_04_activity.py  # 活動創建
-│   └── create_05_material.py  # 資源上傳
+├── 📝 模塊二：題庫創建系統/
+│   ├── exam_1_extractor.py    # 題目資料提取
+│   ├── exam_2_rename.py       # 檔案重命名整理
+│   ├── exam_3_xmlpouring.py   # XML 題目生成
+│   ├── exam_4_wordsplitter.py # Word 檔案切分
+│   ├── exam_5_wordpouring.py  # Word 資源批量上傳
+│   └── sub_*.py              # 題庫處理子模組
+│       ├── sub_library_creator.py     # 資源庫創建
+│       ├── sub_word_splitter.py       # Word 分割工具
+│       ├── sub_todolist_resource.py   # 題庫待辦清單
+│       └── sub_excel_*.py            # Excel 處理工具
 ├── 
-├── 輔助工具/
-│   ├── excel_analyzer.py      # Excel 分析器
-│   ├── detailed_excel_checker.py # 詳細檢查器
-│   └── sub_*.py              # 子模組工具
-└── 
-└── 資料目錄/
+└── 📂 資料目錄/
     ├── 01_ori_zipfiles/      # 原始 ZIP 檔案
-    ├── 2_merged_projects/    # 合併後的項目
-    ├── 3_scorm_packages/     # SCORM 包輸出
-    ├── 4_manifest_structures/ # 提取的結構文件
-    ├── 5_to_be_executed/    # 待執行文件
-    ├── 6_todolist/          # 待辦清單文件
-    └── log/                 # 系統日誌
+    ├── 02_merged_projects/   # 合併後的課程項目
+    ├── 03_scorm_packages/    # SCORM 包輸出
+    ├── 04_manifest_structures/ # 提取的課程結構文件
+    ├── 05_to_be_executed/    # 課程創建待執行文件
+    ├── 06_todolist/          # 課程創建待辦清單文件
+    ├── exam_01_02_merged_projects/ # 題庫原始資料
+    ├── exam_02_xml_todolist/ # XML 題庫待辦清單
+    ├── exam_03_wordsplitter/ # Word 切分結果
+    ├── exam_04_docx_todolist/ # Word 題庫待辦清單
+    └── log/                 # 系統運行日誌
 ```
 
 ## 🎮 GUI 操作指南
@@ -287,11 +335,27 @@ Auto Tronc 是一個功能完整的自動化課程創建系統，專為 TronClas
 可以通過修改 `auto_tronc_gui.py` 中的 `workflow_steps` 來自定義工作流程。
 
 ### 批量處理
-使用命令列直接執行各個腳本進行批量處理：
+
+#### 課程創建模塊批量處理：
 ```bash
-python 1_folder_merger.py  # ZIP 檔案解壓縮
-python 2_scorm_packager.py  # SCORM 打包
-# ... 依序執行
+# 課程創建完整流程
+python 1_folder_merger.py      # ZIP 檔案解壓縮
+python 2_scorm_packager.py     # SCORM 打包
+python 3_manifest_extractor.py # 課程結構提取
+python 4_cloud_mapping.py      # 資源庫映射
+bash 5_0_to_be_executed_excel_generator.sh # 執行文件生成
+python 6_system_todolist_maker.py # 待辦清單生成
+python 7_start_tronc.py        # 自動創課執行
+```
+
+#### 題庫創建模塊批量處理：
+```bash
+# 題庫創建完整流程
+python exam_1_extractor.py     # 題目資料提取
+python exam_2_rename.py        # 檔案重命名整理
+python exam_3_xmlpouring.py    # XML 題目生成
+python exam_4_wordsplitter.py  # Word 檔案切分
+python exam_5_wordpouring.py   # Word 資源批量上傳
 ```
 
 ### API 擴展

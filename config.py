@@ -14,7 +14,7 @@ BASE_URL = os.getenv('BASE_URL', 'https://staging.tronclass.com')  # 從 .env �
 SEARCH_TERM = os.getenv('SEARCH_TERM', '')  # 機構搜索關鍵字
 
 # 其他系統設定
-COOKIE = '_ga_SG0N0692X5=GS2.1.s1755067269$o1$g1$t1755067274$j55$l0$h0; warning:verification_email=show; session=V2-1-144ead43-d8eb-4eec-96e3-3e09808a6686.Mjc4NjI.1755074474649.N94v58W-YStuRzuts7llUwqRnqA; _ga=GA1.1.782554589.1755067269; lang=zh-TW'  # 自動登入獲取
+COOKIE = 'session=V2-168-9c3515c8-9366-4917-8829-9cc9157cf66e.ODE0ODc.1755229507109.NhTYWQPToTGbSvh-gR6ZmwkFPcI; _ga_ZCC2R3ZYVG=GS2.1.s1755143094$o1$g1$t1755143103$j51$l0$h0; samesite=strict; _ga=GA1.1.534984174.1755143094; samesite=strict; warning:verification_email=show; lang=zh-TW'  # 自動登入獲取
 SLEEP_SECONDS = 0.1  # 每次請求間隔，避免被擋
 LOGIN_URL = f'{BASE_URL}/login'  # 登入網址
 COURSE_ID = 10000  # 預設的課程 ID
